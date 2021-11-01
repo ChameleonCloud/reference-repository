@@ -1,0 +1,81 @@
+{
+  "architecture": {
+    "platform_type": "x86 64-bit",
+    "smp_size": 2,
+    "smt_size": 96
+  },
+  "bios": {
+    "release_date": "02/24/2021",
+    "vendor": "Dell Inc.",
+    "version": "2.10.2"
+  },
+  "chassis": {
+    "manufacturer": "Dell Inc.",
+    "name": "PowerEdge R740",
+    "serial": "76H2KD3"
+  },
+  "gpu": {},
+  "main_memory": {
+    "humanized_ram_size": 192,
+    "ram_size": 192
+  },
+  "monitoring": {},
+  "network_adapters": [
+    {
+      "device": "NIC.Slot.7-2-1",
+      "interface": "Ethernet",
+      "mac": "E4:3D:1A:2D:DB:13"
+    },
+    {
+      "device": "NIC.Slot.7-1-1",
+      "interface": "Ethernet",
+      "mac": "E4:3D:1A:2D:DB:12"
+    },
+    {
+      "device": "NIC.Integrated.1-1-1",
+      "interface": "Ethernet",
+      "mac": "B8:CE:F6:43:51:96"
+    },
+    {
+      "device": "NIC.Integrated.1-2-1",
+      "interface": "Ethernet",
+      "mac": "B8:CE:F6:43:51:97"
+    }
+  ],
+  "node_name": "P3-CPU-017",
+  "node_type": null,
+  "placement": {
+    "node": "1",
+    "rack": ""
+  },
+  "processor": {
+    "cache_l1": null,
+    "cache_l1d": null,
+    "cache_l1i": null,
+    "cache_l2": null,
+    "cache_l3": null,
+    "clock_speed": 4000,
+    "instruction_set": "x86 64-bit",
+    "model": "Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz",
+    "other_description": "Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz",
+    "vendor": "Intel",
+    "version": null
+  },
+  "storage_devices": [
+    {
+      "device": "Disk.Bay.0:Enclosure.Internal.0-1:NonRAID.Slot.6-1",
+      "interface": "SATA",
+      "model": "SSDSC2KB480G8R",
+      "rev": "XCV1DL69",
+      "size": 480103980544,
+      "vendor": "INTEL"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "ab40170d-541e-463d-b2e8-59abab01d14b"
+}
