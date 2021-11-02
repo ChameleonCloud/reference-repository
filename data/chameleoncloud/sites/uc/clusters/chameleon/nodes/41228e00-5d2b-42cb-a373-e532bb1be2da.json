@@ -72,6 +72,112 @@
   ],
   "node_name": "P3-GPU-011",
   "node_type": "gpu_v100",
+  "pcie_devices": [
+    {
+      "firmware_version": "",
+      "id": "0-28",
+      "manufacturer": "Intel Corporation",
+      "name": "C620 Series Chipset Family PCI Express Root Port #5",
+      "part_number": null,
+      "serial_number": null
+    },
+    {
+      "firmware_version": "",
+      "id": "0-0",
+      "manufacturer": "Intel Corporation",
+      "name": "Sky Lake-E DMI3 Registers",
+      "part_number": null,
+      "serial_number": null
+    },
+    {
+      "firmware_version": "",
+      "id": "3-0",
+      "manufacturer": "Matrox Electronics Systems Ltd.",
+      "name": "Integrated Matrox G200eW3 Graphics Controller",
+      "part_number": null,
+      "serial_number": null
+    },
+    {
+      "firmware_version": "",
+      "id": "0-17",
+      "manufacturer": "Intel Corporation",
+      "name": "C620 Series Chipset Family SSATA Controller [AHCI mode]",
+      "part_number": null,
+      "serial_number": null
+    },
+    {
+      "firmware_version": "",
+      "id": "0-31",
+      "manufacturer": "Intel Corporation",
+      "name": "C621 Series Chipset LPC/eSPI Controller",
+      "part_number": null,
+      "serial_number": null
+    },
+    {
+      "firmware_version": "2.5.13.3022",
+      "id": "4-0",
+      "manufacturer": "Marvell Technology Group Ltd.",
+      "name": "BOSS-S1 Adapter",
+      "part_number": "061F54",
+      "serial_number": "CNIVC009CC2203"
+    },
+    {
+      "firmware_version": "14.27.61.22",
+      "id": "94-0",
+      "manufacturer": "Mellanox Technologies",
+      "name": "MT27710 Family [ConnectX-4 Lx]",
+      "part_number": "020NJD",
+      "serial_number": "IL7403111A00EE"
+    },
+    {
+      "firmware_version": "",
+      "id": "175-0",
+      "manufacturer": "NVIDIA Corporation",
+      "name": "GV100GL [Tesla V100 SXM2 32GB]",
+      "part_number": null,
+      "serial_number": null
+    },
+    {
+      "firmware_version": "19.0.12",
+      "id": "1-0",
+      "manufacturer": "Intel Corporation",
+      "name": "I350 Gigabit Network Connection",
+      "part_number": "06VDPG",
+      "serial_number": "MYFLMIT9CB02C1"
+    },
+    {
+      "firmware_version": "19.0.12",
+      "id": "5-0",
+      "manufacturer": "Intel Corporation",
+      "name": "Ethernet 10G 4P X710/I350 rNDC",
+      "part_number": "06VDPG",
+      "serial_number": "MYFLMIT9CB02C1"
+    },
+    {
+      "firmware_version": "",
+      "id": "59-0",
+      "manufacturer": "NVIDIA Corporation",
+      "name": "GV100GL [Tesla V100 SXM2 32GB]",
+      "part_number": null,
+      "serial_number": null
+    },
+    {
+      "firmware_version": "",
+      "id": "134-0",
+      "manufacturer": "NVIDIA Corporation",
+      "name": "GV100GL [Tesla V100 SXM2 32GB]",
+      "part_number": null,
+      "serial_number": null
+    },
+    {
+      "firmware_version": "",
+      "id": "24-0",
+      "manufacturer": "NVIDIA Corporation",
+      "name": "GV100GL [Tesla V100 SXM2 32GB]",
+      "part_number": null,
+      "serial_number": null
+    }
+  ],
   "placement": {
     "node": "1",
     "rack": ""
