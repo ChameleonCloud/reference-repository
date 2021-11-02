@@ -16,7 +16,7 @@
   },
   "gpu": {},
   "main_memory": {
-    "humanized_ram_size": 256,
+    "humanized_ram_size": "256 GiB",
     "ram_size": 256000000000
   },
   "monitoring": {},
@@ -42,7 +42,7 @@
       "interface": "Ethernet",
       "mac": "b8:ce:f6:32:c8:ce",
       "model": "MLNX 25GbE 2P ConnectX5 OCP3 NIC",
-      "rate": 25000,
+      "rate": 25000000000,
       "vendor": "Mellanox Technologies"
     },
     {
@@ -50,7 +50,7 @@
       "interface": "Ethernet",
       "mac": "b8:ce:f6:32:c8:cf",
       "model": "MLNX 25GbE 2P ConnectX5 OCP3 NIC",
-      "rate": 25000,
+      "rate": 25000000000,
       "vendor": "Mellanox Technologies"
     },
     {
@@ -63,7 +63,7 @@
     }
   ],
   "node_name": "P3-SSD-008",
-  "node_type": null,
+  "node_type": "storage_nvme",
   "placement": {
     "node": "1",
     "rack": ""

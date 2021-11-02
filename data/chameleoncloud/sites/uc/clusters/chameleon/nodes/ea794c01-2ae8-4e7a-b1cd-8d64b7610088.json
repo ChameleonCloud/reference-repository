@@ -16,7 +16,7 @@
   },
   "gpu": {},
   "main_memory": {
-    "humanized_ram_size": 192,
+    "humanized_ram_size": "192 GiB",
     "ram_size": 192000000000
   },
   "monitoring": {},
@@ -26,7 +26,7 @@
       "interface": "Ethernet",
       "mac": "b8:ce:f6:43:2c:1e",
       "model": "MLNX 25GbE 2P ConnectX4LX RNDC",
-      "rate": 25000,
+      "rate": 25000000000,
       "vendor": "Mellanox Technologies"
     },
     {
@@ -34,7 +34,7 @@
       "interface": "Ethernet",
       "mac": "b8:ce:f6:43:2c:1f",
       "model": "MLNX 25GbE 2P ConnectX4LX RNDC",
-      "rate": 25000,
+      "rate": 25000000000,
       "vendor": "Mellanox Technologies"
     },
     {
@@ -55,7 +55,7 @@
     }
   ],
   "node_name": "P3-CPU-011",
-  "node_type": null,
+  "node_type": "compute_cascadelake_r",
   "placement": {
     "node": "1",
     "rack": ""

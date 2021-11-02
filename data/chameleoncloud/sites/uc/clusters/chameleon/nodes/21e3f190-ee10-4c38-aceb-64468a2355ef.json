@@ -16,7 +16,7 @@
   },
   "gpu": {},
   "main_memory": {
-    "humanized_ram_size": 3792,
+    "humanized_ram_size": "3792 GiB",
     "ram_size": 3792000000000
   },
   "monitoring": {},
@@ -58,7 +58,7 @@
       "interface": "Ethernet",
       "mac": "04:3f:72:ff:9b:da",
       "model": "MLNX 25GbE 2P ConnectX5 Adpt",
-      "rate": 25000,
+      "rate": 25000000000,
       "vendor": "Mellanox Technologies"
     },
     {
@@ -66,7 +66,7 @@
       "interface": "Ethernet",
       "mac": "04:3f:72:ff:9b:db",
       "model": "MLNX 25GbE 2P ConnectX5 Adpt",
-      "rate": 25000,
+      "rate": 25000000000,
       "vendor": "Mellanox Technologies"
     },
     {
@@ -79,7 +79,7 @@
     }
   ],
   "node_name": "P3-NVDIMM-002",
-  "node_type": null,
+  "node_type": "compute_nvdimm",
   "placement": {
     "node": "1",
     "rack": ""

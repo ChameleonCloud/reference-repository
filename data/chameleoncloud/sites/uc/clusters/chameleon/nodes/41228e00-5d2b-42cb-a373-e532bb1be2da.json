@@ -16,7 +16,7 @@
   },
   "gpu": {},
   "main_memory": {
-    "humanized_ram_size": 128,
+    "humanized_ram_size": "128 GiB",
     "ram_size": 128000000000
   },
   "monitoring": {},
@@ -71,7 +71,7 @@
     }
   ],
   "node_name": "P3-GPU-011",
-  "node_type": null,
+  "node_type": "gpu_v100",
   "placement": {
     "node": "1",
     "rack": ""
