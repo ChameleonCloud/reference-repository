@@ -17,29 +17,49 @@
   "gpu": {},
   "main_memory": {
     "humanized_ram_size": 256,
-    "ram_size": 256
+    "ram_size": 256000000000
   },
   "monitoring": {},
   "network_adapters": [
     {
-      "device": "NIC.Integrated.1-1-1",
+      "device": "NIC.Embedded.1-1",
       "interface": "Ethernet",
-      "mac": "B8:CE:F6:32:C8:BE"
+      "mac": "70:b5:e8:ef:e3:4c",
+      "model": null,
+      "rate": 0,
+      "vendor": "Broadcom Inc. and subsidiaries"
     },
     {
-      "device": "NIC.Embedded.2-1-1",
+      "device": "NIC.Embedded.2-1",
       "interface": "Ethernet",
-      "mac": "70:B5:E8:EF:E3:4D"
+      "mac": "70:b5:e8:ef:e3:4d",
+      "model": null,
+      "rate": 0,
+      "vendor": "Broadcom Inc. and subsidiaries"
     },
     {
-      "device": "NIC.Embedded.1-1-1",
+      "device": "NIC.Integrated.1-1",
       "interface": "Ethernet",
-      "mac": "70:B5:E8:EF:E3:4C"
+      "mac": "b8:ce:f6:32:c8:be",
+      "model": "MLNX 25GbE 2P ConnectX5 OCP3 NIC",
+      "rate": 25000,
+      "vendor": "Mellanox Technologies"
     },
     {
-      "device": "NIC.Integrated.1-2-1",
+      "device": "NIC.Integrated.1-2",
       "interface": "Ethernet",
-      "mac": "B8:CE:F6:32:C8:BF"
+      "mac": "b8:ce:f6:32:c8:bf",
+      "model": "MLNX 25GbE 2P ConnectX5 OCP3 NIC",
+      "rate": 25000,
+      "vendor": "Mellanox Technologies"
+    },
+    {
+      "device": "InfiniBand.Slot.2-1",
+      "interface": "InfiniBand",
+      "mac": "0c:42:a1:19:4d:5a",
+      "model": null,
+      "rate": null,
+      "vendor": "Mellanox Technologies"
     }
   ],
   "node_name": "P3-SSD-010",
@@ -50,20 +70,18 @@
   },
   "processor": {
     "cache_l1": 1536000,
-    "cache_l1d": null,
-    "cache_l1i": null,
     "cache_l2": 12288000,
     "cache_l3": 131072000,
     "clock_speed": 2300000000,
     "instruction_set": "x86-64",
     "model": "AMD EPYC 7352 24-Core Processor",
-    "other_description": "AMD EPYC 7352 24-Core Processor",
     "vendor": "AMD",
     "version": null
   },
   "storage_devices": [
     {
       "device": "Disk.Bay.0:Enclosure.Internal.0-1",
+      "humanized_size": "960 GB",
       "interface": "PCIe",
       "model": "Dell Express Flash CD5 960G SFF",
       "rev": "1.1.1",

@@ -17,29 +17,41 @@
   "gpu": {},
   "main_memory": {
     "humanized_ram_size": 192,
-    "ram_size": 192
+    "ram_size": 192000000000
   },
   "monitoring": {},
   "network_adapters": [
     {
-      "device": "NIC.Slot.7-2-1",
+      "device": "NIC.Integrated.1-1",
       "interface": "Ethernet",
-      "mac": "E4:3D:1A:2D:D9:55"
+      "mac": "b8:ce:f6:43:27:0e",
+      "model": "MLNX 25GbE 2P ConnectX4LX RNDC",
+      "rate": 25000,
+      "vendor": "Mellanox Technologies"
     },
     {
-      "device": "NIC.Slot.7-1-1",
+      "device": "NIC.Integrated.1-2",
       "interface": "Ethernet",
-      "mac": "E4:3D:1A:2D:D9:54"
+      "mac": "b8:ce:f6:43:27:0f",
+      "model": "MLNX 25GbE 2P ConnectX4LX RNDC",
+      "rate": 25000,
+      "vendor": "Mellanox Technologies"
     },
     {
-      "device": "NIC.Integrated.1-1-1",
+      "device": "NIC.Slot.7-1",
       "interface": "Ethernet",
-      "mac": "B8:CE:F6:43:27:0E"
+      "mac": "e4:3d:1a:2d:d9:54",
+      "model": "BRCM GbE 2P 5720-t Adapter",
+      "rate": 0,
+      "vendor": "Broadcom Inc. and subsidiaries"
     },
     {
-      "device": "NIC.Integrated.1-2-1",
+      "device": "NIC.Slot.7-2",
       "interface": "Ethernet",
-      "mac": "B8:CE:F6:43:27:0F"
+      "mac": "e4:3d:1a:2d:d9:55",
+      "model": "BRCM GbE 2P 5720-t Adapter",
+      "rate": 0,
+      "vendor": "Broadcom Inc. and subsidiaries"
     }
   ],
   "node_name": "P3-CPU-012",
@@ -50,20 +62,18 @@
   },
   "processor": {
     "cache_l1": 1536000,
-    "cache_l1d": null,
-    "cache_l1i": null,
     "cache_l2": 24576000,
     "cache_l3": 36608000,
     "clock_speed": 2400000000,
     "instruction_set": "x86-64",
     "model": "Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz",
-    "other_description": "Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz",
     "vendor": "Intel",
     "version": null
   },
   "storage_devices": [
     {
       "device": "Disk.Bay.0:Enclosure.Internal.0-1:NonRAID.Slot.6-1",
+      "humanized_size": "480 GB",
       "interface": "SATA",
       "model": "SSDSC2KB480G8R",
       "rev": "XCV1DL69",
