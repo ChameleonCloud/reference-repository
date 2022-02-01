@@ -2,8 +2,10 @@
   "architecture": {
     "platform_type": "x86_64"
   },
+  "network_adapters": [],
   "node_name": "chinode06",
   "node_type": "compute_haswell",
+  "storage_devices": [],
   "type": "node",
   "uid": "c801b36e-f77f-46d8-b203-e10394873a8c"
 }
