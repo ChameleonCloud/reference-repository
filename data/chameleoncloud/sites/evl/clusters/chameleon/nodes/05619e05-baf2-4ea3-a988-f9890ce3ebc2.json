@@ -1,0 +1,9 @@
+{
+  "architecture": {
+    "platform_type": "x86_64"
+  },
+  "node_name": "chinode04",
+  "node_type": "compute_haswell",
+  "type": "node",
+  "uid": "05619e05-baf2-4ea3-a988-f9890ce3ebc2"
+}
