@@ -100,7 +100,7 @@
     }
   ],
   "node_name": "r740xdcham143",
-  "node_type": "compute_None",
+  "node_type": "compute_skylake",
   "placement": {
     "node": "1",
     "rack": ""

@@ -61,7 +61,7 @@
     }
   ],
   "node_name": "r630cham106",
-  "node_type": null,
+  "node_type": "compute_haswell",
   "processor": {
     "instruction_set": "x86-64",
     "model": "Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz",
