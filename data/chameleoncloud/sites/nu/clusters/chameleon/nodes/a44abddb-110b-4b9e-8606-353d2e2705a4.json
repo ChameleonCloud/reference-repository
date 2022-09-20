@@ -12,7 +12,7 @@
   "chassis": {
     "manufacturer": "Dell Inc.",
     "name": "PowerEdge R630",
-    "serial": "4GRY482"
+    "serial": "333FD42"
   },
   "main_memory": {
     "humanized_ram_size": "128 GiB",
@@ -23,19 +23,10 @@
   },
   "network_adapters": [
     {
-      "device": "NIC.Slot.3-1",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "",
-      "management": false,
-      "model": null,
-      "vendor": null
-    },
-    {
       "device": "NIC.Integrated.1-1",
       "enabled": true,
       "interface": "Ethernet",
-      "mac": "14:18:77:54:0d:d1",
+      "mac": "44:a8:42:27:27:85",
       "management": false,
       "model": "BRCM 10G/GbE 2+2P 57800 rNDC",
       "rate": 10000000000,
@@ -45,7 +36,7 @@
       "device": "NIC.Integrated.1-2",
       "enabled": false,
       "interface": "Ethernet",
-      "mac": "14:18:77:54:0d:d3",
+      "mac": "44:a8:42:27:27:87",
       "management": false,
       "model": "BRCM 10G/GbE 2+2P 57800 rNDC",
       "vendor": "Dell"
@@ -54,7 +45,7 @@
       "device": "NIC.Integrated.1-3",
       "enabled": false,
       "interface": "Ethernet",
-      "mac": "14:18:77:54:0d:d5",
+      "mac": "44:a8:42:27:27:89",
       "management": false,
       "model": "BRCM 10G/GbE 2+2P 57800 rNDC",
       "vendor": "Dell"
@@ -63,14 +54,13 @@
       "device": "NIC.Integrated.1-4",
       "enabled": false,
       "interface": "Ethernet",
-      "mac": "14:18:77:54:0d:d7",
+      "mac": "44:a8:42:27:27:8b",
       "management": false,
       "model": "BRCM 10G/GbE 2+2P 57800 rNDC",
-      "rate": 1000000000,
       "vendor": "Dell"
     }
   ],
-  "node_name": "r630cham5",
+  "node_name": "r630cham106",
   "node_type": null,
   "processor": {
     "instruction_set": "x86-64",
@@ -84,7 +74,7 @@
       "interface": "SATA",
       "media_type": "HDD",
       "model": "ST9250610NS",
-      "rev": "AA63",
+      "rev": "AA65",
       "size": 249510756352,
       "vendor": "SEAGATE"
     }
@@ -95,5 +85,5 @@
     "virtual": "ivt"
   },
   "type": "node",
-  "uid": "b2349504-a69d-4c7d-93d3-5fd27e75d44d"
+  "uid": "a44abddb-110b-4b9e-8606-353d2e2705a4"
 }
