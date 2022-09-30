@@ -1,0 +1,28 @@
+{
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "device": "eth0",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "44:a8:42:15:b9:b8"
+    },
+    {
+      "device": "eth1",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "44:a8:42:15:b9:ba"
+    }
+  ],
+  "node_name": "c15",
+  "node_type": "compute_haswell",
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "5793bf72-b0b1-4867-bd9a-764954bedb6a"
+}
