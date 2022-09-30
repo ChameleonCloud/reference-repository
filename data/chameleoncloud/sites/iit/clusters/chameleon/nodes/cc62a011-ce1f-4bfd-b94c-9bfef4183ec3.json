@@ -1,0 +1,47 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 48
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "device": "eth0",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "44:a8:42:15:c1:08"
+    },
+    {
+      "device": "eth1",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "44:a8:42:15:c1:0a"
+    }
+  ],
+  "node_name": "c33",
+  "node_type": "compute_haswell",
+  "processor": {
+    "instruction_set": "x86-64",
+    "model": "Intel Xeon",
+    "other_description": "Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz",
+    "vendor": "Intel"
+  },
+  "storage_devices": [
+    {
+      "device": "/dev/sda",
+      "humanized_size": "250 GB",
+      "interface": "SATA",
+      "model": "ST9250610NS"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "cc62a011-ce1f-4bfd-b94c-9bfef4183ec3"
+}
