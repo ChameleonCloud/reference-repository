@@ -72,7 +72,7 @@
     }
   ],
   "node_name": "P3-CPU-040",
-  "node_type": "compute_cascadelake_r",
+  "node_type": "compute_cascadelake_r_ib",
   "placement": {
     "node": "39",
     "rack": "BH-41"
