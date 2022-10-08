@@ -1,0 +1,40 @@
+{
+  "architecture": {
+    "platform_type": "aarch64",
+    "smp_size": 1,
+    "smt_size": 48
+  },
+  "monitoring": {
+    "wattmeter": "false"
+  },
+  "network_adapters": [
+    {
+      "device": "eth0",
+      "enabled": "true",
+      "interface": "Ethernet",
+      "mac": "2C:D4:44:CE:90:97"
+    }
+  ],
+  "node_name": "c10-arm64-04",
+  "node_type": "compute_arm64",
+  "processor": {
+    "instruction_set": "aarch64",
+    "model": "A64FX",
+    "vendor": "Fujitsu"
+  },
+  "storage_devices": [
+    {
+      "device": "/dev/nvme0",
+      "humanized_size": "512 GB",
+      "interface": "PCIe",
+      "model": "WDC CL SN720 SDAQNTW-512G-1116"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": "false",
+    "deploy": "true",
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "8c407e22-0ee9-4fcf-85e8-b232853c6a3b"
+}
