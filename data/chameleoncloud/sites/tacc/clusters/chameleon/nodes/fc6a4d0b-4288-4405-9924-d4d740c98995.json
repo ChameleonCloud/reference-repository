@@ -1,0 +1,57 @@
+{
+  "architecture": {
+    "platform_type": "aarch64",
+    "smp_size": 1,
+    "smt_size": 48
+  },
+  "bios": {
+    "release_date": "Jan 13 2022",
+    "vendor": "FUJITSU",
+    "version": "1.9.0"
+  },
+  "chassis": {
+    "manufacturer": "FUJITSU",
+    "name": "FX700"
+  },
+  "infiniband": "true",
+  "main_memory": {
+    "humanized_ram_size": "32 GiB",
+    "ram_size": 34359738368
+  },
+  "monitoring": {
+    "wattmeter": "false"
+  },
+  "network_adapters": [
+    {
+      "device": "eth0",
+      "enabled": "true",
+      "interface": "Ethernet",
+      "mac": "2C:D4:44:CE:90:9B"
+    }
+  ],
+  "node_name": "c10-arm64-02",
+  "node_type": "compute_arm64",
+  "processor": {
+    "instruction_set": "aarch64",
+    "model": "A64FX",
+    "vendor": "Fujitsu",
+    "cache_l1d": 3145728,
+    "cache_l1i": 3145728,
+    "cache_l2": 33554432
+  },
+  "storage_devices": [
+    {
+      "device": "/dev/nvme0",
+      "humanized_size": "512 GB",
+      "interface": "PCIe",
+      "model": "WDC CL SN720 SDAQNTW-512G-1116"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": "false",
+    "deploy": "true",
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "fc6a4d0b-4288-4405-9924-d4d740c98995"
+}
