@@ -5,9 +5,9 @@
     "smt_size": 256
   },
   "bios": {
-    "release_date": "01/13/2022",
+    "release_date": "06/23/2022",
     "vendor": "Dell Inc.",
-    "version": "2.6.6"
+    "version": "2.8.4"
   },
   "chassis": {
     "manufacturer": "Dell Inc.",
@@ -17,10 +17,11 @@
   "gpu": {
     "gpu": true,
     "gpu_count": 4,
-    "gpu_model": "A100",
+    "gpu_model": "A100_nvlink",
     "gpu_name": "GA100 [A100 SXM4 80GB]",
     "gpu_vendor": "NVIDIA Corporation"
   },
+  "infiniband": true,
   "main_memory": {
     "humanized_ram_size": "512 GiB",
     "ram_size": 512000000000
@@ -84,6 +85,15 @@
       "management": false,
       "model": "Intel(R) 25GbE 4P E810-XXV OCP",
       "vendor": "Intel Corporation"
+    },
+    {
+      "device": "InfiniBand.Slot.2-1",
+      "enabled": false,
+      "interface": "InfiniBand",
+      "mac": "e8:eb:d3:08:53:76",
+      "management": false,
+      "model": null,
+      "vendor": "Mellanox Technologies"
     }
   ],
   "node_name": "F1BG3Q3",
