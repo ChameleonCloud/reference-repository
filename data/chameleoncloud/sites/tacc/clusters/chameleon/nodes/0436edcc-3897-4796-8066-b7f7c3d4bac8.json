@@ -14,6 +14,13 @@
     "name": "PowerEdge R6525",
     "serial": "D74FFF3"
   },
+  "gpu": {
+    "gpu": true,
+    "gpu_count": 1,
+    "gpu_model": "GA100 [A100 PCIe 40GB]",
+    "gpu_name": "A100",
+    "gpu_vendor": "NVIDIA Corporation"
+  },
   "infiniband": true,
   "main_memory": {
     "humanized_ram_size": "256 GiB",
