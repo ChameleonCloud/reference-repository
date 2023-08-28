@@ -1,0 +1,108 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 160
+  },
+  "bios": {
+    "release_date": "09/14/2022",
+    "vendor": "Dell Inc.",
+    "version": "1.8.2"
+  },
+  "chassis": {
+    "manufacturer": "Dell Inc.",
+    "name": "PowerEdge R650",
+    "serial": "8V4FGT3"
+  },
+  "main_memory": {
+    "humanized_ram_size": "256 GiB",
+    "ram_size": 256000000000
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "device": "NIC.Embedded.1-1",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "c8:4b:d6:7d:2a:b0",
+      "management": false,
+      "model": null,
+      "vendor": "Broadcom Inc. and subsidiaries"
+    },
+    {
+      "device": "NIC.Embedded.2-1",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "c8:4b:d6:7d:2a:b1",
+      "management": false,
+      "model": null,
+      "vendor": "Broadcom Inc. and subsidiaries"
+    },
+    {
+      "device": "NIC.Integrated.1-1",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "14:23:f2:ca:05:20",
+      "management": false,
+      "model": "BRCM 2P 25G SFP 57414S OCP NIC",
+      "rate": 25000000000,
+      "vendor": "Broadcom Inc. and subsidiaries"
+    },
+    {
+      "device": "NIC.Integrated.1-2",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "14:23:f2:ca:05:21",
+      "management": false,
+      "model": "BRCM 2P 25G SFP 57414S OCP NIC",
+      "vendor": "Broadcom Inc. and subsidiaries"
+    },
+    {
+      "device": "NIC.Slot.2-1",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "b8:3f:d2:97:49:30",
+      "management": false,
+      "model": "Mellanox ConnectX-6 Main Card",
+      "rate": 25000000000,
+      "vendor": "Mellanox Technologies"
+    }
+  ],
+  "node_name": "c15-20",
+  "node_type": "compute_icelake_r650",
+  "placement": {
+    "node": "31",
+    "rack": "15"
+  },
+  "processor": {
+    "cache_l1": 3200000,
+    "cache_l2": 51200000,
+    "cache_l3": 61440000,
+    "clock_speed": 2300000000,
+    "instruction_set": "x86-64",
+    "model": "Intel(R) Xeon(R) Platinum 8380 CPU @ 2.30GHz",
+    "vendor": "Intel",
+    "version": "Model 106 Stepping 6"
+  },
+  "storage_devices": [
+    {
+      "device": "Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1",
+      "humanized_size": "480 GB",
+      "interface": "SATA",
+      "media_type": "SSD",
+      "model": "MTFDDAK480TDS",
+      "rev": "D3DJ004",
+      "size": 480103981056,
+      "vendor": "MICRON"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "73224397-0ab3-412d-a574-c284c420c6af"
+}

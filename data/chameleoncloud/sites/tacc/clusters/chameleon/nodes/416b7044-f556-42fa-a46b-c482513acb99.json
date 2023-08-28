@@ -98,10 +98,10 @@
     }
   ],
   "node_name": "c14-04",
-  "node_type": "compute_icelake",
+  "node_type": "compute_icelake_r750",
   "placement": {
-    "node": "1",
-    "rack": "16"
+    "node": "11",
+    "rack": "14"
   },
   "processor": {
     "cache_l1": 3200000,
