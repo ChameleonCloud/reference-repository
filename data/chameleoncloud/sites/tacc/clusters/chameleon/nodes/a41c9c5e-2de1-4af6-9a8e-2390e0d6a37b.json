@@ -98,9 +98,9 @@
     }
   ],
   "node_name": "c15-06",
-  "node_type": "compute_icelake",
+  "node_type": "compute_icelake_r750",
   "placement": {
-    "node": "1",
+    "node": "15",
     "rack": "15"
   },
   "processor": {

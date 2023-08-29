@@ -82,8 +82,7 @@
       "interface": "Ethernet",
       "mac": "84:16:0c:e5:35:10",
       "management": false,
-      "model": "BRCM 25GbE 2P 57414S Adptr",
-      "rate": 25000000000,
+      "model": null,
       "vendor": "Broadcom Inc. and subsidiaries"
     },
     {
@@ -92,16 +91,15 @@
       "interface": "Ethernet",
       "mac": "84:16:0c:e5:35:11",
       "management": false,
-      "model": "BRCM 25GbE 2P 57414S Adptr",
-      "rate": 25000000000,
+      "model": null,
       "vendor": "Broadcom Inc. and subsidiaries"
     }
   ],
   "node_name": "c14-02",
-  "node_type": "compute_icelake",
+  "node_type": "compute_icelake_r750",
   "placement": {
-    "node": "1",
-    "rack": "16"
+    "node": "7",
+    "rack": "14"
   },
   "processor": {
     "cache_l1": 3200000,
