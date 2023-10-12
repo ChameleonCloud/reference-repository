@@ -14,6 +14,13 @@
     "name": "PowerEdge R6525",
     "serial": "D796FF3"
   },
+  "gpu": {
+    "gpu": true,
+    "gpu_count": 1,
+    "gpu_model": "GA100 [A100 PCIe 40GB]",
+    "gpu_name": "A100",
+    "gpu_vendor": "NVIDIA Corporation"
+  },
   "infiniband": true,
   "main_memory": {
     "humanized_ram_size": "256 GiB",
@@ -107,7 +114,7 @@
     }
   ],
   "node_name": "liqid08",
-  "node_type": "storage_nvme",
+  "node_type": "compute_liqid",
   "placement": {
     "node": "1",
     "rack": "liqid08-oob"
@@ -132,6 +139,26 @@
       "rev": "HG58",
       "size": 480103981056,
       "vendor": "SAMSUNG"
+    },
+    {
+      "device": "PCIeSSD.Slot.3-2",
+      "humanized_size": "3839 GB",
+      "interface": "PCIe",
+      "media_type": "SSD",
+      "model": "SAMSUNG MZ1LB3T8HMLA-00007",
+      "rev": "EDB7602Q",
+      "size": 3839700762624,
+      "vendor": "Samsung Electronics Co Ltd "
+    },
+    {
+      "device": "PCIeSSD.Slot.3-1",
+      "humanized_size": "3839 GB",
+      "interface": "PCIe",
+      "media_type": "SSD",
+      "model": "SAMSUNG MZ1LB3T8HMLA-00007",
+      "rev": "EDB7602Q",
+      "size": 3839700762624,
+      "vendor": "Samsung Electronics Co Ltd "
     }
   ],
   "supported_job_types": {
