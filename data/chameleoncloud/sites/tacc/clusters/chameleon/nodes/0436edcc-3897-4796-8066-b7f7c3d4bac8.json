@@ -116,7 +116,6 @@
   "node_name": "liqid04",
   "node_type": "compute_liqid",
   "placement": {
-    "node": "1",
     "rack": "BC35"
   },
   "processor": {
