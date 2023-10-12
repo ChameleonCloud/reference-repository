@@ -116,8 +116,7 @@
   "node_name": "liqid03",
   "node_type": "compute_liqid",
   "placement": {
-    "node": "1",
-    "rack": "liqid03-oob"
+    "rack": "BC35"
   },
   "processor": {
     "cache_l1": 4096000,
