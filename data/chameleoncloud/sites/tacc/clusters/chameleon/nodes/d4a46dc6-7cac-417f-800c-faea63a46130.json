@@ -5,9 +5,9 @@
     "smt_size": 256
   },
   "bios": {
-    "release_date": "06/23/2022",
+    "release_date": "07/26/2023",
     "vendor": "Dell Inc.",
-    "version": "2.8.4"
+    "version": "2.12.4"
   },
   "chassis": {
     "manufacturer": "Dell Inc.",
@@ -116,8 +116,7 @@
   "node_name": "liqid01",
   "node_type": "compute_liqid",
   "placement": {
-    "node": "1",
-    "rack": "liqid01-oob"
+    "rack": "BC35"
   },
   "processor": {
     "cache_l1": 4096000,
@@ -141,7 +140,7 @@
       "vendor": "SAMSUNG"
     },
     {
-      "device": "PCIeSSD.Slot.3-2",
+      "device": "PCIeSSD.Slot.3-1",
       "humanized_size": "3839 GB",
       "interface": "PCIe",
       "media_type": "SSD",
@@ -151,7 +150,7 @@
       "vendor": "Samsung Electronics Co Ltd "
     },
     {
-      "device": "PCIeSSD.Slot.3-1",
+      "device": "PCIeSSD.Slot.3-2",
       "humanized_size": "3839 GB",
       "interface": "PCIe",
       "media_type": "SSD",

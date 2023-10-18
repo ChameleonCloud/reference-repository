@@ -107,17 +107,16 @@
       "device": "InfiniBand.Slot.1-1",
       "enabled": false,
       "interface": "InfiniBand",
-      "mac": "b8:ce:f6:50:63:18",
+      "mac": "",
       "management": false,
       "model": null,
-      "vendor": "Mellanox Technologies"
+      "vendor": null
     }
   ],
   "node_name": "liqid03",
   "node_type": "compute_liqid",
   "placement": {
-    "node": "1",
-    "rack": "liqid03-oob"
+    "rack": "BC35"
   },
   "processor": {
     "cache_l1": 4096000,
@@ -139,6 +138,26 @@
       "rev": "HG58",
       "size": 480103981056,
       "vendor": "SAMSUNG"
+    },
+    {
+      "device": "PCIeSSD.Slot.3-2",
+      "humanized_size": "3839 GB",
+      "interface": "PCIe",
+      "media_type": "SSD",
+      "model": "SAMSUNG MZ1LB3T8HMLA-00007",
+      "rev": "EDB7602Q",
+      "size": 3839700762624,
+      "vendor": "Samsung Electronics Co Ltd "
+    },
+    {
+      "device": "PCIeSSD.Slot.3-1",
+      "humanized_size": "3839 GB",
+      "interface": "PCIe",
+      "media_type": "SSD",
+      "model": "SAMSUNG MZ1LB3T8HMLA-00007",
+      "rev": "EDB7602Q",
+      "size": 3839700762624,
+      "vendor": "Samsung Electronics Co Ltd "
     }
   ],
   "supported_job_types": {
