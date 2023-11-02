@@ -97,26 +97,6 @@
       "rev": "1.2.0",
       "size": 960197124096,
       "vendor": "Toshiba Corporation "
-    },
-    {
-      "device": "PCIeSSD.Slot.1-1",
-      "humanized_size": "2000 GB",
-      "interface": "PCIe",
-      "media_type": "SSD",
-      "model": "Force MP600",
-      "rev": "EGFM13.0",
-      "size": 2000381018112,
-      "vendor": "Phison Electronics Corporation "
-    },
-    {
-      "device": "PCIeSSD.Slot.1-2",
-      "humanized_size": "2000 GB",
-      "interface": "PCIe",
-      "media_type": "SSD",
-      "model": "Force MP600",
-      "rev": "EGFM13.0",
-      "size": 2000381018112,
-      "vendor": "Phison Electronics Corporation "
     }
   ],
   "supported_job_types": {
