@@ -1,11 +1,8 @@
 {
   "architecture": {
-    "cores": 24,
     "platform_type": "x86_64",
     "smp_size": 2,
-    "smt_size": 24,
-    "sockets": 2,
-    "threads": 24
+    "smt_size": 24
   },
   "bios": {
     "release_date": "2019-12-30",
@@ -40,10 +37,8 @@
   "node_type": "indyscc_haswell",
   "processor": {
     "clock_speed": 2500000000,
-    "cores": 12,
     "instruction_set": "x86_64",
     "model": "Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz",
-    "threads": 12,
     "vendor": "Intel"
   },
   "storage_devices": [
