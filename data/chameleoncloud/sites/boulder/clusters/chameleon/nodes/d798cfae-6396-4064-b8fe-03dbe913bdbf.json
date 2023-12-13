@@ -1,8 +1,8 @@
 {
   "architecture": {
     "cores": 24,
-    "platform_type": "x86-64",
-    "smp_size": 24,
+    "platform_type": "x86_64",
+    "smp_size": 2,
     "smt_size": 24,
     "sockets": 2,
     "threads": 24
@@ -12,20 +12,28 @@
     "vendor": "Dell Inc.",
     "version": "2.11.0"
   },
+  "infiniband": false,
   "main_memory": {
     "humanized_ram_size": "128.0GB",
     "ram_size": 128000000000
+  },
+  "monitoring": {
+    "wattmeter": false
   },
   "network_adapters": [
     {
       "device": "eno2",
       "enabled": false,
-      "mac": "7c:d3:0a:b1:4b:b6"
+      "interface": "Ethernet",
+      "mac": "7c:d3:0a:b1:4b:b6",
+      "management": false
     },
     {
       "device": "eno1",
       "enabled": true,
-      "mac": "7c:d3:0a:b1:4b:b4"
+      "interface": "Ethernet",
+      "mac": "7c:d3:0a:b1:4b:b4",
+      "management": false
     }
   ],
   "node_name": "shas0313",
@@ -33,6 +41,7 @@
   "processor": {
     "clock_speed": 2500000000,
     "cores": 12,
+    "instruction_set": "x86_64",
     "model": "Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz",
     "threads": 12,
     "vendor": "Intel"
@@ -46,5 +55,11 @@
       "size": 200049647616
     }
   ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
   "uid": "d798cfae-6396-4064-b8fe-03dbe913bdbf"
 }
