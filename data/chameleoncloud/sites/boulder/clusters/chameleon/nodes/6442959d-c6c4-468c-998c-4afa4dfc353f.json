@@ -1,0 +1,50 @@
+{
+  "architecture": {
+    "cores": 24,
+    "platform_type": "x86-64",
+    "smp_size": 24,
+    "smt_size": 24,
+    "sockets": 2,
+    "threads": 24
+  },
+  "bios": {
+    "release_date": "2019-12-30",
+    "vendor": "Dell Inc.",
+    "version": "2.11.0"
+  },
+  "main_memory": {
+    "humanized_ram_size": "128.0GB",
+    "ram_size": 128000000000
+  },
+  "network_adapters": [
+    {
+      "device": "eno2",
+      "enabled": false,
+      "mac": "7c:d3:0a:b1:53:72"
+    },
+    {
+      "device": "eno1",
+      "enabled": true,
+      "mac": "7c:d3:0a:b1:53:70"
+    }
+  ],
+  "node_name": "shas0433",
+  "node_type": "indyscc_haswell",
+  "processor": {
+    "clock_speed": 2500000000,
+    "cores": 12,
+    "model": "Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz",
+    "threads": 12,
+    "vendor": "Intel"
+  },
+  "storage_devices": [
+    {
+      "device": "/dev/sda",
+      "humanized_size": "200.0GB",
+      "media_type": "SSD",
+      "model": "INTEL_SSDSC2BX200G4R",
+      "size": 200049647616
+    }
+  ],
+  "uid": "6442959d-c6c4-468c-998c-4afa4dfc353f"
+}
