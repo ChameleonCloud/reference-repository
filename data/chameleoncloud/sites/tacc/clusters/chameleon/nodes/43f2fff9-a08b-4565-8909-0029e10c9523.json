@@ -82,7 +82,8 @@
       "interface": "Ethernet",
       "mac": "84:16:0c:e5:35:10",
       "management": false,
-      "model": null,
+      "model": "BRCM 25GbE 2P 57414S Adptr",
+      "rate": 25000000000,
       "vendor": "Broadcom Inc. and subsidiaries"
     },
     {
