@@ -1,0 +1,16 @@
+
+{
+  "description": "National Research Platform at SDSC",
+  "email_contact": "help@chameleoncloud.org",
+  "latitude": 48.8583,
+  "location": "9836 Hopkins Dr, La Jolla, CA 92093, USA",
+  "longitude": 2.2923,
+  "name": "CHI@NRP",
+  "security_contact": "help@chameleoncloud.org",
+  "site_class": "baremetal",
+  "sys_admin_contact": "help@chameleoncloud.org",
+  "type": "site",
+  "uid": "nrp",
+  "user_support_contact": "help@chameleoncloud.org",
+  "web": "https://chi.nrp.ai"
+}
