@@ -1,0 +1,46 @@
+{
+  "uid": "ef4f8c1c-93d3-436f-8475-42710dd08f46",
+  "node_name": "chi-02",
+  "node_type": "compute_haswell",
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 48
+  },
+  "processor": {
+    "model": "Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz",
+    "vendor": "Intel"
+  },
+  "main_memory": {},
+  "network_adapters": [
+    {
+      "name": "eno1",
+      "mac": "44:a8:42:26:2d:e2",
+      "enabled": true
+    },
+    {
+      "name": "eno4",
+      "mac": "44:a8:42:26:2d:e8",
+      "enabled": false
+    },
+    {
+      "name": "eno2",
+      "mac": "44:a8:42:26:2d:e4",
+      "enabled": false
+    },
+    {
+      "name": "eno3",
+      "mac": "44:a8:42:26:2d:e6",
+      "enabled": false
+    }
+  ],
+  "storage_devices": [
+    {
+      "name": "/dev/sda",
+      "model": "ST9250610NS",
+      "size": 250059350016,
+      "interface": "UNKNOWN",
+      "media_type": "Rotational"
+    }
+  ]
+}
