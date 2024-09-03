@@ -1,0 +1,72 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 48
+  },
+  "bios": {
+    "release_date": "12/12/2023",
+    "vendor": "Dell Inc.",
+    "version": "2.19.0"
+  },
+  "chassis": {
+    "manufacturer": "Dell Inc.",
+    "name": "PowerEdge R630 (SKU=NotProvided;ModelName=PowerEdge R630)",
+    "serial": "19BKD42"
+  },
+  "main_memory": {
+    "humanized_ram_size": "128 GiB",
+    "ram_size": 134931521536
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "enabled": true,
+      "mac": "44:a8:42:26:2d:e2",
+      "name": "eno1"
+    },
+    {
+      "enabled": true,
+      "mac": "44:a8:42:26:2d:e4",
+      "name": "eno2"
+    },
+    {
+      "enabled": false,
+      "mac": "44:a8:42:26:2d:e6",
+      "name": "eno3"
+    },
+    {
+      "enabled": false,
+      "mac": "44:a8:42:26:2d:e8",
+      "name": "eno4"
+    }
+  ],
+  "node_name": "chi-02",
+  "node_type": "compute_haswell",
+  "processor": {
+    "clock_speed": 3100000000,
+    "instruction_set": "x86_64",
+    "model": "Intel Xeon",
+    "other_description": "Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz",
+    "vendor": "Intel"
+  },
+  "storage_devices": [
+    {
+      "device": "/dev/sda",
+      "interface": "UNKNOWN",
+      "media_type": "Rotational",
+      "model": "ST9250610NS",
+      "serial": "9XE0LGRL",
+      "size": 250059350016
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "ef4f8c1c-93d3-436f-8475-42710dd08f46"
+}
