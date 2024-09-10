@@ -5,60 +5,81 @@
     "smt_size": 48
   },
   "bios": {
-    "release_date": "12/12/2023",
-    "vendor": "Dell Inc.",
+    "release_date": "2023-12-12",
+    "vendor": "Dell",
     "version": "2.19.0"
   },
   "chassis": {
-    "manufacturer": "Dell Inc.",
-    "name": "PowerEdge R630 (SKU=NotProvided;ModelName=PowerEdge R630)",
+    "manufacturer": "Dell",
+    "name": "PowerEdge R630",
     "serial": "1PBHD42"
   },
   "main_memory": {
     "humanized_ram_size": "128 GiB",
-    "ram_size": 134931542016
+    "ram_size": 134929256448
   },
   "monitoring": {
     "wattmeter": false
   },
   "network_adapters": [
     {
+      "device": "eno1",
+      "driver": "bnx2x",
       "enabled": true,
       "mac": "44:a8:42:26:37:a8",
-      "name": "eno1"
+      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
+      "rate": 10000000000,
+      "vendor": "Broadcom"
     },
     {
+      "device": "eno2",
+      "driver": "bnx2x",
       "enabled": true,
       "mac": "44:a8:42:26:37:aa",
-      "name": "eno2"
+      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
+      "rate": 10000000000,
+      "vendor": "Broadcom"
     },
     {
+      "device": "eno3",
+      "driver": "bnx2x",
       "enabled": false,
       "mac": "44:a8:42:26:37:ac",
-      "name": "eno3"
+      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
     },
     {
+      "device": "eno4",
+      "driver": "bnx2x",
       "enabled": false,
       "mac": "44:a8:42:26:37:ae",
-      "name": "eno4"
+      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
     }
   ],
   "node_name": "chi-03",
   "node_type": "compute_haswell",
   "processor": {
-    "clock_speed": 3100000000,
+    "cache_l1d": 32768,
+    "cache_l1i": 32768,
+    "cache_l2": 262144,
+    "cache_l3": 31457280,
+    "clock_speed": 2411724800,
     "instruction_set": "x86_64",
-    "model": "Intel Xeon",
-    "other_description": "Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz",
+    "model": "Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz",
     "vendor": "Intel"
   },
   "storage_devices": [
     {
       "device": "/dev/sda",
-      "interface": "UNKNOWN",
+      "humanized_size": "250 GB",
+      "interface": "SAS",
       "media_type": "Rotational",
       "model": "ST9250610NS",
       "serial": "9XE0L721",
+      "rev": "AA65",
       "size": 250059350016
     }
   ],
