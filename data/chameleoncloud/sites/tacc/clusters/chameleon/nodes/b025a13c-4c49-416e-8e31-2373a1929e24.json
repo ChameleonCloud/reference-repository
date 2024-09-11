@@ -1,0 +1,96 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 64
+  },
+  "bios": {
+    "release_date": "2019-08-15",
+    "vendor": "Dell",
+    "version": "2.3.10"
+  },
+  "chassis": {
+    "manufacturer": "Dell",
+    "name": "PowerEdge R740",
+    "serial": "HZVN903"
+  },
+  "main_memory": {
+    "humanized_ram_size": "192 GiB",
+    "ram_size": 201765408768
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "device": "eno3",
+      "driver": "tg3",
+      "enabled": false,
+      "mac": "b0:26:28:ea:ad:6e",
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
+    },
+    {
+      "device": "eno4",
+      "driver": "tg3",
+      "enabled": false,
+      "mac": "b0:26:28:ea:ad:6f",
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
+    },
+    {
+      "device": "eno1np0",
+      "driver": "bnxt_en",
+      "enabled": true,
+      "mac": "b0:26:28:ea:ad:70",
+      "model": "BCM57412 NetXtreme-E 10Gb RDMA Ethernet Controller",
+      "rate": 10000000000,
+      "vendor": "Broadcom"
+    },
+    {
+      "device": "eno2np1",
+      "driver": "bnxt_en",
+      "enabled": true,
+      "mac": "b0:26:28:ea:ad:71",
+      "model": "BCM57412 NetXtreme-E 10Gb RDMA Ethernet Controller",
+      "rate": 10000000000,
+      "vendor": "Broadcom"
+    }
+  ],
+  "node_name": "c07-06",
+  "node_type": "compute_cascadelake",
+  "placement": {
+    "rack": "6"
+  },
+  "processor": {
+    "cache_l1d": 32768,
+    "cache_l1i": 32768,
+    "cache_l2": 1048576,
+    "cache_l3": 23068672,
+    "clock_speed": 2936012800,
+    "instruction_set": "x86_64",
+    "model": "Intel(R) Xeon(R) Gold 6242 CPU @ 2.80GHz",
+    "vendor": "Intel"
+  },
+  "storage_devices": [
+    {
+      "device": "sda",
+      "humanized_size": "240 GB",
+      "interface": "SAS",
+      "media_type": "SSD",
+      "model": "THNSF8240CCSE",
+      "serial": "39AS108BTCTQ",
+      "rev": "DACB",
+      "size": 240057409536
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "b025a13c-4c49-416e-8e31-2373a1929e24"
+}

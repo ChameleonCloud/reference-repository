@@ -1,0 +1,120 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 160
+  },
+  "bios": {
+    "release_date": "2022-09-14",
+    "vendor": "Dell",
+    "version": "1.8.2"
+  },
+  "chassis": {
+    "manufacturer": "Dell",
+    "name": "PowerEdge R650",
+    "serial": "DY4FGT3"
+  },
+  "main_memory": {
+    "humanized_ram_size": "256 GiB",
+    "ram_size": 269715628032
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "device": "eno12399",
+      "driver": "tg3",
+      "enabled": false,
+      "mac": "00:62:0b:4b:cb:60",
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
+    },
+    {
+      "device": "eno12409",
+      "driver": "tg3",
+      "enabled": false,
+      "mac": "00:62:0b:4b:cb:61",
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
+    },
+    {
+      "device": "eno12419",
+      "driver": "tg3",
+      "enabled": false,
+      "mac": "00:62:0b:4b:cb:62",
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
+    },
+    {
+      "device": "eno12429",
+      "driver": "tg3",
+      "enabled": false,
+      "mac": "00:62:0b:4b:cb:63",
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
+    },
+    {
+      "device": "enp130s0np0",
+      "driver": "mlx5_core",
+      "enabled": true,
+      "mac": "b8:3f:d2:97:1f:e0",
+      "model": "MT28908 Family [ConnectX-6]",
+      "rate": 40000000000,
+      "vendor": "Mellanox"
+    },
+    {
+      "device": "eno8303",
+      "driver": "tg3",
+      "enabled": false,
+      "mac": "c8:4b:d6:84:f4:1a",
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
+    },
+    {
+      "device": "eno8403",
+      "driver": "tg3",
+      "enabled": false,
+      "mac": "c8:4b:d6:84:f4:1b",
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
+    }
+  ],
+  "node_name": "gigaio01",
+  "node_type": "compute_gigaio",
+  "processor": {
+    "cache_l1d": 49807,
+    "cache_l1i": 32768,
+    "cache_l2": 1310720,
+    "cache_l3": 62914560,
+    "clock_speed": 2411724800,
+    "instruction_set": "x86_64",
+    "model": "Intel(R) Xeon(R) Platinum 8380 CPU @ 2.30GHz",
+    "vendor": "Intel"
+  },
+  "storage_devices": [
+    {
+      "device": "sda",
+      "humanized_size": "480 GB",
+      "interface": "SAS",
+      "media_type": "SSD",
+      "model": "MTFDDAK480TDS",
+      "serial": "222539B8FB48",
+      "rev": "J004",
+      "size": 480103981056
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "d389fc04-f030-425d-8556-55b8d9ec12eb"
+}
