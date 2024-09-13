@@ -25,7 +25,7 @@
     {
       "device": "ibp59s0",
       "driver": "mlx5_core[ib_ipoib]",
-      "enabled": true,
+      "enabled": false,
       "interface": "InfiniBand",
       "mac": "1c:34:da:03:00:47:43:90",
       "model": "MT28908 Family [ConnectX-6]",
