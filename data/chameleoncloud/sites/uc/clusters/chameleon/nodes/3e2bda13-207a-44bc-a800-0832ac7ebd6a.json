@@ -34,6 +34,7 @@
       "interface": "Ethernet",
       "mac": "14:23:f2:a4:39:50",
       "model": "BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet",
+      "rate": 25000000000,
       "vendor": "Broadcom"
     },
     {
@@ -43,6 +44,7 @@
       "interface": "Ethernet",
       "mac": "14:23:f2:a4:39:51",
       "model": "BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet",
+      "rate": 25000000000,
       "vendor": "Broadcom"
     },
     {
@@ -52,6 +54,7 @@
       "interface": "Ethernet",
       "mac": "14:23:f2:a4:39:52",
       "model": "BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet",
+      "rate": 25000000000,
       "vendor": "Broadcom"
     },
     {
@@ -61,6 +64,7 @@
       "interface": "Ethernet",
       "mac": "14:23:f2:a4:39:53",
       "model": "BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet",
+      "rate": 25000000000,
       "vendor": "Broadcom"
     }
   ],
@@ -84,7 +88,7 @@
       "interface": "SATA",
       "media_type": "SSD",
       "model": "SSDSCKKB480GZR",
-      "serial": "PHYK308601FX480B",
+      "serial": "PHYK308601JR480B",
       "rev": "7CV1DL74",
       "size": 480000000000
     },
@@ -94,7 +98,7 @@
       "interface": "SATA",
       "media_type": "SSD",
       "model": "SSDSCKKB480GZR",
-      "serial": "PHYK308601JR480B",
+      "serial": "PHYK308601FX480B",
       "rev": "7CV1DL74",
       "size": 480000000000
     }
