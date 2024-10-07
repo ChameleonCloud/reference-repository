@@ -5,97 +5,97 @@
     "smt_size": 160
   },
   "bios": {
-    "release_date": "09/14/2022",
-    "vendor": "Dell Inc.",
+    "release_date": "2022-09-14",
+    "vendor": "Dell",
     "version": "1.8.2"
   },
   "chassis": {
-    "manufacturer": "Dell Inc.",
+    "manufacturer": "Dell",
     "name": "PowerEdge R650",
     "serial": "GT4FGT3"
   },
   "main_memory": {
     "humanized_ram_size": "256 GiB",
-    "ram_size": 256000000000
+    "ram_size": 274877906944
   },
   "monitoring": {
     "wattmeter": false
   },
   "network_adapters": [
     {
-      "device": "NIC.Embedded.1-1",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "c8:4b:d6:84:ec:c6",
-      "management": false,
-      "model": null,
-      "vendor": "Broadcom Inc. and subsidiaries"
-    },
-    {
-      "device": "NIC.Embedded.2-1",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "c8:4b:d6:84:ec:c7",
-      "management": false,
-      "model": null,
-      "vendor": "Broadcom Inc. and subsidiaries"
-    },
-    {
-      "device": "NIC.Integrated.1-1",
+      "device": "eno12399np0",
+      "driver": "bnxt_en",
       "enabled": true,
       "interface": "Ethernet",
       "mac": "14:23:f2:16:1f:80",
-      "management": false,
-      "model": "BRCM 2P 25G SFP 57414S OCP NIC",
+      "model": "BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller",
       "rate": 25000000000,
-      "vendor": "Broadcom Inc. and subsidiaries"
+      "vendor": "Broadcom"
     },
     {
-      "device": "NIC.Integrated.1-2",
+      "device": "eno12409np1",
+      "driver": "bnxt_en",
       "enabled": false,
       "interface": "Ethernet",
       "mac": "14:23:f2:16:1f:81",
-      "management": false,
-      "model": "BRCM 2P 25G SFP 57414S OCP NIC",
-      "vendor": "Broadcom Inc. and subsidiaries"
+      "model": "BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller",
+      "rate": 25000000000,
+      "vendor": "Broadcom"
     },
     {
-      "device": "NIC.Slot.2-1",
+      "device": "enp152s0np0",
+      "driver": "mlx5_core",
       "enabled": true,
       "interface": "Ethernet",
       "mac": "b8:3f:d2:97:1c:c0",
-      "management": false,
-      "model": "Mellanox ConnectX-6 Main Card",
-      "rate": 25000000000,
-      "vendor": "Mellanox Technologies"
+      "model": "MT28908 Family [ConnectX-6]",
+      "rate": 40000000000,
+      "vendor": "Mellanox"
+    },
+    {
+      "device": "eno8303",
+      "driver": "tg3",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "c8:4b:d6:84:ec:c6",
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
+    },
+    {
+      "device": "eno8403",
+      "driver": "tg3",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "c8:4b:d6:84:ec:c7",
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
     }
   ],
   "node_name": "c15-09",
   "node_type": "compute_icelake_r650",
-  "placement": {
-    "node": "20",
-    "rack": "15"
-  },
+  "placement": {},
   "processor": {
-    "cache_l1": 3200000,
-    "cache_l2": 51200000,
-    "cache_l3": 61440000,
+    "cache_l1d": 49807,
+    "cache_l1i": 32768,
+    "cache_l2": 1310720,
+    "cache_l3": 62914560,
     "clock_speed": 2300000000,
-    "instruction_set": "x86-64",
+    "instruction_set": "x86_64",
     "model": "Intel(R) Xeon(R) Platinum 8380 CPU @ 2.30GHz",
-    "vendor": "Intel",
-    "version": "Model 106 Stepping 6"
+    "vendor": "Intel"
   },
   "storage_devices": [
     {
-      "device": "Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1",
+      "device": "sda",
       "humanized_size": "480 GB",
-      "interface": "SATA",
+      "interface": "SAS",
       "media_type": "SSD",
       "model": "MTFDDAK480TDS",
+      "serial": "222539B94654",
       "rev": "D3DJ004",
-      "size": 480103981056,
-      "vendor": "MICRON"
+      "size": 480000000000
     }
   ],
   "supported_job_types": {
