@@ -5,17 +5,14 @@
     "smt_size": 96
   },
   "bios": {
-    "release_date": "08/27/2020",
-    "vendor": "Dell Inc.",
+    "release_date": "2020-08-27",
+    "vendor": "Dell",
     "version": "2.8.2"
   },
   "chassis": {
-    "manufacturer": "Dell Inc.",
-    "name": null,
-    "serial": null
-  },
-  "gpu": {
-    "gpu": false
+    "manufacturer": "Dell",
+    "name": "PowerEdge R740",
+    "serial": "H5KCH63"
   },
   "main_memory": {
     "humanized_ram_size": "192 GiB",
@@ -26,60 +23,51 @@
   },
   "network_adapters": [
     {
-      "bridged": false,
-      "device": "eno1",
-      "driver": null,
+      "device": "eno1np0",
+      "driver": "bnxt_en",
       "enabled": true,
-      "interface": null,
-      "mac": null,
-      "management": null,
-      "model": "BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller (rev 01)",
-      "mounted": null,
+      "interface": "Ethernet",
+      "mac": "bc:97:e1:c4:cc:f0",
+      "model": "BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller",
       "rate": 10000000000,
-      "vendor": "Broadcom Inc. and subsidiaries"
+      "vendor": "Broadcom"
     },
     {
-      "bridged": false,
-      "device": "eno2",
-      "driver": null,
+      "device": "eno2np1",
+      "driver": "bnxt_en",
       "enabled": true,
-      "interface": null,
-      "mac": null,
-      "management": null,
-      "model": "BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller (rev 01)",
-      "mounted": null,
+      "interface": "Ethernet",
+      "mac": "bc:97:e1:c4:cc:f1",
+      "model": "BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller",
       "rate": 10000000000,
-      "vendor": "Broadcom Inc. and subsidiaries"
+      "vendor": "Broadcom"
     }
   ],
   "node_name": "c05-08",
   "node_type": "compute_cascadelake_r",
   "placement": {
-    "rack": 5
+    "rack": "5"
   },
   "processor": {
-    "cache_l1": null,
     "cache_l1d": 32768,
     "cache_l1i": 32768,
     "cache_l2": 1048576,
     "cache_l3": 37486592,
-    "clock_speed": null,
-    "instruction_set": "x86-64",
-    "model": "Intel Xeon",
-    "other_description": "Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz",
-    "vendor": "Intel",
-    "version": null
+    "clock_speed": 2400000000,
+    "instruction_set": "x86_64",
+    "model": "Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz",
+    "vendor": "Intel"
   },
   "storage_devices": [
     {
       "device": "sda",
-      "driver": "megaraid_sas",
       "humanized_size": "480 GB",
-      "interface": "SATA",
+      "interface": "SAS",
+      "media_type": "SSD",
       "model": "MTFDDAK480TDS",
+      "serial": "2028299F4859",
       "rev": "D3DJ004",
-      "size": 480103981056,
-      "vendor": "Micron"
+      "size": 480000000000
     }
   ],
   "supported_job_types": {

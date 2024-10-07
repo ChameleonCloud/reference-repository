@@ -16,7 +16,7 @@
   },
   "main_memory": {
     "humanized_ram_size": "192 GiB",
-    "ram_size": 201765408768
+    "ram_size": 206158430208
   },
   "monitoring": {
     "wattmeter": false
@@ -26,6 +26,7 @@
       "device": "eno3",
       "driver": "tg3",
       "enabled": false,
+      "interface": "Ethernet",
       "mac": "b0:26:28:ea:ad:6e",
       "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
       "rate": 1000000000,
@@ -35,6 +36,7 @@
       "device": "eno4",
       "driver": "tg3",
       "enabled": false,
+      "interface": "Ethernet",
       "mac": "b0:26:28:ea:ad:6f",
       "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
       "rate": 1000000000,
@@ -44,6 +46,7 @@
       "device": "eno1np0",
       "driver": "bnxt_en",
       "enabled": true,
+      "interface": "Ethernet",
       "mac": "b0:26:28:ea:ad:70",
       "model": "BCM57412 NetXtreme-E 10Gb RDMA Ethernet Controller",
       "rate": 10000000000,
@@ -53,6 +56,7 @@
       "device": "eno2np1",
       "driver": "bnxt_en",
       "enabled": true,
+      "interface": "Ethernet",
       "mac": "b0:26:28:ea:ad:71",
       "model": "BCM57412 NetXtreme-E 10Gb RDMA Ethernet Controller",
       "rate": 10000000000,
@@ -69,7 +73,7 @@
     "cache_l1i": 32768,
     "cache_l2": 1048576,
     "cache_l3": 23068672,
-    "clock_speed": 2936012800,
+    "clock_speed": 2800000000,
     "instruction_set": "x86_64",
     "model": "Intel(R) Xeon(R) Gold 6242 CPU @ 2.80GHz",
     "vendor": "Intel"
@@ -83,7 +87,7 @@
       "model": "THNSF8240CCSE",
       "serial": "39AS108BTCTQ",
       "rev": "DACB",
-      "size": 240057409536
+      "size": 240000000000
     }
   ],
   "supported_job_types": {
