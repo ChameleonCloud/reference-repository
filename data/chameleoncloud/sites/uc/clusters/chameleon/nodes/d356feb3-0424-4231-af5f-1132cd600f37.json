@@ -5,90 +5,90 @@
     "smt_size": 96
   },
   "bios": {
-    "release_date": "02/24/2021",
-    "vendor": "Dell Inc.",
-    "version": "2.10.2"
+    "release_date": "2024-08-09",
+    "vendor": "Dell",
+    "version": "2.22.1"
   },
   "chassis": {
-    "manufacturer": "Dell Inc.",
+    "manufacturer": "Dell",
     "name": "PowerEdge R740",
     "serial": "76C5KD3"
   },
   "main_memory": {
     "humanized_ram_size": "192 GiB",
-    "ram_size": 192000000000
+    "ram_size": 206158430208
   },
   "monitoring": {
     "wattmeter": false
   },
   "network_adapters": [
     {
-      "device": "NIC.Integrated.1-1",
+      "device": "eno1np0",
+      "driver": "mlx5_core",
       "enabled": true,
       "interface": "Ethernet",
       "mac": "b8:ce:f6:43:46:56",
-      "management": false,
-      "model": "MLNX 25GbE 2P ConnectX4LX RNDC",
-      "vendor": "Mellanox Technologies"
+      "model": "MT27710 Family [ConnectX-4 Lx]",
+      "rate": 25000000000,
+      "vendor": "Mellanox"
     },
     {
-      "device": "NIC.Integrated.1-2",
+      "device": "eno2np1",
+      "driver": "mlx5_core",
       "enabled": true,
       "interface": "Ethernet",
       "mac": "b8:ce:f6:43:46:57",
-      "management": false,
-      "model": "MLNX 25GbE 2P ConnectX4LX RNDC",
+      "model": "MT27710 Family [ConnectX-4 Lx]",
       "rate": 25000000000,
-      "vendor": "Mellanox Technologies"
+      "vendor": "Mellanox"
     },
     {
-      "device": "NIC.Slot.7-1",
+      "device": "ens7f0",
+      "driver": "tg3",
       "enabled": false,
       "interface": "Ethernet",
       "mac": "e4:3d:1a:2d:d8:9c",
-      "management": false,
-      "model": "BRCM GbE 2P 5720-t Adapter",
-      "vendor": "Broadcom Inc. and subsidiaries"
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
     },
     {
-      "device": "NIC.Slot.7-2",
+      "device": "ens7f1",
+      "driver": "tg3",
       "enabled": false,
       "interface": "Ethernet",
       "mac": "e4:3d:1a:2d:d8:9d",
-      "management": false,
-      "model": "BRCM GbE 2P 5720-t Adapter",
-      "vendor": "Broadcom Inc. and subsidiaries"
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
     }
   ],
   "node_name": "P3-CPU-029",
   "node_type": "compute_cascadelake_r",
   "placement": {
     "node": "24",
-    "rack": "BG-41"
+    "rack": "5"
   },
   "processor": {
-    "cache_l1": 1536000,
-    "cache_l1d": null,
-    "cache_l1i": null,
-    "cache_l2": 24576000,
-    "cache_l3": 36608000,
+    "cache_l1d": 32768,
+    "cache_l1i": 32768,
+    "cache_l2": 1048576,
+    "cache_l3": 37486592,
     "clock_speed": 2400000000,
-    "instruction_set": "x86-64",
-    "model": "Intel Xeon",
-    "other_description": "Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz",
-    "vendor": "Intel",
-    "version": "Model 85 Stepping 7"
+    "instruction_set": "x86_64",
+    "model": "Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz",
+    "vendor": "Intel"
   },
   "storage_devices": [
     {
-      "device": "Disk.Bay.0:Enclosure.Internal.0-1:NonRAID.Slot.6-1",
+      "device": "sda",
       "humanized_size": "480 GB",
-      "interface": "SATA",
+      "interface": "SAS",
       "media_type": "SSD",
       "model": "SSDSC2KB480G8R",
-      "rev": "XCV1DL69",
-      "size": 480103980544,
-      "vendor": "INTEL"
+      "serial": "BTYF111501DV480BGN",
+      "rev": "XCV1DL6B",
+      "size": 480000000000
     }
   ],
   "supported_job_types": {

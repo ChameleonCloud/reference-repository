@@ -5,124 +5,102 @@
     "smt_size": 256
   },
   "bios": {
-    "release_date": "08/28/2023",
-    "vendor": "Dell Inc.",
+    "release_date": "2023-08-28",
+    "vendor": "Dell",
     "version": "2.11.3 [GigaIO 1.0.0]"
   },
   "chassis": {
-    "manufacturer": "Dell Inc.",
+    "manufacturer": "Dell",
     "name": "PowerEdge R6525",
     "serial": "3PHFDX3"
   },
   "gpu": {
-    "gpu": true,
     "gpu_count": 1,
     "gpu_model": "GA100 [A100 PCIe 80GB]",
-    "gpu_name": "A100",
-    "gpu_vendor": "NVIDIA Corporation"
+    "gpu_vendor": "NVIDIA"
   },
   "main_memory": {
     "humanized_ram_size": "512 GiB",
-    "ram_size": 512000000000
+    "ram_size": 549755813888
   },
   "monitoring": {
     "wattmeter": false
   },
   "network_adapters": [
     {
-      "device": "NIC.Embedded.1-1",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "",
-      "management": false,
-      "model": null,
-      "rate": 1000000000,
-      "vendor": null
-    },
-    {
-      "device": "NIC.Embedded.2-1",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "",
-      "management": false,
-      "model": null,
-      "vendor": null
-    },
-    {
-      "device": "NIC.Integrated.1-1",
+      "device": "eno12399np0",
+      "driver": "bnxt_en",
       "enabled": true,
       "interface": "Ethernet",
       "mac": "14:23:f2:a4:39:50",
-      "management": false,
-      "model": "BRCM 4P 25G SFP 57504S OCP NIC",
+      "model": "BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet",
       "rate": 25000000000,
-      "vendor": "Broadcom Inc. and subsidiaries"
+      "vendor": "Broadcom"
     },
     {
-      "device": "NIC.Integrated.1-2",
+      "device": "eno12409np1",
+      "driver": "bnxt_en",
       "enabled": true,
       "interface": "Ethernet",
       "mac": "14:23:f2:a4:39:51",
-      "management": false,
-      "model": "BRCM 4P 25G SFP 57504S OCP NIC",
+      "model": "BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet",
       "rate": 25000000000,
-      "vendor": "Broadcom Inc. and subsidiaries"
+      "vendor": "Broadcom"
     },
     {
-      "device": "NIC.Integrated.1-3",
-      "enabled": true,
+      "device": "eno12419np2",
+      "driver": "bnxt_en",
+      "enabled": false,
       "interface": "Ethernet",
       "mac": "14:23:f2:a4:39:52",
-      "management": false,
-      "model": "BRCM 4P 25G SFP 57504S OCP NIC",
-      "vendor": "Broadcom Inc. and subsidiaries"
+      "model": "BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet",
+      "rate": 25000000000,
+      "vendor": "Broadcom"
     },
     {
-      "device": "NIC.Integrated.1-4",
-      "enabled": true,
+      "device": "eno12429np3",
+      "driver": "bnxt_en",
+      "enabled": false,
       "interface": "Ethernet",
       "mac": "14:23:f2:a4:39:53",
-      "management": false,
-      "model": "BRCM 4P 25G SFP 57504S OCP NIC",
-      "vendor": "Broadcom Inc. and subsidiaries"
+      "model": "BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet",
+      "rate": 25000000000,
+      "vendor": "Broadcom"
     }
   ],
   "node_name": "gigaio-compute-05",
   "node_type": "compute_gigaio",
-  "placement": {
-    "node": "0",
-    "rack": ""
-  },
+  "placement": {},
   "processor": {
-    "cache_l1": 4096000,
-    "cache_l2": 32768000,
-    "cache_l3": 262144000,
+    "cache_l1d": 32768,
+    "cache_l1i": 32768,
+    "cache_l2": 524288,
+    "cache_l3": 33554432,
     "clock_speed": 2450000000,
-    "instruction_set": "x86-64",
+    "instruction_set": "x86_64",
     "model": "AMD EPYC 7763 64-Core Processor",
-    "vendor": "AMD",
-    "version": "Model 1 Stepping 1"
+    "vendor": "AMD"
   },
   "storage_devices": [
     {
-      "device": "Disk.Direct.0-0:AHCI.Slot.2-1",
+      "device": "sda",
       "humanized_size": "480 GB",
       "interface": "SATA",
       "media_type": "SSD",
       "model": "SSDSCKKB480GZR",
+      "serial": "PHYK308601JR480B",
       "rev": "7CV1DL74",
-      "size": 480103981056,
-      "vendor": "INTEL"
+      "size": 480000000000
     },
     {
-      "device": "Disk.Direct.1-1:AHCI.Slot.2-1",
+      "device": "sdb",
       "humanized_size": "480 GB",
       "interface": "SATA",
       "media_type": "SSD",
       "model": "SSDSCKKB480GZR",
+      "serial": "PHYK308601FX480B",
       "rev": "7CV1DL74",
-      "size": 480103981056,
-      "vendor": "INTEL"
+      "size": 480000000000
     }
   ],
   "supported_job_types": {
