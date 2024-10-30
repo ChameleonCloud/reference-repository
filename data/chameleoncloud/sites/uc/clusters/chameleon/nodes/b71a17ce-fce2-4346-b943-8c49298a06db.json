@@ -5,9 +5,9 @@
     "smt_size": 48
   },
   "bios": {
-    "release_date": "2018-06-29",
+    "release_date": "2024-08-09",
     "vendor": "Dell",
-    "version": "1.4.9"
+    "version": "2.22.1"
   },
   "chassis": {
     "manufacturer": "Dell",
@@ -15,6 +15,7 @@
     "serial": "9YRZ7M2"
   },
   "gpu": {
+    "gpu": true,
     "gpu_count": 1,
     "gpu_model": "TU102GL [Quadro RTX 6000/8000]",
     "gpu_vendor": "NVIDIA"

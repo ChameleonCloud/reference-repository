@@ -14,6 +14,9 @@
     "name": "PowerEdge R840",
     "serial": "59120D3"
   },
+  "gpu": {
+    "gpu": false
+  },
   "main_memory": {
     "humanized_ram_size": "3840 GiB",
     "ram_size": 4123168604160
