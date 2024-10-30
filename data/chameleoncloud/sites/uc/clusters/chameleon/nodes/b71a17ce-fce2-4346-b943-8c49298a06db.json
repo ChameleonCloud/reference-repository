@@ -15,6 +15,7 @@
     "serial": "9YRZ7M2"
   },
   "gpu": {
+    "gpu": true,
     "gpu_count": 1,
     "gpu_model": "TU102GL [Quadro RTX 6000/8000]",
     "gpu_vendor": "NVIDIA"

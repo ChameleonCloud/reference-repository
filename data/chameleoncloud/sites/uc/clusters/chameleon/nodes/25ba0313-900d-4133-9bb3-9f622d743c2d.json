@@ -14,6 +14,9 @@
     "name": "PowerEdge R6525",
     "serial": "JNHFDX3"
   },
+  "gpu": {
+    "gpu": false
+  },
   "main_memory": {
     "humanized_ram_size": "512 GiB",
     "ram_size": 549755813888

@@ -15,6 +15,7 @@
     "serial": "1PHFDX3"
   },
   "gpu": {
+    "gpu": true,
     "gpu_count": 1,
     "gpu_model": "GA100 [A100 PCIe 80GB]",
     "gpu_vendor": "NVIDIA"
