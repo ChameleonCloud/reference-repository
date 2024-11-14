@@ -14,6 +14,9 @@
     "name": "PowerEdge R650",
     "serial": "GZ7FGT3"
   },
+  "gpu": {
+    "gpu": false
+  },
   "main_memory": {
     "humanized_ram_size": "256 GiB",
     "ram_size": 274877906944
