@@ -14,6 +14,9 @@
     "name": "PowerEdge R740",
     "serial": "76D4KD3"
   },
+  "gpu": {
+    "gpu": false
+  },
   "fpga": {
     "board_model": "Alveo U280",
     "board_vendor": "Xilinx"

@@ -14,6 +14,9 @@
     "name": "PowerEdge R740",
     "serial": "9YN08M2"
   },
+  "gpu": {
+    "gpu": false
+  },
   "fpga": {
     "board_model": "Arria 10 GX 1150",
     "board_vendor": "Altera"

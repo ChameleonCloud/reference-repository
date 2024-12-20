@@ -15,6 +15,7 @@
     "serial": "F1BG3Q3"
   },
   "gpu": {
+    "gpu": true,
     "gpu_count": 4,
     "gpu_model": "GA100 [A100 SXM4 80GB]",
     "gpu_vendor": "NVIDIA"
