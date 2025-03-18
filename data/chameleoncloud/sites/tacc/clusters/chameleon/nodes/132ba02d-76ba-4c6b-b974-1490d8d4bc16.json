@@ -15,6 +15,7 @@
     "serial": "HY7FGT3"
   },
   "gpu": {
+    "gpu": true,
     "gpu_count": 1,
     "gpu_model": "GA100GL [A30 PCIe]",
     "gpu_vendor": "NVIDIA"
