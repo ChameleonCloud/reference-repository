@@ -89,7 +89,7 @@
       "interface": "SATA",
       "media_type": "SSD",
       "model": "SSDSCKKB480GZR",
-      "serial": "PHYK308601JR480B",
+      "serial": "PHYK308601FX480B",
       "rev": "7CV1DL74",
       "size": 480000000000
     },
@@ -99,7 +99,7 @@
       "interface": "SATA",
       "media_type": "SSD",
       "model": "SSDSCKKB480GZR",
-      "serial": "PHYK308601FX480B",
+      "serial": "PHYK308601JR480B",
       "rev": "7CV1DL74",
       "size": 480000000000
     }

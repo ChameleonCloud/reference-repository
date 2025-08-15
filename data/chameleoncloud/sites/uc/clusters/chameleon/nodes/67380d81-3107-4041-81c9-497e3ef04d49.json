@@ -67,6 +67,26 @@
       "model": "BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet",
       "rate": 25000000000,
       "vendor": "Broadcom"
+    },
+    {
+      "device": "eno8303",
+      "driver": "tg3",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "f0:d4:e2:fe:b7:b4",
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
+    },
+    {
+      "device": "eno8403",
+      "driver": "tg3",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "f0:d4:e2:fe:b7:b5",
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
     }
   ],
   "node_name": "gigaio-compute-04",
@@ -89,7 +109,7 @@
       "interface": "SATA",
       "media_type": "SSD",
       "model": "SSDSCKKB480GZR",
-      "serial": "PHYK31100035480B",
+      "serial": "PHYK3110003D480B",
       "rev": "7CV1DL74",
       "size": 480000000000
     },
@@ -99,7 +119,7 @@
       "interface": "SATA",
       "media_type": "SSD",
       "model": "SSDSCKKB480GZR",
-      "serial": "PHYK3110003D480B",
+      "serial": "PHYK31100035480B",
       "rev": "7CV1DL74",
       "size": 480000000000
     }

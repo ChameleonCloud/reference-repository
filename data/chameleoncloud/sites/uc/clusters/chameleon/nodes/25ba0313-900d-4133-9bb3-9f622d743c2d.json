@@ -15,7 +15,10 @@
     "serial": "JNHFDX3"
   },
   "gpu": {
-    "gpu": false
+    "gpu": true,
+    "gpu_count": 1,
+    "gpu_model": "GA100 [A100 PCIe 80GB]",
+    "gpu_vendor": "NVIDIA"
   },
   "main_memory": {
     "humanized_ram_size": "512 GiB",
@@ -86,7 +89,7 @@
       "interface": "SATA",
       "media_type": "SSD",
       "model": "SSDSCKKB480GZR",
-      "serial": "PHYK3086027R480B",
+      "serial": "PHYK3110002X480B",
       "rev": "7CV1DL74",
       "size": 480000000000
     },
@@ -96,7 +99,7 @@
       "interface": "SATA",
       "media_type": "SSD",
       "model": "SSDSCKKB480GZR",
-      "serial": "PHYK3110002X480B",
+      "serial": "PHYK3086027R480B",
       "rev": "7CV1DL74",
       "size": 480000000000
     }

@@ -67,6 +67,26 @@
       "model": "BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet",
       "rate": 25000000000,
       "vendor": "Broadcom"
+    },
+    {
+      "device": "eno8303",
+      "driver": "tg3",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "f0:d4:e2:fe:b0:00",
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
+    },
+    {
+      "device": "eno8403",
+      "driver": "tg3",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "f0:d4:e2:fe:b0:01",
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
     }
   ],
   "node_name": "gigaio-compute-03",
