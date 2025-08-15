@@ -15,10 +15,7 @@
     "serial": "GNHFDX3"
   },
   "gpu": {
-    "gpu": true,
-    "gpu_count": 1,
-    "gpu_model": "GA100 [A100 PCIe 80GB]",
-    "gpu_vendor": "NVIDIA"
+    "gpu": false
   },
   "main_memory": {
     "humanized_ram_size": "512 GiB",
@@ -66,6 +63,26 @@
       "mac": "14:23:f2:a4:0a:03",
       "model": "BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet",
       "rate": 25000000000,
+      "vendor": "Broadcom"
+    },
+    {
+      "device": "eno8303",
+      "driver": "tg3",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "c4:5a:b1:ad:d6:9d",
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
+    },
+    {
+      "device": "eno8403",
+      "driver": "tg3",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "c4:5a:b1:ad:d6:9e",
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "rate": 1000000000,
       "vendor": "Broadcom"
     }
   ],

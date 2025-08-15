@@ -91,7 +91,7 @@
     {
       "device": "ibp75s0",
       "driver": "mlx5_core[ib_ipoib]",
-      "enabled": true,
+      "enabled": false,
       "interface": "InfiniBand",
       "mac": "e8:eb:d3:03:00:08:52:c6",
       "model": "MT28908 Family [ConnectX-6]",

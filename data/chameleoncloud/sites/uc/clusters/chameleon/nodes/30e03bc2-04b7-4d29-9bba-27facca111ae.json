@@ -5,9 +5,9 @@
     "smt_size": 48
   },
   "bios": {
-    "release_date": "2024-02-19",
+    "release_date": "2024-08-09",
     "vendor": "Dell",
-    "version": "2.21.2"
+    "version": "2.22.1"
   },
   "chassis": {
     "manufacturer": "Dell",
