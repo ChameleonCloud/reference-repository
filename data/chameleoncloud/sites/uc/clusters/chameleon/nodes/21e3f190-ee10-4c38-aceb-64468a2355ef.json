@@ -46,44 +46,13 @@
       "vendor": "Mellanox"
     },
     {
-      "device": "eno145",
-      "driver": "tg3",
+      "device": "ibp37s0",
+      "driver": "mlx5_core[ib_ipoib]",
       "enabled": false,
-      "interface": "Ethernet",
-      "mac": "2c:ea:7f:eb:7e:14",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno146",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "2c:ea:7f:eb:7e:15",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno3",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "2c:ea:7f:eb:7e:16",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno4",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "2c:ea:7f:eb:7e:17",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
+      "interface": "InfiniBand",
+      "mac": "1c:34:da:03:00:73:47:12",
+      "model": "MT28908 Family [ConnectX-6]",
+      "vendor": "Mellanox"
     }
   ],
   "node_name": "P3-NVDIMM-002",
