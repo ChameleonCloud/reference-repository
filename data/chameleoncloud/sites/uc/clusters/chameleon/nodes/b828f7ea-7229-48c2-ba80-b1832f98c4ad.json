@@ -2,12 +2,12 @@
   "architecture": {
     "platform_type": "x86_64",
     "smp_size": 4,
-    "smt_size": 224
+    "smt_size": 112
   },
   "bios": {
-    "release_date": "2022-11-16",
+    "release_date": "2024-08-08",
     "vendor": "Dell",
-    "version": "2.17.1"
+    "version": "2.22.0"
   },
   "chassis": {
     "manufacturer": "Dell",
@@ -46,44 +46,13 @@
       "vendor": "Mellanox"
     },
     {
-      "device": "eno145",
-      "driver": "tg3",
+      "device": "ibp37s0",
+      "driver": "mlx5_core[ib_ipoib]",
       "enabled": false,
-      "interface": "Ethernet",
-      "mac": "2c:ea:7f:ea:82:34",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno146",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "2c:ea:7f:ea:82:35",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno3",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "2c:ea:7f:ea:82:36",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno4",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "2c:ea:7f:ea:82:37",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
+      "interface": "InfiniBand",
+      "mac": "1c:34:da:03:00:73:47:0e",
+      "model": "MT28908 Family [ConnectX-6]",
+      "vendor": "Mellanox"
     }
   ],
   "node_name": "P3-NVDIMM-001",
@@ -105,13 +74,13 @@
   "storage_devices": [
     {
       "device": "sda",
-      "humanized_size": "960 GB",
-      "interface": "SAS",
+      "humanized_size": "480 GB",
+      "interface": "SATA",
       "media_type": "SSD",
-      "model": "KPM5XVUG960G",
-      "rev": "B01C",
-      "size": 960000000000,
-      "vendor": "Toshiba"
+      "model": "MTFDDAV480TDS",
+      "serial": "21012C46DDCC",
+      "rev": "D3DJ008",
+      "size": 480000000000
     },
     {
       "device": "sdb",
@@ -119,19 +88,19 @@
       "interface": "SAS",
       "media_type": "SSD",
       "model": "KPM5XVUG960G",
-      "rev": "B01C",
+      "rev": "B02A",
       "size": 960000000000,
       "vendor": "Toshiba"
     },
     {
       "device": "sdc",
-      "humanized_size": "480 GB",
-      "interface": "SATA",
+      "humanized_size": "960 GB",
+      "interface": "SAS",
       "media_type": "SSD",
-      "model": "MTFDDAV480TDS",
-      "serial": "21012C46DDCC",
-      "rev": "D3DJ004",
-      "size": 480000000000
+      "model": "KPM5XVUG960G",
+      "rev": "B02A",
+      "size": 960000000000,
+      "vendor": "Toshiba"
     }
   ],
   "supported_job_types": {
