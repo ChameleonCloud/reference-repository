@@ -1,0 +1,17 @@
+
+{
+  "type": "site",
+  "site_class": "baremetal",
+  "uid": "fiu",
+  "name": "CHI@FIU",
+  "web": "https://cn1.chi.fiu.edu",
+  "description": "Florida International University",
+  "latitude": "",
+  "longitude": "",
+  "location": "datacenter address goes here",
+  "email_contact": "help@chameleoncloud.org",
+  "security_contact": "help@chameleoncloud.org",
+  "sys_admin_contact": "help@chameleoncloud.org",
+  "user_support_contact": "help@chameleoncloud.org"
+}
+
