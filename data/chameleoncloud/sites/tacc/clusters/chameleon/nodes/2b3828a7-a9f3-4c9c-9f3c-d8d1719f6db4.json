@@ -5,51 +5,62 @@
     "smt_size": 48
   },
   "bios": {
-    "release_date": "Jan 13 2022",
-    "vendor": "FUJITSU",
+    "release_date": "2022-01-13",
+    "vendor": "Fujitsu",
     "version": "1.9.0"
   },
   "chassis": {
-    "manufacturer": "FUJITSU",
-    "name": "FX700"
+    "manufacturer": "Fujitsu",
+    "name": "PowerEdge FX700",
+    "serial": "-"
   },
-  "infiniband": "true",
+  "gpu": {
+    "gpu": false
+  },
   "main_memory": {
-    "humanized_ram_size": "32 GiB",
-    "ram_size": 34359738368
+    "ram_size": 34359738368,
+    "humanized_ram_size": "32 GiB"
   },
   "monitoring": {
-    "wattmeter": "false"
+    "wattmeter": false
   },
   "network_adapters": [
     {
-      "device": "eth0",
-      "enabled": "true",
+      "device": "eno1",
+      "driver": "igb",
+      "enabled": true,
       "interface": "Ethernet",
-      "mac": "2C:D4:44:CE:90:B3"
+      "mac": "2c:d4:44:ce:90:b3",
+      "model": "I210 Gigabit Network Connection",
+      "rate": 1000000000,
+      "vendor": "Intel"
     }
   ],
   "node_name": "c10-arm64-06",
   "node_type": "compute_arm64",
+  "placement": {},
   "processor": {
+    "clock_speed": 2000000000,
     "instruction_set": "aarch64",
-    "model": "A64FX",
-    "vendor": "Fujitsu",
-    "cache_l1d": 3145728,
-    "cache_l1i": 3145728,
-    "cache_l2": 33554432
+    "model": "461F0010",
+    "vendor": "Fujitsu"
   },
   "storage_devices": [
     {
-      "device": "/dev/nvme0",
-      "humanized_size": "512 GB",
+      "device": "nvme0n1",
       "interface": "PCIe",
-      "model": "WDC CL SN720 SDAQNTW-512G-1116"
+      "media_type": "SSD",
+      "model": "WDC CL SN720 SDAQNTW-512G-1116",
+      "serial": "201928441813",
+      "rev": "10110116",
+      "size": 512000000000,
+      "vendor": "Sandisk",
+      "humanized_size": "512 GB"
     }
   ],
   "supported_job_types": {
-    "besteffort": "false",
-    "deploy": "true",
+    "besteffort": false,
+    "deploy": true,
     "virtual": "ivt"
   },
   "type": "node",

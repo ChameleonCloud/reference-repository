@@ -5,12 +5,12 @@
     "smt_size": 48
   },
   "bios": {
-    "release_date": "05/17/2018",
-    "vendor": "Dell Inc.",
-    "version": 2.9
+    "release_date": "2018-12-04",
+    "vendor": "Dell",
+    "version": "2.9.1"
   },
   "chassis": {
-    "manufacturer": "Dell Inc.",
+    "manufacturer": "Dell",
     "name": "PowerEdge R730",
     "serial": "1LZHD42"
   },
@@ -18,182 +18,141 @@
     "gpu": false
   },
   "main_memory": {
-    "humanized_ram_size": "512 GiB",
-    "ram_size": 549755813888
+    "ram_size": 549755813888,
+    "humanized_ram_size": "512 GiB"
   },
   "monitoring": {
     "wattmeter": false
   },
   "network_adapters": [
     {
-      "bridged": false,
       "device": "eno1",
       "driver": "bnx2x",
       "enabled": true,
       "interface": "Ethernet",
       "mac": "44:a8:42:26:2b:7a",
-      "management": false,
       "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
-      "mounted": true,
       "rate": 10000000000,
-      "vendor": "Broadcom Corporation"
-    },
-    {
-      "bridged": false,
-      "device": "eno2",
-      "driver": "bnx2x",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "44:a8:42:26:2b:7c",
-      "management": false,
-      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
-      "mounted": false,
-      "rate": 10000000000,
-      "vendor": "Broadcom Corporation"
-    },
-    {
-      "bridged": false,
-      "device": "eno3",
-      "driver": "bnx2x",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "44:a8:42:26:2b:7e",
-      "management": false,
-      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
-      "mounted": false,
-      "rate": 1000000000,
-      "vendor": "Broadcom Corporation"
-    },
-    {
-      "bridged": false,
-      "device": "eno4",
-      "driver": "bnx2x",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "44:a8:42:26:2b:80",
-      "management": false,
-      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
-      "mounted": false,
-      "rate": 1000000000,
-      "vendor": "Broadcom Corporation"
+      "vendor": "Broadcom"
     }
   ],
   "node_name": "c10-21",
   "node_type": "storage_hierarchy",
   "placement": {
-    "rack": 10
+    "rack": "10"
   },
   "processor": {
-    "cache_l1": null,
     "cache_l1d": 32768,
     "cache_l1i": 32768,
     "cache_l2": 262144,
     "cache_l3": 31457280,
-    "clock_speed": 3100000000,
-    "instruction_set": "x86-64",
-    "model": "Intel Xeon",
-    "other_description": "Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz",
-    "vendor": "Intel",
-    "version": "E5-2670 v3"
+    "clock_speed": 2300000000,
+    "instruction_set": "x86_64",
+    "model": "Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz",
+    "vendor": "Intel"
   },
   "storage_devices": [
     {
-      "device": "sda",
-      "driver": null,
-      "humanized_size": "600 GB",
-      "interface": null,
-      "model": "ST600MP0005",
-      "rev": "VT31",
-      "size": 600127266816,
-      "vendor": "Seagate"
-    },
-    {
-      "device": "sdb",
-      "driver": null,
-      "humanized_size": "600 GB",
-      "interface": null,
-      "model": "ST600MP0005",
-      "rev": "VT31",
-      "size": 600127266816,
-      "vendor": "Seagate"
-    },
-    {
-      "device": "sdc",
-      "driver": null,
-      "humanized_size": "600 GB",
-      "interface": null,
-      "model": "ST600MP0005",
-      "rev": "VT31",
-      "size": 600127266816,
-      "vendor": "Seagate"
-    },
-    {
-      "device": "sdd",
-      "driver": null,
-      "humanized_size": "600 GB",
-      "interface": null,
-      "model": "ST600MP0005",
-      "rev": "VT31",
-      "size": 600127266816,
-      "vendor": "Seagate"
-    },
-    {
-      "device": "sde",
-      "driver": null,
-      "humanized_size": "1.6 TB",
-      "interface": null,
-      "model": "INTEL SSDSC2BX01",
-      "rev": "DL29",
-      "size": 1600321314816,
-      "vendor": "Intel"
-    },
-    {
-      "device": "sdf",
-      "driver": null,
-      "humanized_size": "1.6 TB",
-      "interface": null,
-      "model": "INTEL SSDSC2BX01",
-      "rev": "DL29",
-      "size": 1600321314816,
-      "vendor": "Intel"
-    },
-    {
-      "device": "sdg",
-      "driver": null,
-      "humanized_size": "1.6 TB",
-      "interface": null,
-      "model": "INTEL SSDSC2BX01",
-      "rev": "DL29",
-      "size": 1600321314816,
-      "vendor": "Intel"
-    },
-    {
-      "device": "sdh",
-      "driver": null,
-      "humanized_size": "1.6 TB",
-      "interface": null,
-      "model": "INTEL SSDSC2BX01",
-      "rev": "DL29",
-      "size": 1600321314816,
-      "vendor": "Intel"
-    },
-    {
       "device": "nvme0n1",
-      "driver": "nvme",
-      "humanized_size": "2 TB",
       "interface": "PCIe",
-      "model": "P3700",
-      "size": 2000398934016,
-      "vendor": "Intel"
+      "media_type": "SSD",
+      "model": "INTEL SSDPEDMD020T4D HHHL NVMe 2000GB",
+      "serial": "CVFT619600FS2P0EGN",
+      "rev": "8DV1DP01",
+      "size": 2000000000000,
+      "vendor": "Intel",
+      "humanized_size": "2000 GB"
     },
     {
       "device": "nvme1n1",
-      "driver": "nvme",
-      "humanized_size": "2 TB",
       "interface": "PCIe",
-      "model": "P3700",
-      "size": 2000398934016,
-      "vendor": "Intel"
+      "media_type": "SSD",
+      "model": "INTEL SSDPEDMD020T4D HHHL NVMe 2000GB",
+      "serial": "CVFT619600DD2P0EGN",
+      "rev": "8DV1DP01",
+      "size": 2000000000000,
+      "vendor": "Intel",
+      "humanized_size": "2000 GB"
+    },
+    {
+      "device": "sda",
+      "interface": "SAS",
+      "media_type": "SSD",
+      "model": "SSDSC2KG019T8R",
+      "serial": "PHYG912201PG1P9DGN",
+      "rev": "XCV1DL63",
+      "size": 1920000000000,
+      "humanized_size": "1920 GB"
+    },
+    {
+      "device": "sdb",
+      "interface": "SAS",
+      "media_type": "Rotational",
+      "model": "ST600MP0005",
+      "rev": "VT31",
+      "size": 600000000000,
+      "vendor": "Seagate",
+      "humanized_size": "600 GB"
+    },
+    {
+      "device": "sdc",
+      "interface": "SAS",
+      "media_type": "Rotational",
+      "model": "ST600MP0005",
+      "rev": "VT31",
+      "size": 600000000000,
+      "vendor": "Seagate",
+      "humanized_size": "600 GB"
+    },
+    {
+      "device": "sdd",
+      "interface": "SAS",
+      "media_type": "SSD",
+      "model": "SSDSC2KG019T8R",
+      "serial": "PHYG912200CP1P9DGN",
+      "rev": "XCV1DL63",
+      "size": 1920000000000,
+      "humanized_size": "1920 GB"
+    },
+    {
+      "device": "sde",
+      "interface": "SAS",
+      "media_type": "SSD",
+      "model": "SSDSC2KG019T8R",
+      "serial": "PHYG912201MN1P9DGN",
+      "rev": "XCV1DL63",
+      "size": 1920000000000,
+      "humanized_size": "1920 GB"
+    },
+    {
+      "device": "sdf",
+      "interface": "SAS",
+      "media_type": "SSD",
+      "model": "SSDSC2KG019T8R",
+      "serial": "PHYG912200GQ1P9DGN",
+      "rev": "XCV1DL63",
+      "size": 1920000000000,
+      "humanized_size": "1920 GB"
+    },
+    {
+      "device": "sdg",
+      "interface": "SAS",
+      "media_type": "Rotational",
+      "model": "ST600MP0005",
+      "rev": "VT31",
+      "size": 600000000000,
+      "vendor": "Seagate",
+      "humanized_size": "600 GB"
+    },
+    {
+      "device": "sdh",
+      "interface": "SAS",
+      "media_type": "Rotational",
+      "model": "ST600MP0005",
+      "rev": "VT31",
+      "size": 600000000000,
+      "vendor": "Seagate",
+      "humanized_size": "600 GB"
     }
   ],
   "supported_job_types": {

@@ -5,241 +5,224 @@
     "smt_size": 40
   },
   "bios": {
-    "release_date": "06/12/2018",
-    "vendor": "Dell Inc.",
-    "version": "2.8"
+    "release_date": "2018-05-23",
+    "vendor": "Dell",
+    "version": "2.8.0"
   },
   "chassis": {
-    "manufacturer": "Dell Inc.",
-    "name": "PowerEdge FC430",
-    "serial": "GG27F42"
+    "serial": ""
   },
   "gpu": {
     "gpu": false
   },
   "main_memory": {
-    "humanized_ram_size": "64 GiB",
-    "ram_size": 67445407744
+    "ram_size": 68719476736,
+    "humanized_ram_size": "64 GiB"
   },
   "monitoring": {
     "wattmeter": false
   },
   "network_adapters": [
     {
-      "bridged": false,
       "device": "eno1",
       "driver": "bnx2x",
       "enabled": true,
       "interface": "Ethernet",
       "mac": "44:a8:42:9a:dd:c1",
-      "management": false,
-      "model": "NetXtreme II BCM57810 10 Gigabit Ethernet (rev 10)",
-      "mounted": true,
-      "rate": 10000000000,
-      "vendor": "Broadcom Corporation"
+      "model": "NetXtreme II BCM57810 10 Gigabit Ethernet",
+      "vendor": "Broadcom"
     },
     {
-      "bridged": false,
       "device": "eno2",
       "driver": "bnx2x",
-      "enabled": false,
+      "enabled": true,
       "interface": "Ethernet",
       "mac": "44:a8:42:9a:dd:c4",
-      "management": false,
-      "model": "NetXtreme II BCM57810 10 Gigabit Ethernet (rev 10)",
-      "mounted": false,
-      "rate": 10000000000,
-      "vendor": "Broadcom Corporation"
+      "model": "NetXtreme II BCM57810 10 Gigabit Ethernet",
+      "vendor": "Broadcom"
     }
   ],
   "node_name": "c02-45",
   "node_type": "storage",
   "placement": {
-    "rack": 2
+    "rack": "2"
   },
   "processor": {
-    "cache_l1": null,
-    "cache_l1d": 32768,
-    "cache_l1i": 32768,
-    "cache_l2": 262144,
-    "cache_l3": 26214400,
-    "clock_speed": 3000000000,
-    "instruction_set": "x86-64",
-    "model": "Intel Xeon",
-    "other_description": "Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz",
-    "vendor": "Intel",
-    "version": "E5-2650 v3"
+    "clock_speed": 2300000000,
+    "instruction_set": "x86_64",
+    "model": "Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz",
+    "vendor": "Intel"
   },
   "storage_devices": [
     {
       "device": "sda",
-      "driver": "megaraid_sas",
-      "humanized_size": "2 TB",
-      "interface": "SAS",
-      "model": "ST2000NX0273",
-      "rev": "NS27",
-      "size": 2000398934016,
-      "vendor": "Seagate"
+      "interface": "SATA",
+      "media_type": "SSD",
+      "model": "INTEL SSDSC1BG40",
+      "serial": "BTHC514301GC400RGN",
+      "rev": "G201DL23",
+      "size": 400000000000,
+      "humanized_size": "400 GB"
     },
     {
       "device": "sdb",
-      "driver": "megaraid_sas",
-      "humanized_size": "2 TB",
       "interface": "SAS",
+      "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
-      "size": 2000398934016,
-      "vendor": "Seagate"
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "humanized_size": "2000 GB"
     },
     {
       "device": "sdc",
-      "driver": "megaraid_sas",
-      "humanized_size": "2 TB",
       "interface": "SAS",
+      "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
-      "size": 2000398934016,
-      "vendor": "Seagate"
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "humanized_size": "2000 GB"
     },
     {
       "device": "sdd",
-      "driver": "megaraid_sas",
-      "humanized_size": "2 TB",
       "interface": "SAS",
+      "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
-      "size": 2000398934016,
-      "vendor": "Seagate"
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "humanized_size": "2000 GB"
     },
     {
       "device": "sde",
-      "driver": "megaraid_sas",
-      "humanized_size": "2 TB",
       "interface": "SAS",
+      "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
-      "size": 2000398934016,
-      "vendor": "Seagate"
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "humanized_size": "2000 GB"
     },
     {
       "device": "sdf",
-      "driver": "megaraid_sas",
-      "humanized_size": "2 TB",
       "interface": "SAS",
+      "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
-      "size": 2000398934016,
-      "vendor": "Seagate"
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "humanized_size": "2000 GB"
     },
     {
       "device": "sdg",
-      "driver": "megaraid_sas",
-      "humanized_size": "2 TB",
       "interface": "SAS",
+      "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
-      "size": 2000398934016,
-      "vendor": "Seagate"
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "humanized_size": "2000 GB"
     },
     {
       "device": "sdh",
-      "driver": "megaraid_sas",
-      "humanized_size": "2 TB",
       "interface": "SAS",
+      "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
-      "size": 2000398934016,
-      "vendor": "Seagate"
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "humanized_size": "2000 GB"
     },
     {
       "device": "sdi",
-      "driver": "megaraid_sas",
-      "humanized_size": "2 TB",
       "interface": "SAS",
+      "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
-      "size": 2000398934016,
-      "vendor": "Seagate"
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "humanized_size": "2000 GB"
     },
     {
       "device": "sdj",
-      "driver": "megaraid_sas",
-      "humanized_size": "2 TB",
       "interface": "SAS",
+      "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
-      "size": 2000398934016,
-      "vendor": "Seagate"
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "humanized_size": "2000 GB"
     },
     {
       "device": "sdk",
-      "driver": "megaraid_sas",
-      "humanized_size": "2 TB",
       "interface": "SAS",
+      "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
-      "size": 2000398934016,
-      "vendor": "Seagate"
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "humanized_size": "2000 GB"
     },
     {
       "device": "sdl",
-      "driver": "megaraid_sas",
-      "humanized_size": "2 TB",
       "interface": "SAS",
+      "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
-      "size": 2000398934016,
-      "vendor": "Seagate"
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "humanized_size": "2000 GB"
     },
     {
       "device": "sdm",
-      "driver": "megaraid_sas",
-      "humanized_size": "2 TB",
       "interface": "SAS",
+      "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
-      "size": 2000398934016,
-      "vendor": "Seagate"
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "humanized_size": "2000 GB"
     },
     {
       "device": "sdn",
-      "driver": "megaraid_sas",
-      "humanized_size": "2 TB",
       "interface": "SAS",
+      "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
-      "size": 2000398934016,
-      "vendor": "Seagate"
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "humanized_size": "2000 GB"
     },
     {
       "device": "sdo",
-      "driver": "megaraid_sas",
-      "humanized_size": "2 TB",
       "interface": "SAS",
+      "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
-      "size": 2000398934016,
-      "vendor": "Seagate"
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "humanized_size": "2000 GB"
     },
     {
       "device": "sdp",
-      "driver": "megaraid_sas",
-      "humanized_size": "2 TB",
       "interface": "SAS",
+      "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
-      "size": 2000398934016,
-      "vendor": "Seagate"
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "humanized_size": "2000 GB"
     },
     {
       "device": "sdq",
-      "driver": "ahci",
-      "humanized_size": "400 GB",
-      "interface": "SATA",
-      "model": "INTEL SSDSC1BG40",
-      "rev": "DL23",
-      "size": 400088457216,
-      "vendor": "Intel"
+      "interface": "SAS",
+      "media_type": "Rotational",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "humanized_size": "2000 GB"
     }
   ],
   "supported_job_types": {

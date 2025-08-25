@@ -14,9 +14,12 @@
     "name": "PowerEdge R740",
     "serial": "GNK00M2"
   },
+  "gpu": {
+    "gpu": false
+  },
   "main_memory": {
-    "humanized_ram_size": "192 GiB",
-    "ram_size": 206158430208
+    "ram_size": 206158430208,
+    "humanized_ram_size": "192 GiB"
   },
   "monitoring": {
     "wattmeter": false
@@ -30,36 +33,6 @@
       "mac": "24:6e:96:62:ad:cc",
       "model": "Ethernet Controller X710 for 10GbE SFP+",
       "rate": 10000000000,
-      "vendor": "Intel"
-    },
-    {
-      "device": "eno2",
-      "driver": "i40e",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "24:6e:96:62:ad:ce",
-      "model": "Ethernet Controller X710 for 10GbE SFP+",
-      "rate": 10000000000,
-      "vendor": "Intel"
-    },
-    {
-      "device": "eno3",
-      "driver": "igb",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "24:6e:96:62:ad:ec",
-      "model": "I350 Gigabit Network Connection",
-      "rate": 1000000000,
-      "vendor": "Intel"
-    },
-    {
-      "device": "eno4",
-      "driver": "igb",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "24:6e:96:62:ad:ed",
-      "model": "I350 Gigabit Network Connection",
-      "rate": 1000000000,
       "vendor": "Intel"
     }
   ],
@@ -81,13 +54,13 @@
   "storage_devices": [
     {
       "device": "sda",
-      "humanized_size": "240 GB",
       "interface": "SAS",
       "media_type": "SSD",
       "model": "SSDSC2KG240G8R",
       "serial": "BTYG907606SA240AGN",
       "rev": "XCV1DL63",
-      "size": 240000000000
+      "size": 240000000000,
+      "humanized_size": "240 GB"
     }
   ],
   "supported_job_types": {

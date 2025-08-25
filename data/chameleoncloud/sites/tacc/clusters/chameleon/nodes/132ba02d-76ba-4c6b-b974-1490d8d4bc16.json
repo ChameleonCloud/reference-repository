@@ -21,53 +21,13 @@
     "gpu_vendor": "NVIDIA"
   },
   "main_memory": {
-    "humanized_ram_size": "256 GiB",
-    "ram_size": 274877906944
+    "ram_size": 274877906944,
+    "humanized_ram_size": "256 GiB"
   },
   "monitoring": {
     "wattmeter": false
   },
   "network_adapters": [
-    {
-      "device": "eno12399",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "00:62:0b:4b:ce:90",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno12409",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "00:62:0b:4b:ce:91",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno12419",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "00:62:0b:4b:ce:92",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno12429",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "00:62:0b:4b:ce:93",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
     {
       "device": "enp130s0np0",
       "driver": "mlx5_core",
@@ -77,26 +37,6 @@
       "model": "MT28908 Family [ConnectX-6]",
       "rate": 40000000000,
       "vendor": "Mellanox"
-    },
-    {
-      "device": "eno8303",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "c8:4b:d6:84:ed:e6",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno8403",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "c8:4b:d6:84:ed:e7",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
     }
   ],
   "node_name": "gigaio02",
@@ -115,13 +55,13 @@
   "storage_devices": [
     {
       "device": "sda",
-      "humanized_size": "480 GB",
       "interface": "SAS",
       "media_type": "SSD",
       "model": "MTFDDAK480TDS",
       "serial": "222539B91522",
       "rev": "D3DJ004",
-      "size": 480000000000
+      "size": 480000000000,
+      "humanized_size": "480 GB"
     }
   ],
   "supported_job_types": {

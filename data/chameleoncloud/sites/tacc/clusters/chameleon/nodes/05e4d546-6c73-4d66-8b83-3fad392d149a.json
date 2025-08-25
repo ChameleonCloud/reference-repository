@@ -14,9 +14,12 @@
     "name": "PowerEdge R740",
     "serial": "H5KFH63"
   },
+  "gpu": {
+    "gpu": false
+  },
   "main_memory": {
-    "humanized_ram_size": "192 GiB",
-    "ram_size": 206158430208
+    "ram_size": 206158430208,
+    "humanized_ram_size": "192 GiB"
   },
   "monitoring": {
     "wattmeter": false
@@ -61,13 +64,13 @@
   "storage_devices": [
     {
       "device": "sda",
-      "humanized_size": "480 GB",
       "interface": "SAS",
       "media_type": "SSD",
       "model": "MTFDDAK480TDS",
       "serial": "2028299F2D54",
       "rev": "D3DJ004",
-      "size": 480000000000
+      "size": 480000000000,
+      "humanized_size": "480 GB"
     }
   ],
   "supported_job_types": {

@@ -14,54 +14,17 @@
     "name": "PowerEdge R750",
     "serial": "6J6Z5S3"
   },
+  "gpu": {
+    "gpu": false
+  },
   "main_memory": {
-    "humanized_ram_size": "256 GiB",
-    "ram_size": 274877906944
+    "ram_size": 274877906944,
+    "humanized_ram_size": "256 GiB"
   },
   "monitoring": {
     "wattmeter": false
   },
   "network_adapters": [
-    {
-      "device": "eno12399",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "00:62:0b:4a:20:dc",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno12409",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "00:62:0b:4a:20:dd",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno12419",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "00:62:0b:4a:20:de",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno12429",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "00:62:0b:4a:20:df",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
     {
       "device": "ens6f0np0",
       "driver": "bnxt_en",
@@ -81,26 +44,6 @@
       "model": "BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller",
       "rate": 25000000000,
       "vendor": "Broadcom"
-    },
-    {
-      "device": "eno8303",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "c8:4b:d6:80:12:e0",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno8403",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "c8:4b:d6:80:12:e1",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
     }
   ],
   "node_name": "c14-01",
@@ -119,13 +62,13 @@
   "storage_devices": [
     {
       "device": "sda",
-      "humanized_size": "480 GB",
       "interface": "SAS",
       "media_type": "SSD",
       "model": "MTFDDAK480TDS",
       "serial": "22223885369D",
       "rev": "D3DJ004",
-      "size": 480000000000
+      "size": 480000000000,
+      "humanized_size": "480 GB"
     }
   ],
   "supported_job_types": {
