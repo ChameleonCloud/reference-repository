@@ -14,9 +14,12 @@
     "name": "PowerEdge R650",
     "serial": "GT4FGT3"
   },
+  "gpu": {
+    "gpu": false
+  },
   "main_memory": {
-    "humanized_ram_size": "256 GiB",
-    "ram_size": 274877906944
+    "ram_size": 274877906944,
+    "humanized_ram_size": "256 GiB"
   },
   "monitoring": {
     "wattmeter": false
@@ -33,16 +36,6 @@
       "vendor": "Broadcom"
     },
     {
-      "device": "eno12409np1",
-      "driver": "bnxt_en",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "14:23:f2:16:1f:81",
-      "model": "BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller",
-      "rate": 25000000000,
-      "vendor": "Broadcom"
-    },
-    {
       "device": "enp152s0np0",
       "driver": "mlx5_core",
       "enabled": true,
@@ -51,26 +44,6 @@
       "model": "MT28908 Family [ConnectX-6]",
       "rate": 40000000000,
       "vendor": "Mellanox"
-    },
-    {
-      "device": "eno8303",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "c8:4b:d6:84:ec:c6",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno8403",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "c8:4b:d6:84:ec:c7",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
     }
   ],
   "node_name": "c15-09",
@@ -89,13 +62,13 @@
   "storage_devices": [
     {
       "device": "sda",
-      "humanized_size": "480 GB",
       "interface": "SAS",
       "media_type": "SSD",
       "model": "MTFDDAK480TDS",
       "serial": "222539B94654",
       "rev": "D3DJ004",
-      "size": 480000000000
+      "size": 480000000000,
+      "humanized_size": "480 GB"
     }
   ],
   "supported_job_types": {

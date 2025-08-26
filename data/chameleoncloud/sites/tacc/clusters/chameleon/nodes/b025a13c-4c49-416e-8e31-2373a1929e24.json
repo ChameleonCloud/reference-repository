@@ -14,34 +14,17 @@
     "name": "PowerEdge R740",
     "serial": "HZVN903"
   },
+  "gpu": {
+    "gpu": false
+  },
   "main_memory": {
-    "humanized_ram_size": "192 GiB",
-    "ram_size": 206158430208
+    "ram_size": 206158430208,
+    "humanized_ram_size": "192 GiB"
   },
   "monitoring": {
     "wattmeter": false
   },
   "network_adapters": [
-    {
-      "device": "eno3",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "b0:26:28:ea:ad:6e",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno4",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "b0:26:28:ea:ad:6f",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
     {
       "device": "eno1np0",
       "driver": "bnxt_en",
@@ -81,13 +64,13 @@
   "storage_devices": [
     {
       "device": "sda",
-      "humanized_size": "240 GB",
       "interface": "SAS",
       "media_type": "SSD",
       "model": "THNSF8240CCSE",
       "serial": "39AS108BTCTQ",
       "rev": "DACB",
-      "size": 240000000000
+      "size": 240000000000,
+      "humanized_size": "240 GB"
     }
   ],
   "supported_job_types": {
