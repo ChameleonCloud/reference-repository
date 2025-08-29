@@ -22,22 +22,13 @@
     "board_vendor": "Xilinx"
   },
   "main_memory": {
-    "humanized_ram_size": "192 GiB",
-    "ram_size": 206158430208
+    "ram_size": 206158430208,
+    "humanized_ram_size": "192 GiB"
   },
   "monitoring": {
     "wattmeter": false
   },
   "network_adapters": [
-    {
-      "device": "ibp59s0",
-      "driver": "mlx5_core[ib_ipoib]",
-      "enabled": false,
-      "interface": "InfiniBand",
-      "mac": "1c:34:da:03:00:47:43:90",
-      "model": "MT28908 Family [ConnectX-6]",
-      "vendor": "Mellanox"
-    },
     {
       "device": "eno1np0",
       "driver": "mlx5_core",
@@ -67,16 +58,6 @@
       "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
       "rate": 1000000000,
       "vendor": "Broadcom"
-    },
-    {
-      "device": "ens7f1",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "e4:3d:1a:2d:d7:c9",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
     }
   ],
   "node_name": "P3-CPU-038",
@@ -98,13 +79,13 @@
   "storage_devices": [
     {
       "device": "sda",
-      "humanized_size": "480 GB",
       "interface": "SAS",
       "media_type": "SSD",
       "model": "SSDSC2KB480G8R",
       "serial": "BTYF105101ZE480BGN",
       "rev": "XCV1DL6B",
-      "size": 480000000000
+      "size": 480000000000,
+      "humanized_size": "480 GB"
     }
   ],
   "supported_job_types": {

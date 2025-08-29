@@ -18,8 +18,8 @@
     "gpu": false
   },
   "main_memory": {
-    "humanized_ram_size": "256 GiB",
-    "ram_size": 274877906944
+    "ram_size": 274877906944,
+    "humanized_ram_size": "256 GiB"
   },
   "monitoring": {
     "wattmeter": false
@@ -33,26 +33,6 @@
       "mac": "0c:42:a1:03:00:19:4d:9a",
       "model": "MT28908 Family [ConnectX-6]",
       "vendor": "Mellanox"
-    },
-    {
-      "device": "eno1",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "70:b5:e8:d0:a2:9e",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno2",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "70:b5:e8:d0:a2:9f",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
     },
     {
       "device": "eno33np0",
@@ -94,34 +74,34 @@
   "storage_devices": [
     {
       "device": "nvme0n1",
-      "humanized_size": "7682 GB",
       "interface": "PCIe",
       "media_type": "SSD",
       "model": "SAMSUNG MZWLJ7T6HALA-00007",
       "serial": "S546NE0R801311",
       "rev": "EPK9AB5Q",
-      "size": 7681000000000
+      "size": 7681000000000,
+      "humanized_size": "7681 GB"
     },
     {
       "device": "nvme1n1",
-      "humanized_size": "960 GB",
       "interface": "PCIe",
       "media_type": "SSD",
       "model": "Dell Express Flash CD5 960G SFF",
       "serial": "90F0A08MTAFR",
       "rev": "1.2.0",
       "size": 960000000000,
-      "vendor": "Toshiba"
+      "vendor": "Toshiba",
+      "humanized_size": "960 GB"
     },
     {
       "device": "nvme2n1",
-      "humanized_size": "7682 GB",
       "interface": "PCIe",
       "media_type": "SSD",
       "model": "SAMSUNG MZWLJ7T6HALA-00007",
       "serial": "S546NE0R801312",
       "rev": "EPK9AB5Q",
-      "size": 7681000000000
+      "size": 7681000000000,
+      "humanized_size": "7681 GB"
     }
   ],
   "supported_job_types": {
