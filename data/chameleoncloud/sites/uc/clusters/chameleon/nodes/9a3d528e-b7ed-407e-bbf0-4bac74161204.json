@@ -18,8 +18,8 @@
     "gpu": false
   },
   "main_memory": {
-    "humanized_ram_size": "256 GiB",
-    "ram_size": 274877906944
+    "ram_size": 274877906944,
+    "humanized_ram_size": "256 GiB"
   },
   "monitoring": {
     "wattmeter": false
@@ -33,26 +33,6 @@
       "mac": "0c:42:a1:03:00:19:4d:6a",
       "model": "MT28908 Family [ConnectX-6]",
       "vendor": "Mellanox"
-    },
-    {
-      "device": "eno1",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "70:b5:e8:d0:a1:b2",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno2",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "70:b5:e8:d0:a1:b3",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
     },
     {
       "device": "eno33np0",
@@ -94,36 +74,36 @@
   "storage_devices": [
     {
       "device": "nvme0n1",
-      "humanized_size": "7682 GB",
       "interface": "PCIe",
       "media_type": "SSD",
       "model": "INTEL SSDPF2KX076TZ",
       "serial": "PHAC139300DA7P6CGN",
       "rev": "JCV10100",
       "size": 7681000000000,
-      "vendor": "Intel"
+      "vendor": "Intel",
+      "humanized_size": "7681 GB"
     },
     {
       "device": "nvme1n1",
-      "humanized_size": "960 GB",
       "interface": "PCIe",
       "media_type": "SSD",
       "model": "Dell Express Flash CD5 960G SFF",
       "serial": "90F0A08ATAFR",
       "rev": "1.2.0",
       "size": 960000000000,
-      "vendor": "Toshiba"
+      "vendor": "Toshiba",
+      "humanized_size": "960 GB"
     },
     {
       "device": "nvme2n1",
-      "humanized_size": "7682 GB",
       "interface": "PCIe",
       "media_type": "SSD",
       "model": "INTEL SSDPF2KX076TZ",
       "serial": "PHAC1306034G7P6CGN",
       "rev": "JCV10100",
       "size": 7681000000000,
-      "vendor": "Intel"
+      "vendor": "Intel",
+      "humanized_size": "7681 GB"
     }
   ],
   "supported_job_types": {

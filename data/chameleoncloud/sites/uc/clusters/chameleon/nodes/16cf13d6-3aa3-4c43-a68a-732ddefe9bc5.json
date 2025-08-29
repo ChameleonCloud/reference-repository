@@ -18,8 +18,8 @@
     "gpu": false
   },
   "main_memory": {
-    "humanized_ram_size": "192 GiB",
-    "ram_size": 206158430208
+    "ram_size": 206158430208,
+    "humanized_ram_size": "192 GiB"
   },
   "monitoring": {
     "wattmeter": false
@@ -44,26 +44,6 @@
       "model": "MT27710 Family [ConnectX-4 Lx]",
       "rate": 25000000000,
       "vendor": "Mellanox"
-    },
-    {
-      "device": "ens7f0",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "e4:3d:1a:2d:db:24",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "ens7f1",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "e4:3d:1a:2d:db:25",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
     }
   ],
   "node_name": "P3-CPU-006",
@@ -85,13 +65,13 @@
   "storage_devices": [
     {
       "device": "sda",
-      "humanized_size": "480 GB",
       "interface": "SAS",
       "media_type": "SSD",
       "model": "SSDSC2KB480G8R",
       "serial": "BTYF10510246480BGN",
       "rev": "XCV1DL69",
-      "size": 480000000000
+      "size": 480000000000,
+      "humanized_size": "480 GB"
     }
   ],
   "supported_job_types": {

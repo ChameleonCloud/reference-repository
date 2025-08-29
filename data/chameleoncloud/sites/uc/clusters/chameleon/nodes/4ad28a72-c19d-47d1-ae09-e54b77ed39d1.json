@@ -18,8 +18,8 @@
     "gpu": false
   },
   "main_memory": {
-    "humanized_ram_size": "256 GiB",
-    "ram_size": 274877906944
+    "ram_size": 274877906944,
+    "humanized_ram_size": "256 GiB"
   },
   "monitoring": {
     "wattmeter": false
@@ -33,26 +33,6 @@
       "mac": "0c:42:a1:03:00:19:4d:72",
       "model": "MT28908 Family [ConnectX-6]",
       "vendor": "Mellanox"
-    },
-    {
-      "device": "eno1",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "70:b5:e8:d0:a4:78",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno2",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "70:b5:e8:d0:a4:79",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
     },
     {
       "device": "eno33np0",
@@ -94,36 +74,36 @@
   "storage_devices": [
     {
       "device": "nvme0n1",
-      "humanized_size": "2000 GB",
       "interface": "PCIe",
       "media_type": "SSD",
       "model": "Corsair MP600 PRO LPX",
       "serial": "A5JQB35006ASNS",
       "rev": "EIFM80.0",
       "size": 2000000000000,
-      "vendor": "Phison"
+      "vendor": "Phison",
+      "humanized_size": "2000 GB"
     },
     {
       "device": "nvme1n1",
-      "humanized_size": "2000 GB",
       "interface": "PCIe",
       "media_type": "SSD",
       "model": "Corsair MP600 PRO LPX",
       "serial": "A5JQB350069M0Y",
       "rev": "EIFM80.0",
       "size": 2000000000000,
-      "vendor": "Phison"
+      "vendor": "Phison",
+      "humanized_size": "2000 GB"
     },
     {
       "device": "nvme2n1",
-      "humanized_size": "960 GB",
       "interface": "PCIe",
       "media_type": "SSD",
       "model": "Dell Express Flash CD5 960G SFF",
       "serial": "90F0A08CTAFR",
       "rev": "1.2.0",
       "size": 960000000000,
-      "vendor": "Toshiba"
+      "vendor": "Toshiba",
+      "humanized_size": "960 GB"
     }
   ],
   "supported_job_types": {
