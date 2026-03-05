@@ -77,5 +77,6 @@
     "virtual": "ivt"
   },
   "type": "node",
-  "uid": "a41c9c5e-2de1-4af6-9a8e-2390e0d6a37b"
+  "uid": "a41c9c5e-2de1-4af6-9a8e-2390e0d6a37b",
+  "admin_note": "This node has Intel SGX-capable hardware. Enabling SGX support may require a BIOS change, which can be done by submitting a support ticket."
 }
