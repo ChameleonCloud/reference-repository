@@ -18,8 +18,8 @@
     "gpu": false
   },
   "main_memory": {
-    "humanized_ram_size": "192 GiB",
-    "ram_size": 206158430208
+    "ram_size": 206158430208,
+    "humanized_ram_size": "192 GiB"
   },
   "monitoring": {
     "wattmeter": false
@@ -44,26 +44,6 @@
       "model": "Ethernet Controller X710 for 10GbE SFP+",
       "rate": 10000000000,
       "vendor": "Intel"
-    },
-    {
-      "device": "eno3",
-      "driver": "igb",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "24:6e:96:7d:fa:8c",
-      "model": "I350 Gigabit Network Connection",
-      "rate": 1000000000,
-      "vendor": "Intel"
-    },
-    {
-      "device": "eno4",
-      "driver": "igb",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "24:6e:96:7d:fa:8d",
-      "model": "I350 Gigabit Network Connection",
-      "rate": 1000000000,
-      "vendor": "Intel"
     }
   ],
   "node_name": "nc49",
@@ -85,13 +65,13 @@
   "storage_devices": [
     {
       "device": "sda",
-      "humanized_size": "480 GB",
       "interface": "SAS",
       "media_type": "SSD",
       "model": "MZ7KH480HAHQ0D3",
       "serial": "S5CNNA0T400363",
       "rev": "HF58",
-      "size": 480000000000
+      "size": 480000000000,
+      "humanized_size": "480 GB"
     }
   ],
   "supported_job_types": {

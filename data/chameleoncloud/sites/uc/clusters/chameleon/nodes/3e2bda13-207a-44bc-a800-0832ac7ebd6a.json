@@ -21,8 +21,8 @@
     "gpu_vendor": "NVIDIA"
   },
   "main_memory": {
-    "humanized_ram_size": "512 GiB",
-    "ram_size": 549755813888
+    "ram_size": 549755813888,
+    "humanized_ram_size": "512 GiB"
   },
   "monitoring": {
     "wattmeter": false
@@ -47,26 +47,6 @@
       "model": "BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet",
       "rate": 25000000000,
       "vendor": "Broadcom"
-    },
-    {
-      "device": "eno12419np2",
-      "driver": "bnxt_en",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "14:23:f2:a4:39:52",
-      "model": "BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet",
-      "rate": 25000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno12429np3",
-      "driver": "bnxt_en",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "14:23:f2:a4:39:53",
-      "model": "BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet",
-      "rate": 25000000000,
-      "vendor": "Broadcom"
     }
   ],
   "node_name": "gigaio-compute-05",
@@ -85,23 +65,23 @@
   "storage_devices": [
     {
       "device": "sda",
-      "humanized_size": "480 GB",
-      "interface": "SATA",
-      "media_type": "SSD",
-      "model": "SSDSCKKB480GZR",
-      "serial": "PHYK308601FX480B",
-      "rev": "7CV1DL74",
-      "size": 480000000000
-    },
-    {
-      "device": "sdb",
-      "humanized_size": "480 GB",
       "interface": "SATA",
       "media_type": "SSD",
       "model": "SSDSCKKB480GZR",
       "serial": "PHYK308601JR480B",
       "rev": "7CV1DL74",
-      "size": 480000000000
+      "size": 480000000000,
+      "humanized_size": "480 GB"
+    },
+    {
+      "device": "sdb",
+      "interface": "SATA",
+      "media_type": "SSD",
+      "model": "SSDSCKKB480GZR",
+      "serial": "PHYK308601FX480B",
+      "rev": "7CV1DL74",
+      "size": 480000000000,
+      "humanized_size": "480 GB"
     }
   ],
   "supported_job_types": {

@@ -5,9 +5,9 @@
     "smt_size": 256
   },
   "bios": {
-    "release_date": "2022-06-23",
+    "release_date": "2025-11-11",
     "vendor": "Dell",
-    "version": "2.8.4"
+    "version": "2.20.0"
   },
   "chassis": {
     "manufacturer": "Dell",
@@ -21,8 +21,8 @@
     "gpu_vendor": "NVIDIA"
   },
   "main_memory": {
-    "humanized_ram_size": "512 GiB",
-    "ram_size": 549755813888
+    "ram_size": 549755813888,
+    "humanized_ram_size": "512 GiB"
   },
   "monitoring": {
     "wattmeter": false
@@ -47,46 +47,6 @@
       "model": "Ethernet Controller E810-C for SFP",
       "rate": 25000000000,
       "vendor": "Intel"
-    },
-    {
-      "device": "eno12419",
-      "driver": "ice",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "40:a6:b7:83:89:1a",
-      "model": "Ethernet Controller E810-C for SFP",
-      "rate": 25000000000,
-      "vendor": "Intel"
-    },
-    {
-      "device": "eno12429",
-      "driver": "ice",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "40:a6:b7:83:89:1b",
-      "model": "Ethernet Controller E810-C for SFP",
-      "rate": 25000000000,
-      "vendor": "Intel"
-    },
-    {
-      "device": "eno8303",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "70:b5:e8:d1:30:a0",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno8403",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "70:b5:e8:d1:30:a1",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
     },
     {
       "device": "ibp37s0",
@@ -114,13 +74,13 @@
   "storage_devices": [
     {
       "device": "nvme0n1",
-      "humanized_size": "1920 GB",
       "interface": "PCIe",
       "media_type": "SSD",
       "model": "Dell Ent NVMe v2 AGN RI U.2 1.92TB",
       "serial": "S6CSNA0R904038",
-      "rev": "2.2.0",
-      "size": 1920000000000
+      "rev": "2.5.0",
+      "size": 1920000000000,
+      "humanized_size": "1920 GB"
     }
   ],
   "supported_job_types": {

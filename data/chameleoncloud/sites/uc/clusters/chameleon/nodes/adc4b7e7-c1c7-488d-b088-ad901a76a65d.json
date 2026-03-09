@@ -21,8 +21,8 @@
     "gpu_vendor": "NVIDIA"
   },
   "main_memory": {
-    "humanized_ram_size": "512 GiB",
-    "ram_size": 549755813888
+    "ram_size": 549755813888,
+    "humanized_ram_size": "512 GiB"
   },
   "monitoring": {
     "wattmeter": false
@@ -47,58 +47,10 @@
       "model": "Ethernet Controller E810-C for SFP",
       "rate": 25000000000,
       "vendor": "Intel"
-    },
-    {
-      "device": "eno12419",
-      "driver": "ice",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "40:a6:b7:83:86:ba",
-      "model": "Ethernet Controller E810-C for SFP",
-      "rate": 25000000000,
-      "vendor": "Intel"
-    },
-    {
-      "device": "eno12429",
-      "driver": "ice",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "40:a6:b7:83:86:bb",
-      "model": "Ethernet Controller E810-C for SFP",
-      "rate": 25000000000,
-      "vendor": "Intel"
-    },
-    {
-      "device": "eno8303",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "d0:8e:79:f7:a2:00",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "eno8403",
-      "driver": "tg3",
-      "enabled": false,
-      "interface": "Ethernet",
-      "mac": "d0:8e:79:f7:a2:01",
-      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
-      "rate": 1000000000,
-      "vendor": "Broadcom"
-    },
-    {
-      "device": "ibp75s0",
-      "driver": "mlx5_core[ib_ipoib]",
-      "enabled": false,
-      "interface": "InfiniBand",
-      "mac": "e8:eb:d3:03:00:08:52:c6",
-      "model": "MT28908 Family [ConnectX-6]",
-      "vendor": "Mellanox"
     }
   ],
   "node_name": "307G3Q3",
+  "admin_note": "This node has Intel SGX-capable hardware. Enabling SGX support may require a BIOS change, which can be done by submitting a support ticket.",
   "node_type": "gpu_a100_pcie",
   "placement": {},
   "processor": {
@@ -114,13 +66,13 @@
   "storage_devices": [
     {
       "device": "nvme0n1",
-      "humanized_size": "1920 GB",
       "interface": "PCIe",
       "media_type": "SSD",
       "model": "Dell Ent NVMe v2 AGN RI U.2 1.92TB",
       "serial": "S6CSNA0R904746",
       "rev": "2.2.0",
-      "size": 1920000000000
+      "size": 1920000000000,
+      "humanized_size": "1920 GB"
     }
   ],
   "supported_job_types": {
@@ -129,6 +81,5 @@
     "virtual": "ivt"
   },
   "type": "node",
-  "uid": "adc4b7e7-c1c7-488d-b088-ad901a76a65d",
-  "admin_note": "This node has Intel SGX-capable hardware. Enabling SGX support may require a BIOS change, which can be done by submitting a support ticket."
+  "uid": "adc4b7e7-c1c7-488d-b088-ad901a76a65d"
 }
