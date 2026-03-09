@@ -17,9 +17,10 @@
   "gpu": {
     "gpu": false
   },
+  "infiniband": true,
   "main_memory": {
-    "ram_size": 274877906944,
-    "humanized_ram_size": "256 GiB"
+    "humanized_ram_size": "256 GiB",
+    "ram_size": 274877906944
   },
   "monitoring": {
     "wattmeter": false
@@ -74,34 +75,37 @@
   "storage_devices": [
     {
       "device": "nvme0n1",
+      "humanized_size": "7681 GB",
       "interface": "PCIe",
       "media_type": "SSD",
       "model": "SAMSUNG MZWLJ7T6HALA-00007",
-      "serial": "S546NE0R801311",
       "rev": "EPK9AB5Q",
+      "serial": "S546NE0R801311",
       "size": 7681000000000,
-      "humanized_size": "7681 GB"
-    },
-    {
-      "device": "nvme1n1",
-      "interface": "PCIe",
-      "media_type": "SSD",
-      "model": "Dell Express Flash CD5 960G SFF",
-      "serial": "90F0A08MTAFR",
-      "rev": "1.2.0",
-      "size": 960000000000,
-      "vendor": "Toshiba",
-      "humanized_size": "960 GB"
+      "wwn": "eui.35343630528013110025384500000003"
     },
     {
       "device": "nvme2n1",
+      "humanized_size": "7681 GB",
       "interface": "PCIe",
       "media_type": "SSD",
       "model": "SAMSUNG MZWLJ7T6HALA-00007",
-      "serial": "S546NE0R801312",
       "rev": "EPK9AB5Q",
+      "serial": "S546NE0R801312",
       "size": 7681000000000,
-      "humanized_size": "7681 GB"
+      "wwn": "eui.35343630528013120025384500000003"
+    },
+    {
+      "device": "nvme1n1",
+      "humanized_size": "960 GB",
+      "interface": "PCIe",
+      "media_type": "SSD",
+      "model": "Dell Express Flash CD5 960G SFF",
+      "rev": "1.2.0",
+      "serial": "90F0A08MTAFR",
+      "size": 960000000000,
+      "vendor": "Toshiba",
+      "wwn": "eui.e2038c6c010000008ce38e0000000000"
     }
   ],
   "supported_job_types": {

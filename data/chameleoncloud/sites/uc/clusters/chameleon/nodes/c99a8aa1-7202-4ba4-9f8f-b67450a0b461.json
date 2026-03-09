@@ -17,9 +17,10 @@
   "gpu": {
     "gpu": false
   },
+  "infiniband": false,
   "main_memory": {
-    "ram_size": 206158430208,
-    "humanized_ram_size": "192 GiB"
+    "humanized_ram_size": "192 GiB",
+    "ram_size": 206158430208
   },
   "monitoring": {
     "wattmeter": false
@@ -65,13 +66,14 @@
   "storage_devices": [
     {
       "device": "sda",
+      "humanized_size": "480 GB",
       "interface": "SAS",
       "media_type": "SSD",
       "model": "SSDSC2KB480G8R",
-      "serial": "BTYF113100QJ480BGN",
       "rev": "XCV1DL6B",
+      "serial": "BTYF113100QJ480BGN",
       "size": 480000000000,
-      "humanized_size": "480 GB"
+      "wwn": "0x55cd2e415446e787"
     }
   ],
   "supported_job_types": {

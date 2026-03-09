@@ -20,9 +20,10 @@
     "gpu_model": "GA100 [A100 PCIe 80GB]",
     "gpu_vendor": "NVIDIA"
   },
+  "infiniband": false,
   "main_memory": {
-    "ram_size": 549755813888,
-    "humanized_ram_size": "512 GiB"
+    "humanized_ram_size": "512 GiB",
+    "ram_size": 549755813888
   },
   "monitoring": {
     "wattmeter": false
@@ -65,23 +66,25 @@
   "storage_devices": [
     {
       "device": "sda",
+      "humanized_size": "480 GB",
       "interface": "SATA",
       "media_type": "SSD",
       "model": "SSDSCKKB480GZR",
-      "serial": "PHYK3086027R480B",
       "rev": "7CV1DL74",
+      "serial": "PHYK3086027R480B",
       "size": 480000000000,
-      "humanized_size": "480 GB"
+      "wwn": "0x55cd2e4156333bce"
     },
     {
       "device": "sdb",
+      "humanized_size": "480 GB",
       "interface": "SATA",
       "media_type": "SSD",
       "model": "SSDSCKKB480GZR",
-      "serial": "PHYK3110002X480B",
       "rev": "7CV1DL74",
+      "serial": "PHYK3110002X480B",
       "size": 480000000000,
-      "humanized_size": "480 GB"
+      "wwn": "0x55cd2e4156351132"
     }
   ],
   "supported_job_types": {
