@@ -17,9 +17,10 @@
   "gpu": {
     "gpu": false
   },
+  "infiniband": true,
   "main_memory": {
-    "ram_size": 274877906944,
-    "humanized_ram_size": "256 GiB"
+    "humanized_ram_size": "256 GiB",
+    "ram_size": 274877906944
   },
   "monitoring": {
     "wattmeter": false
@@ -74,54 +75,59 @@
   "storage_devices": [
     {
       "device": "nvme0n1",
+      "humanized_size": "1920 GB",
       "interface": "PCIe",
       "media_type": "SSD",
       "model": "SAMSUNG MZWLJ1T9HBJR-00007",
+      "rev": "EPK9CB5Q",
       "serial": "S4YNNG0R900493",
-      "rev": "EPK9CB5Q",
       "size": 1920000000000,
-      "humanized_size": "1920 GB"
-    },
-    {
-      "device": "nvme1n1",
-      "interface": "PCIe",
-      "media_type": "SSD",
-      "model": "SAMSUNG MZWLJ1T9HBJR-00007",
-      "serial": "S4YNNG0R900502",
-      "rev": "EPK9CB5Q",
-      "size": 1920000000000,
-      "humanized_size": "1920 GB"
+      "wwn": "eui.34594e30529004930025384700000002"
     },
     {
       "device": "nvme2n1",
+      "humanized_size": "1920 GB",
       "interface": "PCIe",
       "media_type": "SSD",
       "model": "SAMSUNG MZWLJ1T9HBJR-00007",
-      "serial": "S4YNNG0R900497",
       "rev": "EPK9CB5Q",
+      "serial": "S4YNNG0R900497",
       "size": 1920000000000,
-      "humanized_size": "1920 GB"
+      "wwn": "eui.34594e30529004970025384700000002"
     },
     {
-      "device": "nvme3n1",
+      "device": "nvme1n1",
+      "humanized_size": "1920 GB",
       "interface": "PCIe",
       "media_type": "SSD",
-      "model": "Dell Express Flash CD5 960G SFF",
-      "serial": "90F0A084TAFR",
-      "rev": "1.2.0",
-      "size": 960000000000,
-      "vendor": "Toshiba",
-      "humanized_size": "960 GB"
+      "model": "SAMSUNG MZWLJ1T9HBJR-00007",
+      "rev": "EPK9CB5Q",
+      "serial": "S4YNNG0R900502",
+      "size": 1920000000000,
+      "wwn": "eui.34594e30529005020025384700000002"
     },
     {
       "device": "nvme4n1",
+      "humanized_size": "1920 GB",
       "interface": "PCIe",
       "media_type": "SSD",
       "model": "SAMSUNG MZWLJ1T9HBJR-00007",
-      "serial": "S4YNNG0R900507",
       "rev": "EPK9CB5Q",
+      "serial": "S4YNNG0R900507",
       "size": 1920000000000,
-      "humanized_size": "1920 GB"
+      "wwn": "eui.34594e30529005070025384700000002"
+    },
+    {
+      "device": "nvme3n1",
+      "humanized_size": "960 GB",
+      "interface": "PCIe",
+      "media_type": "SSD",
+      "model": "Dell Express Flash CD5 960G SFF",
+      "rev": "1.2.0",
+      "serial": "90F0A084TAFR",
+      "size": 960000000000,
+      "vendor": "Toshiba",
+      "wwn": "eui.e2038c5b010000008ce38e0000000000"
     }
   ],
   "supported_job_types": {

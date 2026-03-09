@@ -17,9 +17,10 @@
   "gpu": {
     "gpu": false
   },
+  "infiniband": false,
   "main_memory": {
-    "ram_size": 4123168604160,
-    "humanized_ram_size": "3840 GiB"
+    "humanized_ram_size": "3840 GiB",
+    "ram_size": 4123168604160
   },
   "monitoring": {
     "wattmeter": false
@@ -64,34 +65,37 @@
   },
   "storage_devices": [
     {
-      "device": "sda",
-      "interface": "SAS",
-      "media_type": "SSD",
-      "model": "KPM5XVUG960G",
-      "rev": "B02A",
-      "size": 960000000000,
-      "vendor": "Toshiba",
-      "humanized_size": "960 GB"
-    },
-    {
-      "device": "sdb",
-      "interface": "SAS",
-      "media_type": "SSD",
-      "model": "KPM5XVUG960G",
-      "rev": "B02A",
-      "size": 960000000000,
-      "vendor": "Toshiba",
-      "humanized_size": "960 GB"
-    },
-    {
       "device": "sdc",
+      "humanized_size": "480 GB",
       "interface": "SATA",
       "media_type": "SSD",
       "model": "MTFDDAV480TDS",
-      "serial": "21012C46DDB6",
       "rev": "D3DJ008",
+      "serial": "21012C46DDB6",
       "size": 480000000000,
-      "humanized_size": "480 GB"
+      "wwn": "0x500a07512c46ddb6"
+    },
+    {
+      "device": "sdb",
+      "humanized_size": "960 GB",
+      "interface": "SAS",
+      "media_type": "SSD",
+      "model": "KPM5XVUG960G",
+      "rev": "B02A",
+      "size": 960000000000,
+      "vendor": "Toshiba",
+      "wwn": "0x58ce38ee21498f25"
+    },
+    {
+      "device": "sda",
+      "humanized_size": "960 GB",
+      "interface": "SAS",
+      "media_type": "SSD",
+      "model": "KPM5XVUG960G",
+      "rev": "B02A",
+      "size": 960000000000,
+      "vendor": "Toshiba",
+      "wwn": "0x58ce38ee21498f2d"
     }
   ],
   "supported_job_types": {

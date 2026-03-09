@@ -20,9 +20,10 @@
     "gpu_model": "GV100GL [Tesla V100 SXM2 32GB]",
     "gpu_vendor": "NVIDIA"
   },
+  "infiniband": false,
   "main_memory": {
-    "ram_size": 137438953472,
-    "humanized_ram_size": "128 GiB"
+    "humanized_ram_size": "128 GiB",
+    "ram_size": 137438953472
   },
   "monitoring": {
     "wattmeter": false
@@ -68,23 +69,25 @@
   "storage_devices": [
     {
       "device": "sda",
+      "humanized_size": "240 GB",
       "interface": "SATA",
       "media_type": "SSD",
       "model": "MTFDDAV240TCB",
-      "serial": "19482533D144",
       "rev": "D0DE013",
+      "serial": "19482533D144",
       "size": 240000000000,
-      "humanized_size": "240 GB"
+      "wwn": "0x500a07512533d144"
     },
     {
       "device": "sdb",
+      "humanized_size": "240 GB",
       "interface": "SATA",
       "media_type": "SSD",
       "model": "MTFDDAV240TCB",
-      "serial": "194825347F42",
       "rev": "D0DE013",
+      "serial": "194825347F42",
       "size": 240000000000,
-      "humanized_size": "240 GB"
+      "wwn": "0x500a075125347f42"
     }
   ],
   "supported_job_types": {

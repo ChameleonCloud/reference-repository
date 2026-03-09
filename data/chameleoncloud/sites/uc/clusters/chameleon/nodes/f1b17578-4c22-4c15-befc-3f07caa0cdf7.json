@@ -1,4 +1,5 @@
 {
+  "admin_note": "This node has Intel SGX-capable hardware. Enabling SGX support may require a BIOS change, which can be done by submitting a support ticket.",
   "architecture": {
     "platform_type": "x86_64",
     "smp_size": 2,
@@ -20,9 +21,10 @@
     "gpu_model": "GA100 [A100 PCIe 80GB]",
     "gpu_vendor": "NVIDIA"
   },
+  "infiniband": false,
   "main_memory": {
-    "ram_size": 549755813888,
-    "humanized_ram_size": "512 GiB"
+    "humanized_ram_size": "512 GiB",
+    "ram_size": 549755813888
   },
   "monitoring": {
     "wattmeter": false
@@ -50,7 +52,6 @@
     }
   ],
   "node_name": "11BG3Q3",
-  "admin_note": "This node has Intel SGX-capable hardware. Enabling SGX support may require a BIOS change, which can be done by submitting a support ticket.",
   "node_type": "gpu_a100_pcie",
   "placement": {},
   "processor": {
@@ -66,13 +67,14 @@
   "storage_devices": [
     {
       "device": "nvme0n1",
+      "humanized_size": "1920 GB",
       "interface": "PCIe",
       "media_type": "SSD",
       "model": "Dell Ent NVMe v2 AGN RI U.2 1.92TB",
-      "serial": "S6CSNA0R904742",
       "rev": "2.2.0",
+      "serial": "S6CSNA0R904742",
       "size": 1920000000000,
-      "humanized_size": "1920 GB"
+      "wwn": "eui.36435330529047420025384100000002"
     }
   ],
   "supported_job_types": {

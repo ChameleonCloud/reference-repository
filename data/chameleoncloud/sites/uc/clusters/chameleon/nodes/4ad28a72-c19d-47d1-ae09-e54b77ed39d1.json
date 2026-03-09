@@ -17,9 +17,10 @@
   "gpu": {
     "gpu": false
   },
+  "infiniband": true,
   "main_memory": {
-    "ram_size": 274877906944,
-    "humanized_ram_size": "256 GiB"
+    "humanized_ram_size": "256 GiB",
+    "ram_size": 274877906944
   },
   "monitoring": {
     "wattmeter": false
@@ -73,37 +74,40 @@
   },
   "storage_devices": [
     {
-      "device": "nvme0n1",
+      "device": "nvme1n1",
+      "humanized_size": "2000 GB",
       "interface": "PCIe",
       "media_type": "SSD",
       "model": "Corsair MP600 PRO LPX",
-      "serial": "A5JQB35006ASNS",
       "rev": "EIFM80.0",
+      "serial": "A5JQB350069M0Y",
       "size": 2000000000000,
       "vendor": "Phison",
-      "humanized_size": "2000 GB"
+      "wwn": "eui.6479a7892ac027d4"
     },
     {
-      "device": "nvme1n1",
+      "device": "nvme0n1",
+      "humanized_size": "2000 GB",
       "interface": "PCIe",
       "media_type": "SSD",
       "model": "Corsair MP600 PRO LPX",
-      "serial": "A5JQB350069M0Y",
       "rev": "EIFM80.0",
+      "serial": "A5JQB35006ASNS",
       "size": 2000000000000,
       "vendor": "Phison",
-      "humanized_size": "2000 GB"
+      "wwn": "eui.6479a7892ac027fc"
     },
     {
       "device": "nvme2n1",
+      "humanized_size": "960 GB",
       "interface": "PCIe",
       "media_type": "SSD",
       "model": "Dell Express Flash CD5 960G SFF",
-      "serial": "90F0A08CTAFR",
       "rev": "1.2.0",
+      "serial": "90F0A08CTAFR",
       "size": 960000000000,
       "vendor": "Toshiba",
-      "humanized_size": "960 GB"
+      "wwn": "eui.e2038c61010000008ce38e0000000000"
     }
   ],
   "supported_job_types": {

@@ -17,9 +17,10 @@
   "gpu": {
     "gpu": false
   },
+  "infiniband": false,
   "main_memory": {
-    "ram_size": 206158430208,
-    "humanized_ram_size": "192 GiB"
+    "humanized_ram_size": "192 GiB",
+    "ram_size": 206158430208
   },
   "monitoring": {
     "wattmeter": false
@@ -65,13 +66,14 @@
   "storage_devices": [
     {
       "device": "sda",
+      "humanized_size": "480 GB",
       "interface": "SAS",
       "media_type": "SSD",
       "model": "MZ7KH480HAHQ0D3",
-      "serial": "S5CNNA0T400363",
       "rev": "HF58",
+      "serial": "S5CNNA0T400363",
       "size": 480000000000,
-      "humanized_size": "480 GB"
+      "wwn": "0x5002538e02462f79"
     }
   ],
   "supported_job_types": {
