@@ -1,0 +1,98 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 192
+  },
+  "bios": {
+    "release_date": "2025-03-26",
+    "vendor": "Dell",
+    "version": "2.6.3"
+  },
+  "chassis": {
+    "manufacturer": "Dell",
+    "name": "PowerEdge XE9640",
+    "serial": "B92FDB4"
+  },
+  "gpu": {
+    "gpu": true,
+    "gpu_count": 4,
+    "gpu_model": "GH100 [H100 SXM5 94GB]",
+    "gpu_vendor": "NVIDIA"
+  },
+  "infiniband": false,
+  "main_memory": {
+    "humanized_ram_size": "1024 GiB",
+    "ram_size": 1099511627776
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "device": "eno12399np0",
+      "driver": "bnxt_en",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "8c:84:74:28:68:80",
+      "model": "BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller",
+      "rate": 25000000000,
+      "vendor": "Broadcom"
+    },
+    {
+      "device": "enp203s0np0",
+      "driver": "mlx5_core",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "98:03:9b:c2:20:b0",
+      "model": "MT28908 Family [ConnectX-6]",
+      "rate": 40000000000,
+      "vendor": "Mellanox"
+    }
+  ],
+  "node_name": "gpu-h100-05",
+  "node_type": "gpu_h100",
+  "placement": {},
+  "processor": {
+    "cache_l1d": 49152,
+    "cache_l1i": 32768,
+    "cache_l2": 2097152,
+    "cache_l3": 110100480,
+    "clock_speed": 2100000000,
+    "instruction_set": "x86_64",
+    "model": "Intel(R) Xeon(R) Platinum 8468",
+    "vendor": "Intel"
+  },
+  "storage_devices": [
+    {
+      "device": "nvme0n1",
+      "humanized_size": "480 GB",
+      "interface": "PCIe",
+      "media_type": "SSD",
+      "model": "Dell BOSS-N1",
+      "rev": "11131077",
+      "serial": "VN0WW56VFCV0054Q00I5",
+      "size": 480000000000,
+      "wwn": "eui.0050430c0a000001"
+    },
+    {
+      "device": "nvme1n1",
+      "humanized_size": "3840 GB",
+      "interface": "PCIe",
+      "media_type": "SSD",
+      "model": "Dell DC NVMe ISE PE8110 RI U.2 3840GB",
+      "rev": "1.1.0",
+      "serial": "KJE2N4886I330330H",
+      "size": 3840000000000,
+      "vendor": "SK Hynix",
+      "wwn": "eui.fd5b42cebc8f9d54ace42e00551e6ce4"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "babc2a19-d00e-4466-bece-bcdd992061db"
+}
