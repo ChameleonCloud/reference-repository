@@ -1,0 +1,81 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 1,
+    "smt_size": 32
+  },
+  "bios": {
+    "release_date": "2025-11-18",
+    "vendor": "AMI",
+    "version": "2.5"
+  },
+  "boot_mode": "uefi",
+  "chassis": {
+    "name": "AS-3015MR-H10TNR",
+    "serial": "S941605X5C13946A"
+  },
+  "infiniband": false,
+  "main_memory": {
+    "humanized_ram_size": "64 GiB",
+    "ram_size": 68719476736
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "device": "enp1s0f0",
+      "driver": "ice",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "90:5a:08:7d:37:10",
+      "model": "Ethernet Controller E810-XXV for SFP",
+      "rate": 25000000000,
+      "vendor": "Intel"
+    },
+    {
+      "device": "enp1s0f1",
+      "driver": "ice",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "90:5a:08:7d:37:11",
+      "model": "Ethernet Controller E810-XXV for SFP",
+      "rate": 25000000000,
+      "vendor": "Intel"
+    }
+  ],
+  "node_name": "chi001",
+  "node_type": "compute_zen5_grado",
+  "placement": {},
+  "processor": {
+    "cache_l1d": 49152,
+    "cache_l1i": 32768,
+    "cache_l2": 1048576,
+    "cache_l3": 33554432,
+    "clock_speed": 3000000000,
+    "instruction_set": "x86_64",
+    "model": "AMD EPYC 4545P 16-Core Processor",
+    "vendor": "AMD"
+  },
+  "storage_devices": [
+    {
+      "device": "nvme0n1",
+      "humanized_size": "960 GB",
+      "interface": "PCIe",
+      "media_type": "SSD",
+      "model": "HFS960GEJ8X176N",
+      "rev": "51091A30",
+      "serial": "2425ADE6N4727I010I5J",
+      "size": 960000000000,
+      "vendor": "SK Hynix",
+      "wwn": "eui.fd5b42ce00000000ace42e0055638455"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "2494e39b-e746-46f1-8073-4ee0e3dd122b"
+}
