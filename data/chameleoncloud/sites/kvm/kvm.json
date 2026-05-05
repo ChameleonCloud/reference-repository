@@ -1,0 +1,15 @@
+{
+  "description": "KVM Virtualized Site",
+  "email_contact": "help@chameleoncloud.org",
+  "latitude": 30.390223,
+  "location": "Austin, Texas, USA",
+  "longitude": -97.72563,
+  "name": "KVM@TACC",
+  "security_contact": "help@chameleoncloud.org",
+  "site_class": "kvm",
+  "sys_admin_contact": "help@chameleoncloud.org",
+  "type": "site",
+  "uid": "kvm",
+  "user_support_contact": "help@chameleoncloud.org",
+  "web": "https://kvm.tacc.chameleoncloud.org"
+}
