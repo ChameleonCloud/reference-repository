@@ -1,0 +1,89 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 96
+  },
+  "bios": {
+    "release_date": "2025-03-26",
+    "vendor": "Dell",
+    "version": "2.6.3"
+  },
+  "boot_mode": "uefi",
+  "chassis": {
+    "manufacturer": "Dell",
+    "name": "PowerEdge XE9640",
+    "serial": "JJC7X04"
+  },
+  "gpu": {
+    "gpu": true,
+    "gpu_count": 4,
+    "gpu_model": "Ponte Vecchio XT (2 Tile) [Data Center GPU Max 1550]",
+    "gpu_vendor": "Intel"
+  },
+  "infiniband": false,
+  "main_memory": {
+    "humanized_ram_size": "1024 GiB",
+    "ram_size": 1099511627776
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "device": "eno12399np0",
+      "driver": "bnxt_en",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "04:32:01:18:fd:70",
+      "model": "BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller",
+      "rate": 25000000000,
+      "vendor": "Broadcom"
+    }
+  ],
+  "node_name": "c552-pvc01",
+  "node_type": "gpu_pontevecchio",
+  "placement": {},
+  "processor": {
+    "cache_l1d": 49152,
+    "cache_l1i": 32768,
+    "cache_l2": 2097152,
+    "cache_l3": 110100480,
+    "clock_speed": 2100000000,
+    "instruction_set": "x86_64",
+    "model": "Intel(R) Xeon(R) Platinum 8468",
+    "vendor": "Intel"
+  },
+  "storage_devices": [
+    {
+      "device": "nvme0n1",
+      "humanized_size": "480 GB",
+      "interface": "PCIe",
+      "media_type": "SSD",
+      "model": "Dell BOSS-N1",
+      "rev": "11131069",
+      "serial": "CN0WW56VFCP003BN00HI",
+      "size": 480000000000,
+      "wwn": "eui.0050431007000001"
+    },
+    {
+      "device": "nvme1n1",
+      "humanized_size": "3840 GB",
+      "interface": "PCIe",
+      "media_type": "SSD",
+      "model": "Dell DC NVMe CD8 U.2 3.84TB",
+      "rev": "2.0.0",
+      "serial": "Z3W0A0SWTSRJ",
+      "size": 3840000000000,
+      "vendor": "kioxia",
+      "wwn": "eui.01000000000000088ce38ee3009ebd2a"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "f62e15bb-9bcf-400f-bc17-d45611ba6095"
+}
