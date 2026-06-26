@@ -64,7 +64,7 @@
     "cache_l2": 262144,
     "cache_l3": 26214400,
     "clock_speed": 3000000000,
-    "instruction_set": "x86-64",
+    "instruction_set": "x86_64",
     "model": "Intel Xeon",
     "other_description": "Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz",
     "vendor": "Intel",

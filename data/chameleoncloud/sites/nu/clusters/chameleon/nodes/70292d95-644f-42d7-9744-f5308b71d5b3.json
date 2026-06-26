@@ -106,7 +106,7 @@
     "rack": ""
   },
   "processor": {
-    "instruction_set": "x86-64",
+    "instruction_set": "x86_64",
     "model": "Intel(R) Xeon(R) Gold 6136 CPU @ 3.00GHz",
     "vendor": "Intel"
   },

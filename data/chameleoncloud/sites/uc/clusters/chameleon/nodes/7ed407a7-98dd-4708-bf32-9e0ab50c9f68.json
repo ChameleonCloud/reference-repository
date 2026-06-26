@@ -85,7 +85,7 @@
     "cache_l2": 12288000,
     "cache_l3": 131072000,
     "clock_speed": 2300000000,
-    "instruction_set": "x86-64",
+    "instruction_set": "x86_64",
     "model": "AMD EPYC 7352 24-Core Processor",
     "vendor": "AMD",
     "version": "Model 49 Stepping 0"

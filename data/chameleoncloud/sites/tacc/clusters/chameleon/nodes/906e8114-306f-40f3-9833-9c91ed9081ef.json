@@ -64,7 +64,7 @@
     "cache_l2": 1048576,
     "cache_l3": 37486592,
     "clock_speed": null,
-    "instruction_set": "x86-64",
+    "instruction_set": "x86_64",
     "model": "Intel Xeon",
     "other_description": "Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz",
     "vendor": "Intel",

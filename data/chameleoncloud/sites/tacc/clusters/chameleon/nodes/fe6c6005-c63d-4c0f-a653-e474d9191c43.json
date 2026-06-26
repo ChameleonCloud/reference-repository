@@ -90,7 +90,7 @@
     "cache_l2": 262144,
     "cache_l3": 31457280,
     "clock_speed": 3100000000,
-    "instruction_set": "x86-64",
+    "instruction_set": "x86_64",
     "model": "Intel Xeon",
     "other_description": "Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz",
     "vendor": "Intel",

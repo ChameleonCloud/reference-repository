@@ -90,7 +90,7 @@
     "cache_l2": 1048576,
     "cache_l3": 20185088,
     "clock_speed": 2600000000,
-    "instruction_set": "x86-64",
+    "instruction_set": "x86_64",
     "model": "Intel Xeon",
     "other_description": "Intel(R) Xeon(R) Gold 6126 CPU @ 2.60GHz",
     "vendor": "Intel",
