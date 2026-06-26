@@ -110,7 +110,7 @@
     "cache_l2": 12288000,
     "cache_l3": 25344000,
     "clock_speed": 3000000000,
-    "instruction_set": "x86-64",
+    "instruction_set": "x86_64",
     "model": "Intel(R) Xeon(R) Gold 6136 CPU @ 3.00GHz",
     "vendor": "Intel",
     "version": "Model 85 Stepping 4"
