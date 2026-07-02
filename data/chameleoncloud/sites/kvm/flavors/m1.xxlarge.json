@@ -1,0 +1,16 @@
+{
+  "type": "vm_flavor",
+  "uid": "m1.xxlarge",
+  "name": "m1.xxlarge",
+  "vcpus": 16,
+  "ram_size": 34359738368,
+  "humanized_ram_size": "32 GiB",
+  "disk_size": 42949672960,
+  "humanized_disk_size": "40 GiB",
+  "gpu": {
+    "gpu": false
+  },
+  "openstack_properties": {
+    "trait:CUSTOM_GPU": "forbidden"
+  }
+}

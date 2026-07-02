@@ -1,0 +1,19 @@
+{
+  "type": "vm_flavor",
+  "uid": "g1.h100.pci.1",
+  "name": "g1.h100.pci.1",
+  "vcpus": 48,
+  "ram_size": 262144000000,
+  "humanized_ram_size": "~244 GiB",
+  "disk_size": 42949672960,
+  "humanized_disk_size": "40 GiB",
+  "gpu": {
+    "gpu": true,
+    "gpu_count": 1,
+    "gpu_allocation": "pcie_passthrough"
+  },
+  "openstack_properties": {
+    "pci_passthrough:alias": "h100:1",
+    "trait:CUSTOM_GPU": "required"
+  }
+}
