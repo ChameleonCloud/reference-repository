@@ -12,5 +12,6 @@
   },
   "openstack_properties": {
     "trait:CUSTOM_GPU": "forbidden"
-  }
+  },
+  "su_cost_per_hour": 0.96
 }

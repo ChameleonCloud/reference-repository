@@ -16,5 +16,6 @@
   "openstack_properties": {
     "resources:VGPU": "1",
     "trait:CUSTOM_VGPU": "required"
-  }
+  },
+  "su_cost_per_hour": null
 }

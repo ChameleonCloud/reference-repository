@@ -15,5 +15,6 @@
   "openstack_properties": {
     "pci_passthrough:alias": "h100:1",
     "trait:CUSTOM_GPU": "required"
-  }
+  },
+  "su_cost_per_hour": 16.0
 }
