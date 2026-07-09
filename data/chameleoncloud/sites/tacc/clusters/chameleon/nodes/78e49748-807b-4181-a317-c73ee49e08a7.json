@@ -9,6 +9,7 @@
     "vendor": "Dell",
     "version": "2.6.3"
   },
+  "boot_mode": "uefi",
   "chassis": {
     "manufacturer": "Dell",
     "name": "PowerEdge XE9640",

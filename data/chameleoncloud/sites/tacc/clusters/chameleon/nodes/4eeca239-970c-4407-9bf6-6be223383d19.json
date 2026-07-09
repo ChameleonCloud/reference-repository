@@ -9,6 +9,7 @@
     "vendor": "Fujitsu",
     "version": "1.9.0"
   },
+  "boot_mode": "uefi",
   "chassis": {
     "manufacturer": "Fujitsu",
     "name": "PowerEdge FX700",
@@ -17,9 +18,10 @@
   "gpu": {
     "gpu": false
   },
+  "infiniband": false,
   "main_memory": {
-    "ram_size": 34359738368,
-    "humanized_ram_size": "32 GiB"
+    "humanized_ram_size": "32 GiB",
+    "ram_size": 34359738368
   },
   "monitoring": {
     "wattmeter": false
@@ -48,14 +50,15 @@
   "storage_devices": [
     {
       "device": "nvme0n1",
+      "humanized_size": "512 GB",
       "interface": "PCIe",
       "media_type": "SSD",
       "model": "WDC CL SN720 SDAQNTW-512G-1116",
-      "serial": "201928441908",
       "rev": "10110116",
+      "serial": "201928441908",
       "size": 512000000000,
       "vendor": "Sandisk",
-      "humanized_size": "512 GB"
+      "wwn": "eui.e8238fa6bf530001001b444a44fb5460"
     }
   ],
   "supported_job_types": {

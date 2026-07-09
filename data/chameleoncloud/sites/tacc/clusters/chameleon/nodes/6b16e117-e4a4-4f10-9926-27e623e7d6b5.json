@@ -9,6 +9,7 @@
     "vendor": "Dell",
     "version": "2.8.0"
   },
+  "boot_mode": "uefi",
   "chassis": {
     "manufacturer": "Dell",
     "name": "PowerEdge R630",
@@ -17,9 +18,10 @@
   "gpu": {
     "gpu": false
   },
+  "infiniband": true,
   "main_memory": {
-    "ram_size": 137438953472,
-    "humanized_ram_size": "128 GiB"
+    "humanized_ram_size": "128 GiB",
+    "ram_size": 137438953472
   },
   "monitoring": {
     "wattmeter": false
@@ -44,6 +46,15 @@
       "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
       "rate": 10000000000,
       "vendor": "Broadcom"
+    },
+    {
+      "device": "ibp3s0",
+      "driver": "ib_ipoib",
+      "enabled": true,
+      "interface": "InfiniBand",
+      "mac": "f4:52:14:03:00:f5:54:31",
+      "model": "MT27500 Family [ConnectX-3]",
+      "vendor": "Mellanox"
     }
   ],
   "node_name": "c01-24",
@@ -63,24 +74,26 @@
   },
   "storage_devices": [
     {
-      "device": "sda",
+      "device": "sdb",
+      "humanized_size": "250 GB",
       "interface": "SAS",
       "media_type": "Rotational",
       "model": "ST9250610NS",
-      "serial": "9XE0L7AB",
       "rev": "AA65",
+      "serial": "9XE0L7AB",
       "size": 250000000000,
-      "humanized_size": "250 GB"
+      "wwn": "0x5000c5007a84c148"
     },
     {
-      "device": "sdb",
+      "device": "sda",
+      "humanized_size": "250 GB",
       "interface": "SAS",
       "media_type": "Rotational",
       "model": "ST9250610NS",
-      "serial": "9XE0L4P1",
       "rev": "AA65",
+      "serial": "9XE0L4P1",
       "size": 250000000000,
-      "humanized_size": "250 GB"
+      "wwn": "0x5000c5007a8563a0"
     }
   ],
   "supported_job_types": {

@@ -9,6 +9,7 @@
     "vendor": "Dell",
     "version": "2.9.1"
   },
+  "boot_mode": "uefi",
   "chassis": {
     "manufacturer": "Dell",
     "name": "PowerEdge R730",
@@ -17,9 +18,10 @@
   "gpu": {
     "gpu": false
   },
+  "infiniband": false,
   "main_memory": {
-    "ram_size": 549755813888,
-    "humanized_ram_size": "512 GiB"
+    "humanized_ram_size": "512 GiB",
+    "ram_size": 549755813888
   },
   "monitoring": {
     "wattmeter": false
@@ -31,6 +33,16 @@
       "enabled": true,
       "interface": "Ethernet",
       "mac": "44:a8:42:26:2b:7a",
+      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
+      "rate": 10000000000,
+      "vendor": "Broadcom"
+    },
+    {
+      "device": "eno2",
+      "driver": "bnx2x",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "44:a8:42:26:2b:7c",
       "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
       "rate": 10000000000,
       "vendor": "Broadcom"
@@ -53,106 +65,116 @@
   },
   "storage_devices": [
     {
-      "device": "nvme0n1",
-      "interface": "PCIe",
-      "media_type": "SSD",
-      "model": "INTEL SSDPEDMD020T4D HHHL NVMe 2000GB",
-      "serial": "CVFT619600FS2P0EGN",
-      "rev": "8DV1DP01",
-      "size": 2000000000000,
-      "vendor": "Intel",
-      "humanized_size": "2000 GB"
-    },
-    {
-      "device": "nvme1n1",
-      "interface": "PCIe",
-      "media_type": "SSD",
-      "model": "INTEL SSDPEDMD020T4D HHHL NVMe 2000GB",
-      "serial": "CVFT619600DD2P0EGN",
-      "rev": "8DV1DP01",
-      "size": 2000000000000,
-      "vendor": "Intel",
-      "humanized_size": "2000 GB"
+      "device": "sdd",
+      "humanized_size": "600 GB",
+      "interface": "SAS",
+      "media_type": "Rotational",
+      "model": "ST600MP0005",
+      "rev": "VT31",
+      "size": 600000000000,
+      "vendor": "Seagate",
+      "wwn": "0x5000c5009598a597"
     },
     {
       "device": "sda",
+      "humanized_size": "600 GB",
       "interface": "SAS",
-      "media_type": "SSD",
-      "model": "SSDSC2KG019T8R",
-      "serial": "PHYG912201PG1P9DGN",
-      "rev": "XCV1DL63",
-      "size": 1920000000000,
-      "humanized_size": "1920 GB"
+      "media_type": "Rotational",
+      "model": "ST600MP0005",
+      "rev": "VT31",
+      "size": 600000000000,
+      "vendor": "Seagate",
+      "wwn": "0x5000c5009598a7df"
     },
     {
       "device": "sdb",
+      "humanized_size": "600 GB",
       "interface": "SAS",
       "media_type": "Rotational",
       "model": "ST600MP0005",
       "rev": "VT31",
       "size": 600000000000,
       "vendor": "Seagate",
-      "humanized_size": "600 GB"
-    },
-    {
-      "device": "sdc",
-      "interface": "SAS",
-      "media_type": "Rotational",
-      "model": "ST600MP0005",
-      "rev": "VT31",
-      "size": 600000000000,
-      "vendor": "Seagate",
-      "humanized_size": "600 GB"
-    },
-    {
-      "device": "sdd",
-      "interface": "SAS",
-      "media_type": "SSD",
-      "model": "SSDSC2KG019T8R",
-      "serial": "PHYG912200CP1P9DGN",
-      "rev": "XCV1DL63",
-      "size": 1920000000000,
-      "humanized_size": "1920 GB"
+      "wwn": "0x5000c5009598aa0f"
     },
     {
       "device": "sde",
-      "interface": "SAS",
-      "media_type": "SSD",
-      "model": "SSDSC2KG019T8R",
-      "serial": "PHYG912201MN1P9DGN",
-      "rev": "XCV1DL63",
-      "size": 1920000000000,
-      "humanized_size": "1920 GB"
-    },
-    {
-      "device": "sdf",
-      "interface": "SAS",
-      "media_type": "SSD",
-      "model": "SSDSC2KG019T8R",
-      "serial": "PHYG912200GQ1P9DGN",
-      "rev": "XCV1DL63",
-      "size": 1920000000000,
-      "humanized_size": "1920 GB"
-    },
-    {
-      "device": "sdg",
+      "humanized_size": "600 GB",
       "interface": "SAS",
       "media_type": "Rotational",
       "model": "ST600MP0005",
       "rev": "VT31",
       "size": 600000000000,
       "vendor": "Seagate",
-      "humanized_size": "600 GB"
+      "wwn": "0x5000c500959a0cc7"
     },
     {
       "device": "sdh",
+      "humanized_size": "1920 GB",
       "interface": "SAS",
-      "media_type": "Rotational",
-      "model": "ST600MP0005",
-      "rev": "VT31",
-      "size": 600000000000,
-      "vendor": "Seagate",
-      "humanized_size": "600 GB"
+      "media_type": "SSD",
+      "model": "SSDSC2KG019T8R",
+      "rev": "XCV1DL63",
+      "serial": "PHYG912200CP1P9DGN",
+      "size": 1920000000000,
+      "wwn": "0x55cd2e4150cc7bfc"
+    },
+    {
+      "device": "sdg",
+      "humanized_size": "1920 GB",
+      "interface": "SAS",
+      "media_type": "SSD",
+      "model": "SSDSC2KG019T8R",
+      "rev": "XCV1DL63",
+      "serial": "PHYG912200GQ1P9DGN",
+      "size": 1920000000000,
+      "wwn": "0x55cd2e4150cc7c7d"
+    },
+    {
+      "device": "sdf",
+      "humanized_size": "1920 GB",
+      "interface": "SAS",
+      "media_type": "SSD",
+      "model": "SSDSC2KG019T8R",
+      "rev": "XCV1DL63",
+      "serial": "PHYG912201MN1P9DGN",
+      "size": 1920000000000,
+      "wwn": "0x55cd2e4150cc9529"
+    },
+    {
+      "device": "sdc",
+      "humanized_size": "1920 GB",
+      "interface": "SAS",
+      "media_type": "SSD",
+      "model": "SSDSC2KG019T8R",
+      "rev": "XCV1DL63",
+      "serial": "PHYG912201PG1P9DGN",
+      "size": 1920000000000,
+      "wwn": "0x55cd2e4150cc955d"
+    },
+    {
+      "device": "nvme1n1",
+      "humanized_size": "2000 GB",
+      "interface": "PCIe",
+      "media_type": "SSD",
+      "model": "INTEL SSDPEDMD020T4D HHHL NVMe 2000GB",
+      "rev": "8DV1DP01",
+      "serial": "CVFT619600DD2P0EGN",
+      "size": 2000000000000,
+      "vendor": "Intel",
+      "wwn": "nvme.8086-43564654363139363030444432503045474e-494e54454c205353445045444d44303230543444204848484c204e564d6520323030304742-00000001"
+    },
+    {
+      "device": "nvme0n1",
+      "humanized_size": "2000 GB",
+      "interface": "PCIe",
+      "media_type": "SSD",
+      "model": "INTEL SSDPEDMD020T4D HHHL NVMe 2000GB",
+      "rev": "8DV1DP01",
+      "serial": "CVFT619600FS2P0EGN",
+      "size": 2000000000000,
+      "vendor": "Intel",
+      "wwn": "nvme.8086-43564654363139363030465332503045474e-494e54454c205353445045444d44303230543444204848484c204e564d6520323030304742-00000001"
     }
   ],
   "supported_job_types": {

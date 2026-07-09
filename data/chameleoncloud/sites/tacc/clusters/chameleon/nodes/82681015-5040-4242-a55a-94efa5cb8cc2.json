@@ -1,4 +1,5 @@
 {
+  "admin_note": "This node has Intel SGX-capable hardware. Enabling SGX support may require a BIOS change, which can be done by submitting a support ticket.",
   "architecture": {
     "platform_type": "x86_64",
     "smp_size": 2,
@@ -9,6 +10,7 @@
     "vendor": "Dell",
     "version": "1.8.2"
   },
+  "boot_mode": "uefi",
   "chassis": {
     "manufacturer": "Dell",
     "name": "PowerEdge R650",
@@ -17,9 +19,10 @@
   "gpu": {
     "gpu": false
   },
+  "infiniband": false,
   "main_memory": {
-    "ram_size": 274877906944,
-    "humanized_ram_size": "256 GiB"
+    "humanized_ram_size": "256 GiB",
+    "ram_size": 274877906944
   },
   "monitoring": {
     "wattmeter": false
@@ -62,13 +65,14 @@
   "storage_devices": [
     {
       "device": "sda",
+      "humanized_size": "480 GB",
       "interface": "SAS",
       "media_type": "SSD",
       "model": "MTFDDAK480TDS",
-      "serial": "222539B91D9E",
       "rev": "D3DJ004",
+      "serial": "222539B91D9E",
       "size": 480000000000,
-      "humanized_size": "480 GB"
+      "wwn": "0x500a075139b91d9e"
     }
   ],
   "supported_job_types": {
@@ -77,7 +81,5 @@
     "virtual": "ivt"
   },
   "type": "node",
-  "uid": "82681015-5040-4242-a55a-94efa5cb8cc2",
-  "admin_note": "This node has Intel SGX-capable hardware. Enabling SGX support may require a BIOS change, which can be done by submitting a support ticket."
+  "uid": "82681015-5040-4242-a55a-94efa5cb8cc2"
 }
-

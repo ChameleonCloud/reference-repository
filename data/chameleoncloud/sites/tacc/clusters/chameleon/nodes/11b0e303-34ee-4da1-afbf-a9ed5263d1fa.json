@@ -9,6 +9,7 @@
     "vendor": "Dell",
     "version": "1.3.7"
   },
+  "boot_mode": "bios",
   "chassis": {
     "manufacturer": "Dell",
     "name": "PowerEdge R740",
@@ -17,9 +18,10 @@
   "gpu": {
     "gpu": false
   },
+  "infiniband": false,
   "main_memory": {
-    "ram_size": 206158430208,
-    "humanized_ram_size": "192 GiB"
+    "humanized_ram_size": "192 GiB",
+    "ram_size": 206158430208
   },
   "monitoring": {
     "wattmeter": false
