@@ -5,10 +5,11 @@
     "smt_size": 256
   },
   "bios": {
-    "release_date": "2024-10-04",
+    "release_date": "2025-07-30",
     "vendor": "Dell",
-    "version": "2.17.4"
+    "version": "2.20.0"
   },
+  "boot_mode": "uefi",
   "chassis": {
     "manufacturer": "Dell",
     "name": "PowerEdge R7525",
@@ -20,9 +21,10 @@
     "gpu_model": "Arcturus GL-XL [Instinct MI100]",
     "gpu_vendor": "AMD"
   },
+  "infiniband": false,
   "main_memory": {
-    "ram_size": 274877906944,
-    "humanized_ram_size": "256 GiB"
+    "humanized_ram_size": "256 GiB",
+    "ram_size": 274877906944
   },
   "monitoring": {
     "wattmeter": false
@@ -53,7 +55,7 @@
       "driver": "tg3",
       "enabled": true,
       "interface": "Ethernet",
-      "mac": "70:b5:e8:f0:01:2e",
+      "mac": "ec:2a:72:50:79:58",
       "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
       "rate": 1000000000,
       "vendor": "Broadcom"
@@ -77,13 +79,14 @@
   "storage_devices": [
     {
       "device": "sda",
+      "humanized_size": "480 GB",
       "interface": "SAS",
       "media_type": "SSD",
       "model": "SSDSC2KB480G8R",
-      "serial": "PHYF1013006C480BGN",
       "rev": "XCV1DL69",
+      "serial": "PHYF1013006C480BGN",
       "size": 480000000000,
-      "humanized_size": "480 GB"
+      "wwn": "0x55cd2e415325bbd3"
     }
   ],
   "supported_job_types": {

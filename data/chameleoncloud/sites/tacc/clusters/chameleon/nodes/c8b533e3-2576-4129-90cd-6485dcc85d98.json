@@ -9,6 +9,7 @@
     "vendor": "Dell",
     "version": "2.18.1"
   },
+  "boot_mode": "bios",
   "chassis": {
     "manufacturer": "Dell",
     "name": "PowerEdge R740",
@@ -17,9 +18,10 @@
   "gpu": {
     "gpu": false
   },
+  "infiniband": false,
   "main_memory": {
-    "ram_size": 206158430208,
-    "humanized_ram_size": "192 GiB"
+    "humanized_ram_size": "192 GiB",
+    "ram_size": 206158430208
   },
   "monitoring": {
     "wattmeter": false
@@ -54,13 +56,14 @@
   "storage_devices": [
     {
       "device": "sda",
+      "humanized_size": "240 GB",
       "interface": "SAS",
       "media_type": "SSD",
       "model": "SSDSC2KG240G8R",
-      "serial": "BTYG907606SA240AGN",
       "rev": "XCV1DL63",
+      "serial": "BTYG907606SA240AGN",
       "size": 240000000000,
-      "humanized_size": "240 GB"
+      "wwn": "0x55cd2e4150828560"
     }
   ],
   "supported_job_types": {

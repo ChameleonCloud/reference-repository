@@ -9,6 +9,7 @@
     "vendor": "Dell",
     "version": "1.7.4"
   },
+  "boot_mode": "uefi",
   "chassis": {
     "manufacturer": "Dell",
     "name": "PowerEdge R750",
@@ -17,9 +18,10 @@
   "gpu": {
     "gpu": false
   },
+  "infiniband": false,
   "main_memory": {
-    "ram_size": 274877906944,
-    "humanized_ram_size": "256 GiB"
+    "humanized_ram_size": "256 GiB",
+    "ram_size": 274877906944
   },
   "monitoring": {
     "wattmeter": false
@@ -44,6 +46,16 @@
       "model": "BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller",
       "rate": 25000000000,
       "vendor": "Broadcom"
+    },
+    {
+      "device": "eno8303",
+      "driver": "tg3",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "c8:4b:d6:7f:d9:5a",
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
     }
   ],
   "node_name": "c14-05",
@@ -62,13 +74,14 @@
   "storage_devices": [
     {
       "device": "sda",
+      "humanized_size": "480 GB",
       "interface": "SAS",
       "media_type": "SSD",
       "model": "MTFDDAK480TDS",
-      "serial": "222238853659",
       "rev": "D3DJ004",
+      "serial": "222238853659",
       "size": 480000000000,
-      "humanized_size": "480 GB"
+      "wwn": "0x500a075138853659"
     }
   ],
   "supported_job_types": {

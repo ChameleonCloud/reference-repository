@@ -5,10 +5,11 @@
     "smt_size": 256
   },
   "bios": {
-    "release_date": "2021-03-09",
+    "release_date": "2025-07-30",
     "vendor": "Dell",
-    "version": "2.1.6"
+    "version": "2.20.0"
   },
+  "boot_mode": "uefi",
   "chassis": {
     "manufacturer": "Dell",
     "name": "PowerEdge R7525",
@@ -20,14 +21,24 @@
     "gpu_model": "Arcturus GL-XL [Instinct MI100]",
     "gpu_vendor": "AMD"
   },
+  "infiniband": true,
   "main_memory": {
-    "ram_size": 274877906944,
-    "humanized_ram_size": "256 GiB"
+    "humanized_ram_size": "256 GiB",
+    "ram_size": 274877906944
   },
   "monitoring": {
     "wattmeter": false
   },
   "network_adapters": [
+    {
+      "device": "ibp161s0",
+      "driver": "mlx5_core[ib_ipoib]",
+      "enabled": true,
+      "interface": "InfiniBand",
+      "mac": "1c:34:da:03:00:6e:8f:3a",
+      "model": "MT28908 Family [ConnectX-6]",
+      "vendor": "Mellanox"
+    },
     {
       "device": "ens3f0",
       "driver": "qede",
@@ -77,13 +88,14 @@
   "storage_devices": [
     {
       "device": "sda",
+      "humanized_size": "480 GB",
       "interface": "SAS",
       "media_type": "SSD",
       "model": "SSDSC2KB480G8R",
-      "serial": "PHYF1013014R480BGN",
       "rev": "XCV1DL69",
+      "serial": "PHYF1013014R480BGN",
       "size": 480000000000,
-      "humanized_size": "480 GB"
+      "wwn": "0x55cd2e4153259e78"
     }
   ],
   "supported_job_types": {

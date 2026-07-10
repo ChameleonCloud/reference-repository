@@ -9,6 +9,7 @@
     "vendor": "Dell",
     "version": "2.8.0"
   },
+  "boot_mode": "uefi",
   "chassis": {
     "manufacturer": "Dell",
     "name": "PowerEdge FC430",
@@ -17,9 +18,10 @@
   "gpu": {
     "gpu": false
   },
+  "infiniband": false,
   "main_memory": {
-    "ram_size": 68719476736,
-    "humanized_ram_size": "64 GiB"
+    "humanized_ram_size": "64 GiB",
+    "ram_size": 68719476736
   },
   "monitoring": {
     "wattmeter": false
@@ -63,184 +65,191 @@
   },
   "storage_devices": [
     {
-      "device": "sda",
-      "interface": "SAS",
-      "media_type": "Rotational",
-      "model": "ST2000NX0273",
-      "rev": "NS27",
-      "size": 2000000000000,
-      "vendor": "Seagate",
-      "humanized_size": "2000 GB"
-    },
-    {
-      "device": "sdb",
-      "interface": "SAS",
-      "media_type": "Rotational",
-      "model": "ST2000NX0273",
-      "rev": "NS27",
-      "size": 2000000000000,
-      "vendor": "Seagate",
-      "humanized_size": "2000 GB"
-    },
-    {
-      "device": "sdc",
-      "interface": "SAS",
-      "media_type": "Rotational",
-      "model": "ST2000NX0273",
-      "rev": "NS27",
-      "size": 2000000000000,
-      "vendor": "Seagate",
-      "humanized_size": "2000 GB"
-    },
-    {
-      "device": "sdd",
-      "interface": "SAS",
-      "media_type": "Rotational",
-      "model": "ST2000NX0273",
-      "rev": "NS27",
-      "size": 2000000000000,
-      "vendor": "Seagate",
-      "humanized_size": "2000 GB"
-    },
-    {
-      "device": "sde",
-      "interface": "SAS",
-      "media_type": "Rotational",
-      "model": "ST2000NX0273",
-      "rev": "NS27",
-      "size": 2000000000000,
-      "vendor": "Seagate",
-      "humanized_size": "2000 GB"
-    },
-    {
-      "device": "sdf",
-      "interface": "SAS",
-      "media_type": "Rotational",
-      "model": "ST2000NX0273",
-      "rev": "NS27",
-      "size": 2000000000000,
-      "vendor": "Seagate",
-      "humanized_size": "2000 GB"
-    },
-    {
-      "device": "sdg",
-      "interface": "SAS",
-      "media_type": "Rotational",
-      "model": "ST2000NX0273",
-      "rev": "NS27",
-      "size": 2000000000000,
-      "vendor": "Seagate",
-      "humanized_size": "2000 GB"
-    },
-    {
-      "device": "sdh",
-      "interface": "SAS",
-      "media_type": "Rotational",
-      "model": "ST2000NX0273",
-      "rev": "NS27",
-      "size": 2000000000000,
-      "vendor": "Seagate",
-      "humanized_size": "2000 GB"
-    },
-    {
-      "device": "sdi",
-      "interface": "SAS",
-      "media_type": "Rotational",
-      "model": "ST2000NX0273",
-      "rev": "NS27",
-      "size": 2000000000000,
-      "vendor": "Seagate",
-      "humanized_size": "2000 GB"
-    },
-    {
       "device": "sdj",
+      "humanized_size": "2000 GB",
       "interface": "SAS",
       "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
       "size": 2000000000000,
       "vendor": "Seagate",
-      "humanized_size": "2000 GB"
+      "wwn": "0x5000c50088e9757f"
     },
     {
       "device": "sdk",
-      "interface": "SATA",
-      "media_type": "SSD",
-      "model": "INTEL SSDSC1BG40",
-      "serial": "BTHC514301N6400RGN",
-      "rev": "G201DL23",
-      "size": 400000000000,
-      "humanized_size": "400 GB"
+      "humanized_size": "2000 GB",
+      "interface": "SAS",
+      "media_type": "Rotational",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "wwn": "0x5000c50088e97687"
+    },
+    {
+      "device": "sdc",
+      "humanized_size": "2000 GB",
+      "interface": "SAS",
+      "media_type": "Rotational",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "wwn": "0x5000c50088ea1937"
     },
     {
       "device": "sdl",
+      "humanized_size": "2000 GB",
       "interface": "SAS",
       "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
       "size": 2000000000000,
       "vendor": "Seagate",
-      "humanized_size": "2000 GB"
+      "wwn": "0x5000c50088ea194b"
     },
     {
-      "device": "sdm",
+      "device": "sdf",
+      "humanized_size": "2000 GB",
       "interface": "SAS",
       "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
       "size": 2000000000000,
       "vendor": "Seagate",
-      "humanized_size": "2000 GB"
+      "wwn": "0x5000c50088ea5373"
     },
     {
       "device": "sdn",
+      "humanized_size": "2000 GB",
       "interface": "SAS",
       "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
       "size": 2000000000000,
       "vendor": "Seagate",
-      "humanized_size": "2000 GB"
+      "wwn": "0x5000c50088ea679f"
+    },
+    {
+      "device": "sdd",
+      "humanized_size": "2000 GB",
+      "interface": "SAS",
+      "media_type": "Rotational",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "wwn": "0x5000c50088ea741f"
+    },
+    {
+      "device": "sdh",
+      "humanized_size": "2000 GB",
+      "interface": "SAS",
+      "media_type": "Rotational",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "wwn": "0x5000c50088ea98cb"
+    },
+    {
+      "device": "sde",
+      "humanized_size": "2000 GB",
+      "interface": "SAS",
+      "media_type": "Rotational",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "wwn": "0x5000c50088eabdeb"
+    },
+    {
+      "device": "sdi",
+      "humanized_size": "2000 GB",
+      "interface": "SAS",
+      "media_type": "Rotational",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "wwn": "0x5000c50088eacc7f"
+    },
+    {
+      "device": "sdg",
+      "humanized_size": "2000 GB",
+      "interface": "SAS",
+      "media_type": "Rotational",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "wwn": "0x5000c50088eb2663"
+    },
+    {
+      "device": "sda",
+      "humanized_size": "2000 GB",
+      "interface": "SAS",
+      "media_type": "Rotational",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "wwn": "0x5000c50088eb8ff7"
     },
     {
       "device": "sdo",
+      "humanized_size": "2000 GB",
       "interface": "SAS",
       "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
       "size": 2000000000000,
       "vendor": "Seagate",
-      "humanized_size": "2000 GB"
+      "wwn": "0x5000c50088ec8437"
+    },
+    {
+      "device": "sdb",
+      "humanized_size": "2000 GB",
+      "interface": "SAS",
+      "media_type": "Rotational",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "wwn": "0x5000c50088ecb0a7"
+    },
+    {
+      "device": "sdm",
+      "humanized_size": "2000 GB",
+      "interface": "SAS",
+      "media_type": "Rotational",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000000000000,
+      "vendor": "Seagate",
+      "wwn": "0x5000c50088ef45fb"
     },
     {
       "device": "sdp",
+      "humanized_size": "400 GB",
       "interface": "SATA",
       "media_type": "SSD",
       "model": "INTEL SSDSC1BG40",
-      "serial": "BTHC551102QJ400RGN",
-      "rev": "G201DL29",
+      "rev": "G201DL23",
+      "serial": "BTHC514301N6400RGN",
       "size": 400000000000,
-      "humanized_size": "400 GB"
+      "wwn": "0x55cd2e404b7ce3c0"
     },
     {
       "device": "sdq",
-      "interface": "SAS",
-      "media_type": "Rotational",
-      "model": "ST2000NX0273",
-      "rev": "NS27",
-      "size": 2000000000000,
-      "vendor": "Seagate",
-      "humanized_size": "2000 GB"
-    },
-    {
-      "device": "sdr",
-      "interface": "SAS",
-      "media_type": "Rotational",
-      "model": "ST2000NX0273",
-      "rev": "NS27",
-      "size": 2000000000000,
-      "vendor": "Seagate",
-      "humanized_size": "2000 GB"
+      "humanized_size": "400 GB",
+      "interface": "SATA",
+      "media_type": "SSD",
+      "model": "INTEL SSDSC1BG40",
+      "rev": "G201DL29",
+      "serial": "BTHC551102QJ400RGN",
+      "size": 400000000000,
+      "wwn": "0x55cd2e404c1732a0"
     }
   ],
   "supported_job_types": {

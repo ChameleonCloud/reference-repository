@@ -9,6 +9,7 @@
     "vendor": "Dell",
     "version": "1.8.2"
   },
+  "boot_mode": "uefi",
   "chassis": {
     "manufacturer": "Dell",
     "name": "PowerEdge R650",
@@ -17,9 +18,10 @@
   "gpu": {
     "gpu": false
   },
+  "infiniband": false,
   "main_memory": {
-    "ram_size": 274877906944,
-    "humanized_ram_size": "256 GiB"
+    "humanized_ram_size": "256 GiB",
+    "ram_size": 274877906944
   },
   "monitoring": {
     "wattmeter": false
@@ -62,13 +64,14 @@
   "storage_devices": [
     {
       "device": "sda",
+      "humanized_size": "480 GB",
       "interface": "SAS",
       "media_type": "SSD",
       "model": "MTFDDAK480TDS",
-      "serial": "222539B940DC",
       "rev": "D3DJ004",
+      "serial": "222539B940DC",
       "size": 480000000000,
-      "humanized_size": "480 GB"
+      "wwn": "0x500a075139b940dc"
     }
   ],
   "supported_job_types": {
