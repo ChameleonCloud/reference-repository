@@ -1,4 +1,5 @@
 {
+  "admin_note": "This node has Intel SGX-capable hardware. Enabling SGX support may require a BIOS change, which can be done by submitting a support ticket.",
   "architecture": {
     "platform_type": "x86_64",
     "smp_size": 2,
