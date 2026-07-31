@@ -1,0 +1,112 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 192
+  },
+  "bios": {
+    "release_date": "2024-09-10",
+    "vendor": "Dell",
+    "version": "2.3.5"
+  },
+  "chassis": {
+    "manufacturer": "Dell",
+    "name": "PowerEdge XE9640",
+    "serial": "88PKK44"
+  },
+  "gpu": {
+    "gpu": true,
+    "gpu_count": 4,
+    "gpu_model": "NVIDIA Corporation",
+    "gpu_vendor": "NVIDIA"
+  },
+  "infiniband": false,
+  "main_memory": {
+    "humanized_ram_size": "1024 GiB",
+    "ram_size": 1099511627776
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "device": "enp203s0np0",
+      "driver": "mlx5_core",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "98:03:9b:c2:26:e4",
+      "model": "MT28908 Family [ConnectX-6]",
+      "rate": 40000000000,
+      "vendor": "Mellanox"
+    },
+    {
+      "device": "eno8303",
+      "driver": "tg3",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "c4:cb:e1:d5:cb:98",
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
+    },
+    {
+      "device": "eno8403",
+      "driver": "tg3",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "c4:cb:e1:d5:cb:99",
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "rate": 1000000000,
+      "vendor": "Broadcom"
+    },
+    {
+      "device": "eno12399np0",
+      "driver": "bnxt_en",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "d4:04:e6:d9:1d:00",
+      "model": "BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller",
+      "rate": 25000000000,
+      "vendor": "Broadcom"
+    },
+    {
+      "device": "eno12409np1",
+      "driver": "bnxt_en",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "d4:04:e6:d9:1d:01",
+      "model": "BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller",
+      "rate": 25000000000,
+      "vendor": "Broadcom"
+    }
+  ],
+  "node_mode": "vm_only",
+  "node_name": "kvmgpu01",
+  "node_type": "gpu_h100",
+  "processor": {
+    "cache_l1d": 40960,
+    "cache_l1i": 40960,
+    "cache_l2": 2097152,
+    "cache_l3": 110100480,
+    "clock_speed": 2100000000,
+    "instruction_set": "x86_64",
+    "model": "Intel(R) Xeon(R) Platinum 8468",
+    "vendor": "Intel"
+  },
+  "storage_devices": [
+    {
+      "device": "/dev/nvme1n1",
+      "humanized_size": "3840 GB",
+      "model": "NVMe disk",
+      "size": 3840755982336,
+      "wwn": "895d7dbf-4731-4dde-9854-f6e8c79e3946"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "4c4c4544-0038-5010-804b-b8c04f4b3434"
+}
