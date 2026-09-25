@@ -1,0 +1,98 @@
+{
+  "architecture": {
+    "platform_type": "aarch64",
+    "smp_size": 1,
+    "smt_size": 72
+  },
+  "bios": {
+    "release_date": "2024-09-24",
+    "vendor": "AMI",
+    "version": "3A22"
+  },
+  "boot_mode": "uefi",
+  "chassis": {
+    "manufacturer": "Quanta",
+    "name": "QuantaGrid S74G-2U 1S7G2000026",
+    "serial": "QTWS7G0260300008"
+  },
+  "gpu": {
+    "gpu": true,
+    "gpu_count": 1,
+    "gpu_model": "GH200 96GB HBM3",
+    "gpu_vendor": "NVIDIA"
+  },
+  "infiniband": false,
+  "main_memory": {
+    "humanized_ram_size": "480 GiB",
+    "ram_size": 515396075520
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "device": "ens3f0np0",
+      "driver": "mlx5_core",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "90:e3:17:a9:07:f6",
+      "model": "MT2910 Family [ConnectX-7]",
+      "rate": 40000000000,
+      "vendor": "Mellanox"
+    },
+    {
+      "device": "ens3f1np1",
+      "driver": "mlx5_core",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "90:e3:17:a9:07:f7",
+      "model": "MT2910 Family [ConnectX-7]",
+      "rate": 40000000000,
+      "vendor": "Mellanox"
+    }
+  ],
+  "node_name": "gh04",
+  "node_type": "gpu_gh200_96gb",
+  "placement": {},
+  "processor": {
+    "cache_l1d": 65536,
+    "cache_l1i": 65536,
+    "cache_l2": 1048576,
+    "cache_l3": 119537664,
+    "clock_speed": 3411000000,
+    "instruction_set": "aarch64",
+    "model": "Grace A02",
+    "vendor": "NVIDIA"
+  },
+  "storage_devices": [
+    {
+      "device": "sda",
+      "humanized_size": "1920 GB",
+      "interface": "PCIe",
+      "media_type": "SSD",
+      "model": "SAMSUNG MZTL21T9",
+      "rev": "602Q",
+      "serial": "S6RCNG0Y600436",
+      "size": 1920000000000
+    },
+    {
+      "device": "nvme0n1",
+      "humanized_size": "960 GB",
+      "interface": "PCIe",
+      "media_type": "SSD",
+      "model": "SAMSUNG MZ1L2960HCJR-00A07",
+      "rev": "GDC7502Q",
+      "serial": "S665NS0Y323092",
+      "size": 960000000000,
+      "vendor": "Samsung",
+      "wwn": "eui.36363530593230920025385300000001"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "df2868f6-41c8-4cc6-8e27-86aa5c994183"
+}
