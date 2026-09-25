@@ -9,6 +9,7 @@
     "vendor": "Dell",
     "version": "2.12.2"
   },
+  "boot_mode": "bios",
   "chassis": {
     "manufacturer": "Dell",
     "name": "PowerEdge C4140",
