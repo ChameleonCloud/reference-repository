@@ -9,6 +9,7 @@
     "vendor": "Dell",
     "version": "2.22.0"
   },
+  "boot_mode": "uefi",
   "chassis": {
     "manufacturer": "Dell",
     "name": "PowerEdge R840",
@@ -82,6 +83,7 @@
       "media_type": "SSD",
       "model": "KPM5XVUG960G",
       "rev": "B02A",
+      "serial": "11G0A02GTP5F",
       "size": 960000000000,
       "vendor": "Toshiba",
       "wwn": "0x58ce38ee21498f29"
@@ -93,6 +95,7 @@
       "media_type": "SSD",
       "model": "KPM5XVUG960G",
       "rev": "B02A",
+      "serial": "11G0A02KTP5F",
       "size": 960000000000,
       "vendor": "Toshiba",
       "wwn": "0x58ce38ee21498f35"

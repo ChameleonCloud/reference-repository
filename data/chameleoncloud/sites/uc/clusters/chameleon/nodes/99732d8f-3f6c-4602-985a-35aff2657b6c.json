@@ -9,6 +9,7 @@
     "vendor": "Dell",
     "version": "2.4.8"
   },
+  "boot_mode": "uefi",
   "chassis": {
     "manufacturer": "Dell",
     "name": "PowerEdge C4140",

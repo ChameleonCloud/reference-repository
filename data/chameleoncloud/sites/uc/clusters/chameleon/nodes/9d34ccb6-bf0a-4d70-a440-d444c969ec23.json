@@ -9,6 +9,7 @@
     "vendor": "Dell",
     "version": "1.4.9"
   },
+  "boot_mode": "bios",
   "chassis": {
     "manufacturer": "Dell",
     "name": "PowerEdge R740",

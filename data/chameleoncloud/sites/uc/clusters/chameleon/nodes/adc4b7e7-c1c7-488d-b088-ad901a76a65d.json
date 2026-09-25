@@ -10,6 +10,7 @@
     "vendor": "Dell",
     "version": "1.6.5"
   },
+  "boot_mode": "uefi",
   "chassis": {
     "manufacturer": "Dell",
     "name": "PowerEdge R750xa",
