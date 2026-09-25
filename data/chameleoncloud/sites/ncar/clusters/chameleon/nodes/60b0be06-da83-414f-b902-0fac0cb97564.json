@@ -14,6 +14,9 @@
     "name": "AS-3015MR-H10TNR",
     "serial": "S941605X5C13946H"
   },
+  "gpu": {
+    "gpu": false
+  },
   "infiniband": false,
   "main_memory": {
     "humanized_ram_size": "64 GiB",
