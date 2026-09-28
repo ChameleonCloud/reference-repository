@@ -17,6 +17,7 @@
     "gpu": false
   },
   "infiniband": false,
+  "lease_mode": "baremetal",
   "main_memory": {
     "humanized_ram_size": "64 GiB",
     "ram_size": 68719476736
@@ -63,6 +64,7 @@
       "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
+      "serial": "5000c50088dd764f",
       "size": 2000000000000,
       "vendor": "Seagate",
       "wwn": "0x5000c50088dd764f"
@@ -74,6 +76,7 @@
       "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
+      "serial": "5000c50088dd8e0f",
       "size": 2000000000000,
       "vendor": "Seagate",
       "wwn": "0x5000c50088dd8e0f"
@@ -85,6 +88,7 @@
       "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
+      "serial": "5000c50088e973d7",
       "size": 2000000000000,
       "vendor": "Seagate",
       "wwn": "0x5000c50088e973d7"
@@ -96,6 +100,7 @@
       "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
+      "serial": "5000c50088e9872b",
       "size": 2000000000000,
       "vendor": "Seagate",
       "wwn": "0x5000c50088e9872b"
@@ -107,6 +112,7 @@
       "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
+      "serial": "5000c50088e9fa03",
       "size": 2000000000000,
       "vendor": "Seagate",
       "wwn": "0x5000c50088e9fa03"
@@ -118,6 +124,7 @@
       "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
+      "serial": "5000c50088ea056b",
       "size": 2000000000000,
       "vendor": "Seagate",
       "wwn": "0x5000c50088ea056b"
@@ -129,6 +136,7 @@
       "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
+      "serial": "5000c50088eacca3",
       "size": 2000000000000,
       "vendor": "Seagate",
       "wwn": "0x5000c50088eacca3"
@@ -140,6 +148,7 @@
       "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
+      "serial": "5000c50088ead32f",
       "size": 2000000000000,
       "vendor": "Seagate",
       "wwn": "0x5000c50088ead32f"
@@ -151,6 +160,7 @@
       "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
+      "serial": "5000c50088eb7b6b",
       "size": 2000000000000,
       "vendor": "Seagate",
       "wwn": "0x5000c50088eb7b6b"
@@ -162,6 +172,7 @@
       "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
+      "serial": "5000c50088eb935f",
       "size": 2000000000000,
       "vendor": "Seagate",
       "wwn": "0x5000c50088eb935f"
@@ -173,6 +184,7 @@
       "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
+      "serial": "5000c50088ebfacf",
       "size": 2000000000000,
       "vendor": "Seagate",
       "wwn": "0x5000c50088ebfacf"
@@ -184,6 +196,7 @@
       "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
+      "serial": "5000c50088ebfd23",
       "size": 2000000000000,
       "vendor": "Seagate",
       "wwn": "0x5000c50088ebfd23"
@@ -195,6 +208,7 @@
       "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
+      "serial": "5000c50088ebfe4f",
       "size": 2000000000000,
       "vendor": "Seagate",
       "wwn": "0x5000c50088ebfe4f"
@@ -206,6 +220,7 @@
       "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
+      "serial": "5000c50088ec0813",
       "size": 2000000000000,
       "vendor": "Seagate",
       "wwn": "0x5000c50088ec0813"
@@ -217,6 +232,7 @@
       "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
+      "serial": "5000c50088ec1397",
       "size": 2000000000000,
       "vendor": "Seagate",
       "wwn": "0x5000c50088ec1397"
@@ -228,6 +244,7 @@
       "media_type": "Rotational",
       "model": "ST2000NX0273",
       "rev": "NS27",
+      "serial": "5000c50088ec432f",
       "size": 2000000000000,
       "vendor": "Seagate",
       "wwn": "0x5000c50088ec432f"

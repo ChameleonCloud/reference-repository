@@ -19,6 +19,7 @@
     "gpu": false
   },
   "infiniband": false,
+  "lease_mode": "baremetal",
   "main_memory": {
     "humanized_ram_size": "192 GiB",
     "ram_size": 206158430208
@@ -53,7 +54,19 @@
     "model": "Intel(R) Xeon(R) Gold 6126 CPU @ 2.60GHz",
     "vendor": "Intel"
   },
-  "storage_devices": [],
+  "storage_devices": [
+    {
+      "device": "sda",
+      "humanized_size": "240 GB",
+      "interface": "SAS",
+      "media_type": "SSD",
+      "model": "MZ7KM240HMHQ0D3",
+      "rev": "GD53",
+      "serial": "S3BSNX0J605931",
+      "size": 240000000000,
+      "wwn": "0x5002538c4065cd68"
+    }
+  ],
   "supported_job_types": {
     "besteffort": false,
     "deploy": true,

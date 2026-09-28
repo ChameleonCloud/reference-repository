@@ -5,9 +5,9 @@
     "smt_size": 56
   },
   "bios": {
-    "release_date": "2019-07-26",
+    "release_date": "2021-05-14",
     "vendor": "Dell",
-    "version": "2.10.5"
+    "version": "2.13.0"
   },
   "boot_mode": "bios",
   "chassis": {
@@ -22,6 +22,7 @@
     "gpu_vendor": "NVIDIA"
   },
   "infiniband": false,
+  "lease_mode": "baremetal",
   "main_memory": {
     "humanized_ram_size": "128 GiB",
     "ram_size": 137438953472

@@ -22,6 +22,7 @@
     "gpu_vendor": "NVIDIA"
   },
   "infiniband": false,
+  "lease_mode": "baremetal",
   "main_memory": {
     "humanized_ram_size": "1024 GiB",
     "ram_size": 1099511627776
