@@ -21,6 +21,7 @@
     "gpu_vendor": "NVIDIA"
   },
   "infiniband": false,
+  "lease_mode": "flavor",
   "main_memory": {
     "humanized_ram_size": "1024 GiB",
     "ram_size": 1099511627776
@@ -80,7 +81,6 @@
       "vendor": "Broadcom"
     }
   ],
-  "node_mode": "vm_only",
   "node_name": "kvmgpu01",
   "node_type": "gpu_h100",
   "processor": {
