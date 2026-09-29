@@ -5,9 +5,9 @@
     "smt_size": 48
   },
   "bios": {
-    "release_date": "2018-12-04",
+    "release_date": "2023-12-12",
     "vendor": "Dell",
-    "version": "2.9.1"
+    "version": "2.19.0"
   },
   "boot_mode": "uefi",
   "chassis": {
@@ -19,6 +19,7 @@
     "gpu": false
   },
   "infiniband": false,
+  "lease_mode": "baremetal",
   "main_memory": {
     "humanized_ram_size": "512 GiB",
     "ram_size": 549755813888
@@ -65,26 +66,16 @@
   },
   "storage_devices": [
     {
-      "device": "sdd",
-      "humanized_size": "600 GB",
-      "interface": "SAS",
-      "media_type": "Rotational",
-      "model": "ST600MP0005",
-      "rev": "VT31",
-      "size": 600000000000,
-      "vendor": "Seagate",
-      "wwn": "0x5000c5009598a597"
-    },
-    {
       "device": "sda",
       "humanized_size": "600 GB",
       "interface": "SAS",
       "media_type": "Rotational",
       "model": "ST600MP0005",
       "rev": "VT31",
+      "serial": "S7M0WL21",
       "size": 600000000000,
       "vendor": "Seagate",
-      "wwn": "0x5000c5009598a7df"
+      "wwn": "0x5000c5009598a597"
     },
     {
       "device": "sdb",
@@ -93,31 +84,34 @@
       "media_type": "Rotational",
       "model": "ST600MP0005",
       "rev": "VT31",
+      "serial": "S7M0WL1F",
       "size": 600000000000,
       "vendor": "Seagate",
-      "wwn": "0x5000c5009598aa0f"
+      "wwn": "0x5000c5009598a7df"
     },
     {
-      "device": "sde",
+      "device": "sdc",
       "humanized_size": "600 GB",
       "interface": "SAS",
       "media_type": "Rotational",
       "model": "ST600MP0005",
       "rev": "VT31",
+      "serial": "S7M0WL0M",
+      "size": 600000000000,
+      "vendor": "Seagate",
+      "wwn": "0x5000c5009598aa0f"
+    },
+    {
+      "device": "sdd",
+      "humanized_size": "600 GB",
+      "interface": "SAS",
+      "media_type": "Rotational",
+      "model": "ST600MP0005",
+      "rev": "VT31",
+      "serial": "S7M0WGLY",
       "size": 600000000000,
       "vendor": "Seagate",
       "wwn": "0x5000c500959a0cc7"
-    },
-    {
-      "device": "sdh",
-      "humanized_size": "1920 GB",
-      "interface": "SAS",
-      "media_type": "SSD",
-      "model": "SSDSC2KG019T8R",
-      "rev": "XCV1DL63",
-      "serial": "PHYG912200CP1P9DGN",
-      "size": 1920000000000,
-      "wwn": "0x55cd2e4150cc7bfc"
     },
     {
       "device": "sdg",
@@ -125,7 +119,18 @@
       "interface": "SAS",
       "media_type": "SSD",
       "model": "SSDSC2KG019T8R",
-      "rev": "XCV1DL63",
+      "rev": "XCV1DL6B",
+      "serial": "PHYG912200CP1P9DGN",
+      "size": 1920000000000,
+      "wwn": "0x55cd2e4150cc7bfc"
+    },
+    {
+      "device": "sdh",
+      "humanized_size": "1920 GB",
+      "interface": "SAS",
+      "media_type": "SSD",
+      "model": "SSDSC2KG019T8R",
+      "rev": "XCV1DL6B",
       "serial": "PHYG912200GQ1P9DGN",
       "size": 1920000000000,
       "wwn": "0x55cd2e4150cc7c7d"
@@ -136,18 +141,18 @@
       "interface": "SAS",
       "media_type": "SSD",
       "model": "SSDSC2KG019T8R",
-      "rev": "XCV1DL63",
+      "rev": "XCV1DL6B",
       "serial": "PHYG912201MN1P9DGN",
       "size": 1920000000000,
       "wwn": "0x55cd2e4150cc9529"
     },
     {
-      "device": "sdc",
+      "device": "sde",
       "humanized_size": "1920 GB",
       "interface": "SAS",
       "media_type": "SSD",
       "model": "SSDSC2KG019T8R",
-      "rev": "XCV1DL63",
+      "rev": "XCV1DL6B",
       "serial": "PHYG912201PG1P9DGN",
       "size": 1920000000000,
       "wwn": "0x55cd2e4150cc955d"

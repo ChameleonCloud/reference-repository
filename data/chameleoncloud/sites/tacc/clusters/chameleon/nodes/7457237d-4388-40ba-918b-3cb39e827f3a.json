@@ -22,6 +22,7 @@
     "gpu_vendor": "Intel"
   },
   "infiniband": false,
+  "lease_mode": "baremetal",
   "main_memory": {
     "humanized_ram_size": "1024 GiB",
     "ram_size": 1099511627776
@@ -75,7 +76,7 @@
       "rev": "2.0.0",
       "serial": "Z3W0A0PATSRJ",
       "size": 3840000000000,
-      "vendor": "kioxia",
+      "vendor": "Kioxia",
       "wwn": "eui.01000000000000088ce38ee3009e8265"
     }
   ],

@@ -19,6 +19,7 @@
     "gpu": false
   },
   "infiniband": true,
+  "lease_mode": "baremetal",
   "main_memory": {
     "humanized_ram_size": "256 GiB",
     "ram_size": 274877906944
