@@ -1,4 +1,5 @@
 {
+  "admin_note": "Hardware inspection misreported the network adapters on this node as 40 Gbps. The actual link speed is 100 Gbps, which is correctly reported by the operating system.",
   "architecture": {
     "platform_type": "aarch64",
     "smp_size": 1,
@@ -37,7 +38,7 @@
       "interface": "Ethernet",
       "mac": "b4:5c:b5:53:b7:3c",
       "model": "MT2910 Family [ConnectX-7]",
-      "rate": 40000000000,
+      "rate": 100000000000,
       "vendor": "Mellanox"
     },
     {
@@ -47,7 +48,7 @@
       "interface": "Ethernet",
       "mac": "b4:5c:b5:53:b7:3d",
       "model": "MT2910 Family [ConnectX-7]",
-      "rate": 40000000000,
+      "rate": 100000000000,
       "vendor": "Mellanox"
     }
   ],
